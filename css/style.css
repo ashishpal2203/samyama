@@ -115,6 +115,7 @@
   backdrop-filter: blur(5.123076915740967px);
   padding: 1rem;
   font-weight: 300;
+  min-height: 100%;
 }
 .cunsult-form .cunsult-form-title{
   font-size: 18px;
