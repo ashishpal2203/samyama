@@ -1,58 +1,367 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
-    --black: #000000;
-    --white: #ffffff;
-    --primary: #ED0200;
-  }
+  --black: #000000;
+  --white: #ffffff;
+  --primary: #ED0200;
+}
 
-  .preheader{
-    background-color: var(--black);
-    color: var(--white);
-    padding: 6px 0;
-  }
-  .preheader .left, .preheader .right{
-    font-size: 14px;
-    list-style: none;
-    margin-bottom: 0;
-    padding-left: 0;
-  }
-  .preheader .icon-text{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .preheader .icon-text.whatsapp{
-    background-color: #52BA63;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    border: 2px solid var(--white);
-    padding: 5px 14px;
-    border-radius: 100px;
-    font-weight: 600;
-  }
-  .main-header{
-    padding: 5px 0;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    background-color: var(--white);
-  }
-  .main-header .header{
-    display: flex;
-  }
-  .main-header .header-logo{
-    width: 20%;
-  }
-  .main-header .dekstop-menu{
-    list-style: none;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0;
-    font-size: 16px;
-  }
+.preheader {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 4px 0;
+}
+
+.preheader .left,
+.preheader .right {
+  font-size: 14px;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.preheader .icon-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.preheader .icon-text.whatsapp {
+  background-color: #52BA63;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: 2px solid var(--white);
+  padding: 2px 14px;
+  border-radius: 100px;
+  font-weight: 600;
+  height: fit-content;
+}
+.preheader .icon-text.whatsapp img{
+  max-height: 20px;
+}
+.preheader .icon-text.contactUs{
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  padding: 1px 7px;
+  border-radius: 50px;
+  height: fit-content;
+}
+
+.main-header {
+  padding: 5px 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: var(--white);
+}
+
+.main-header .header {
+  display: flex;
+}
+
+.main-header .header-logo {
+  width: 20%;
+}
+
+.main-header .header-logo img {
+  max-width: 130px;
+}
+
+.main-header .dekstop-menu {
+  list-style: none;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+#hero-section{
+  margin-top: 1rem;
+}
+#hero-section .left {
+  width: 75%;
+}
+
+#hero-section .right {
+  width: 25%;
+}
+
+#hero-section .carousel-indicators .active{
+  background-color: var(--primary);
+}
+.form-label1 {
+  color: var(--white);
+  font-size: 12px;
+}
+
+.form-control1 {
+  background-color: #EEE;
+  backdrop-filter: blur(1.707692265510559px);
+  border-radius: 6px;
+  font-size: 12px;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+}
+
+.cunsult-form {
+  border-radius: 10px;
+  border: 1px solid #FFF;
+  background: linear-gradient(172deg, #C90306 2.85%, #750304 93.97%);
+  backdrop-filter: blur(5.123076915740967px);
+  padding: 1rem;
+  font-weight: 300;
+}
+.cunsult-form .cunsult-form-title{
+  font-size: 18px;
+  color: var(--white);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+.cunsult-form .btn{
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: #EEE;
+}
+.cunsult-form .form-control{
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: #EEE;
+  border: none;
+  outline: none;
+}
+.cunsult-form .form-control:focus{
+  border: none;
+  outline: 0;
+  box-shadow: none;
+}
+.cunsult-form .whatsapp-lable{
+  font-size: 12px;
+  color: var(--white);
+}
+/* .cunsult-form .accept-term input{
+
+} */
+.cunsult-form .accept-term p{
+  color: var(--white);
+  font-size: 12px;
+}
+.cunsult-form .buttonBox button{
+  background-color: var(--primary);
+  color: var(--white);
+  width: 100%;
+  border: none;
+  padding: 2px 0;
+  border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-toggle {
+  padding: 0;
+  position: relative;
+  border: none;
+  height: 1.5rem;
+  width: 3rem;
+  border-radius: 1.5rem;
+  color: #6b7381;
+  background: #bdc1c8;
+}
+.btn-toggle:focus,
+.btn-toggle.focus,
+.btn-toggle:focus.active,
+.btn-toggle.focus.active {
+  outline: none;
+}
+.btn-toggle:before,
+.btn-toggle:after {
+  line-height: 1.5rem;
+  width: 4rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 0;
+  transition: opacity 0.25s;
+}
+
+.btn-toggle > .handle {
+  position: absolute;
+  top: 0.1875rem;
+  left: 0.1875rem;
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 1.125rem;
+  background: #fff;
+  transition: left 0.25s;
+}
+.btn-toggle.active {
+  transition: background-color 0.25s;
+}
+.btn-toggle.active > .handle {
+  left: 1.6875rem;
+  transition: left 0.25s;
+}
+.btn-toggle.active:before {
+  opacity: 0.5;
+}
+.btn-toggle.active:after {
+  opacity: 1;
+}
+.btn-toggle.btn-sm:before,
+.btn-toggle.btn-sm:after {
+  line-height: 1.5rem;
+  color: #fff;
+  letter-spacing: 0.75px;
+  left: 0.4125rem;
+  width: 2.325rem;
+}
+.btn-toggle.btn-sm:before {
+  text-align: right;
+}
+.btn-toggle.btn-sm:after {
+  text-align: left;
+  opacity: 0;
+}
+.btn-toggle.btn-sm.active:before {
+  opacity: 0;
+}
+.btn-toggle.btn-sm.active:after {
+  opacity: 1;
+}
+.btn-toggle.btn-xs:before,
+.btn-toggle.btn-xs:after {
+  display: none;
+}
+.btn-toggle:before,
+.btn-toggle:after {
+  color: #6b7381;
+}
+.btn-toggle.active {
+  background-color: #29b5a8;
+}
