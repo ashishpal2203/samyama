@@ -32,7 +32,7 @@ header{
 .preheader {
   background-color: var(--black);
   color: var(--white);
-  padding: 4px 0;
+  padding: 8px 0;
 }
 
 .preheader .left,
@@ -143,6 +143,15 @@ header{
 #hero-section {
   margin-top: .5rem;
   padding-bottom: 2rem;
+  position: relative;
+}
+#hero-section .down-arrow-gif{
+  width: 40px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  z-index: 5;
+  transform: translateX(-50%);
 }
 
 #hero-section .left {
@@ -338,7 +347,7 @@ header{
 .flip-card {
   background-color: transparent;
   width: 100%;
-  height: 280px;
+  height: 210px;
   perspective: 1000px;
 }
 
@@ -380,15 +389,15 @@ header{
   position: absolute;
   top: 10px;
   right: 10px;
-  width: 80px;
+  width: 65px;
   text-align: center;
 }
 
 .flip-card-front .popular-tag-box .popular-tag {
   background-color: var(--primary);
   padding: 2px;
-  font-size: 12px;
-  border-radius: 4px;
+  font-size: var(--x-small);
+  border-radius: 3px;
   color: var(--white);
 }
 
@@ -398,9 +407,12 @@ header{
 }
 
 .flip-card-front .flip-card-flag {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  width: 28%;
 }
-
+.flip-card-front .flip-card-text{
+  max-width: 35%;
+}
 .flip-card-back {
   background-color: var(--white);
   transform: rotateY(180deg);
@@ -410,11 +422,15 @@ header{
 
 .flip-card-back h4 {
   font-weight: 600;
+  font-size: var(--large);
 }
 
 .flip-card .sevices-list {
   padding-left: 1rem;
-  line-height: 30px;
+  line-height: 25px;
+}
+.flip-card .sevices-list li{
+  font-size: var(--small);
 }
 
 
@@ -435,7 +451,7 @@ header{
 }
 
 #our-ser-section .service-card .card-header {
-  padding: .5rem;
+  padding: 1rem;
   border-radius: 7px 7px 0 0;
 }
 
@@ -548,7 +564,7 @@ header{
 
 #five-star-service .five-star-service {
   color: var(--white);
-  padding: 1rem 2rem;
+  padding: 1rem 3.5rem;
   border-radius: 100px;
   height: 120px;
   display: flex;
@@ -652,7 +668,7 @@ header{
 
 .simple-image-content p {
   color: #666965;
-  font-size: small;
+  font-size: var(--medium);
 }
 
 
@@ -727,7 +743,7 @@ header{
 }
 
 .post-slide .post-content h5 {
-  font-size: var(--medium);
+  font-size: var(--small);
   margin-bottom: 0;
 }
 
@@ -776,7 +792,7 @@ header{
 
 .youtube-video {
   width: 100%;
-  height: 100%;
+  height: 70vh;
 }
 
 
@@ -903,7 +919,7 @@ header{
   font-size: var(--small);
 }
 .footer-menu-container .quick-link{
-font-size: var(--x-small);
+font-size: var(--small);
 color: var(--primary);
 text-decoration: none;
 }
@@ -911,7 +927,7 @@ text-decoration: none;
   margin-top: 3rem;
 }
 .footer-menu-bottom .payment-options p{
-font-size: var(--x-small);
+font-size: var(--small);
 margin-bottom: 0;
 }
 .footer-menu-bottom .payment-options img{
@@ -925,7 +941,7 @@ margin-bottom: 0;
 }
 #footer-menu-content .footer-menu-bottom-right .feedback{
   text-decoration: none;
-  font-size: var(--x-small);
+  font-size: var(--small);
   color: #252525;
   border: 1px solid #252525;
   border-radius: 15px;
@@ -961,10 +977,10 @@ margin-bottom: 0;
   padding: 1rem 0;
 }
 #copyright .copyright-header p{
-  font-size: var(--x-small);
+  font-size: var(--small);
 }
 #copyright .copyright-header span{
-  font-size: var(--x-small);
+  font-size: var(--small);
   color: var(--primary);
 }
 

@@ -52,10 +52,12 @@
     </header>
     <main>
         <section id="hero-section">
+            <img src="assets/gifs/down-arrow-gif.gif" alt="" class="down-arrow-gif">
             <div class="container-fluid">
                 <div class="d-flex gap-2">
                     <div class="left">
-                        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="true">
+                        <div id="carouselExampleIndicators" class="carousel slide carousel-fade"
+                            data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                                     class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -187,7 +189,7 @@
                                             </div>
                                         </div>
                                         <img src="assets/svg-icons/canada-flag.svg" alt="" class="flip-card-flag">
-                                        <img src="assets/svg-icons/canada-text.svg" alt="">
+                                        <img src="assets/svg-icons/canada-text.svg" alt="" class="flip-card-text">
                                     </div>
                                     <div class="flip-card-back">
                                         <h4>Canada</h4>
@@ -216,7 +218,7 @@
                                             </div>
                                         </div>
                                         <img src="assets/svg-icons/usa-flag.svg" alt="" class="flip-card-flag">
-                                        <img src="assets/svg-icons/usa-text.svg" alt="">
+                                        <img src="assets/svg-icons/usa-text.svg" alt="" class="flip-card-text">
                                     </div>
                                     <div class="flip-card-back">
                                         <h4>USA</h4>
@@ -245,7 +247,7 @@
                                             </div>
                                         </div>
                                         <img src="assets/svg-icons/uk-flag.svg" alt="" class="flip-card-flag">
-                                        <img src="assets/svg-icons/uk-text.svg" alt="">
+                                        <img src="assets/svg-icons/uk-text.svg" alt="" class="flip-card-text">
                                     </div>
                                     <div class="flip-card-back">
                                         <h4>UK</h4>
@@ -274,7 +276,7 @@
                                             </div>
                                         </div>
                                         <img src="assets/svg-icons/germany-flag.svg" alt="" class="flip-card-flag">
-                                        <img src="assets/svg-icons/germany-text.svg" alt="">
+                                        <img src="assets/svg-icons/germany-text.svg" alt="" class="flip-card-text">
                                     </div>
                                     <div class="flip-card-back">
                                         <h4>Germany</h4>
@@ -301,7 +303,7 @@
                                             </div>
                                         </div>
                                         <img src="assets/svg-icons/singapore-flag.svg" alt="" class="flip-card-flag">
-                                        <img src="assets/svg-icons/singapore-text.svg" alt="">
+                                        <img src="assets/svg-icons/singapore-text.svg" alt="" class="flip-card-text">
                                     </div>
                                     <div class="flip-card-back">
                                         <h4>Singapore</h4>
@@ -329,7 +331,7 @@
                                             </div>
                                         </div>
                                         <img src="assets/svg-icons/australia-flag.svg" alt="" class="flip-card-flag">
-                                        <img src="assets/svg-icons/australia-text.svg" alt="">
+                                        <img src="assets/svg-icons/australia-text.svg" alt="" class="flip-card-text">
                                     </div>
                                     <div class="flip-card-back">
                                         <h4>Australia</h4>
@@ -376,22 +378,6 @@
                     <div class="col-lg-3">
                         <div class="service-card">
                             <div class="card-header yellow">
-                                <img src="assets/svg-icons/travel-visa.svg" alt="">
-                                <h5>Travel Visas & Immigration</h5>
-                            </div>
-                            <div class="card-body">
-                                <p>Discover Samyama, your partner for seamless
-                                    Travel Visas and Immigration. Our services include
-                                    assistance for Tourist, Schengen, Business,
-                                    Student, Work, PR, Investment, Entrepreneur,
-                                    Dependant, and Family/Spouse Visa applications.</p>
-                                <a href="#">Learn more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="service-card">
-                            <div class="card-header green">
                                 <img src="assets/svg-icons/coaching.svg" alt="">
                                 <h5>Coaching</h5>
                             </div>
@@ -401,6 +387,21 @@
                                     Duolingo English, and German Language (A1). Choose between online or in-person
                                     coaching
                                     for tailored support.</p>
+                                <a href="#">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="service-card">
+                            <div class="card-header green">
+                                <img src="assets/svg-icons/study-abroad.svg" alt="">
+                                <h5>Study Abroad</h5>
+                            </div>
+                            <div class="card-body">
+                                <p>Unlock your global education journey with Samyama. Get a complimentary initial
+                                    consultation for studying abroad. From admissions to student visas, we offer
+                                    comprehensive
+                                    support for your international university ambitions.</p>
                                 <a href="#">Learn more</a>
                             </div>
                         </div>
@@ -633,6 +634,28 @@
         </section>
 
         <section id="success-stories">
+           
+            <!-- Modal -->
+            <div class="modal fade" id="youtube-video-modal" tabindex="-1" aria-labelledby="youtube-video-modalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="youtube-video-modalLabel">Success stories</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-0 bg-black">
+                            <iframe class="youtube-video" 
+                            src=""
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                            ></iframe>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
             <img src="assets/extra/cross-line4.svg" alt="" class="cross-line4 img-fluid">
             <div class="container">
                 <div class="section-title mb-2">
@@ -646,15 +669,9 @@
                             <div id="news-slider" class="owl-carousel">
                                 <div class="post-slide">
                                     <div class="post-img">
-                                        <img src="assets/images/parul-thumb.png" alt="" style="cursor: pointer;"
-                                            onclick="playVideo(this);" />
-                                        <iframe class="youtube-video" width="560" height="315"
-                                            src="https://www.youtube.com/embed/zLuAo9t-wl0?rel=0&showinfo=0"
-                                            title="YouTube video player" frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen
-                                            style="position: absolute; top: 0; left: 0; display:none;"></iframe>
-                                        <a class="over-layer" onclick="playVideo(this);"><i class="fa fa-play"></i></a>
+                                        <img src="assets/images/parul-thumb.png" alt="" style="cursor: pointer;" />
+                                        
+                                        <a class="over-layer" onclick="playVideo(this);" data-video-link="https://www.youtube.com/embed/zLuAo9t-wl0?autoplay=1"><i class="fa fa-play"></i></a>
                                     </div>
                                     <div class="post-content">
                                         <img src="assets/images/parul-user.png" alt="">
@@ -664,14 +681,8 @@
                                 <div class="post-slide">
                                     <div class="post-img">
                                         <img src="assets/images/karanveer-thumb.png" alt="" style="cursor: pointer;"
-                                            onclick="playVideo(this);" />
-                                        <iframe class="youtube-video"
-                                            src="https://www.youtube.com/embed/zLuAo9t-wl0?rel=0&showinfo=0"
-                                            title="YouTube video player" frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen
-                                            style="position: absolute; top: 0; left: 0; display:none;"></iframe>
-                                        <a class="over-layer" onclick="playVideo(this);"><i class="fa fa-play"></i></a>
+                                             />
+
                                     </div>
                                     <div class="post-content">
                                         <img src="assets/images/Karanveer-user.png" alt="">
@@ -681,7 +692,7 @@
                                 <div class="post-slide">
                                     <div class="post-img">
                                         <img src="assets/images/peeyush-thumb.png" alt="">
-                                        <a href="#" class="over-layer"><i class="fa fa-play"></i></a>
+                                        <a class="over-layer" onclick="playVideo(this);" data-video-link="https://www.youtube.com/embed/RLmUxXO8pKs?autoplay=1"><i class="fa fa-play"></i></a>
                                     </div>
                                     <div class="post-content">
                                         <img src="assets/images/peeyush-user.png" alt="">
@@ -691,7 +702,7 @@
                                 <div class="post-slide">
                                     <div class="post-img">
                                         <img src="assets/images/ani-thumb.png" alt="">
-                                        <a href="#" class="over-layer"><i class="fa fa-play"></i></a>
+                                        <!-- <a href="#" class="over-layer"><i class="fa fa-play"></i></a> -->
                                     </div>
                                     <div class="post-content">
                                         <img src="assets/images/ani-user.png" alt="">
@@ -701,7 +712,7 @@
                                 <div class="post-slide">
                                     <div class="post-img">
                                         <img src="assets/images/ani-thumb.png" alt="">
-                                        <a href="#" class="over-layer"><i class="fa fa-play"></i></a>
+                                        <!-- <a href="#" class="over-layer"><i class="fa fa-play"></i></a> -->
                                     </div>
                                     <div class="post-content">
                                         <img src="assets/images/ani-user.png" alt="">

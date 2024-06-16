@@ -1,11 +1,11 @@
 @media screen and (max-width: 1400px) {
     :root {
-        --heading1: 30px;
-        --title: 26px;
-        --large: 20px;
-        --medium: 16px;
-        --small: 14px;
-        --x-small: 12px;
+        --heading1: 28px;
+        --title: 24px;
+        --large: 18px;
+        --medium: 14px;
+        --small: 12px;
+        --x-small: 10px;
       }
       .cunsult-form .mb-3{
         margin-bottom: .7rem!important;

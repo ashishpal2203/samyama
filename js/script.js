@@ -1,13 +1,30 @@
+const myCarouselElement = document.querySelector('#carouselExampleIndicators')
 
+const carousel = new bootstrap.Carousel(myCarouselElement, {
+  interval: 3000,
+  touch: false
+})
 
+ 
  // playing youtube short
  function playVideo(element) {
-    var postImgDiv = element.parentElement;
-    var video = postImgDiv.querySelector('.youtube-video');
-    video.style.display = 'block';
-    element.style.display = 'none';
-    video.src += "&autoplay=1";
-}
+    // Get the video URL from the data-video-link attribute
+    var videoUrl = $(element).attr('data-video-link');
+    
+   
+
+    // Set the src of the iframe inside the modal
+    $('#youtube-video-modal').find('iframe').attr('src', videoUrl);
+    
+    // Show the modal
+    $('#youtube-video-modal').modal('show');
+  }
+  
+  // Make sure to stop the video when the modal is closed
+  $('#youtube-video-modal').on('hidden.bs.modal', function (e) {
+    $('#youtube-video-modal').find('iframe').attr('src', '');
+  });
+  
 
 
 // footer lottie animation 
