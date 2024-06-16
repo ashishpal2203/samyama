@@ -63,7 +63,7 @@ window.addEventListener("scroll", (e) => {
 
     let PostiveInt = Math.abs(lineTopBound);
     let TotalHeight = document.querySelector(".line").offsetHeight;
-    let Percentage = (PostiveInt / TotalHeight) * 130;
+    let Percentage = (PostiveInt / TotalHeight) * 80;
 
     if (lineBottomBound > 160) {
         document.querySelector(".line_inner").style.height = `${Percentage + 2
