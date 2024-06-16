@@ -22,6 +22,13 @@
   --x-small: 14px;
 }
 
+header{
+   position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
 .preheader {
   background-color: var(--black);
   color: var(--white);
@@ -64,6 +71,7 @@
   height: fit-content;
 }
 
+
 .main-header {
   padding: 5px 0;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -92,15 +100,35 @@
   font-size: var(--medium);
 }
 
-.main-header .dekstop-menu .active {
+.main-header .dekstop-menu .active a{
   color: var(--primary);
-  position: relative;
 }
-
+.main-header .dekstop-menu li a{
+  text-decoration: none;
+  color: #252525;
+  font-size: var(--small);
+}
 .main-header .dekstop-menu li {
   cursor: pointer;
+  position: relative;
 }
-
+.main-header .dekstop-menu li::before {
+  content: "";
+  width: 0%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: var(--primary);
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+.main-header .dekstop-menu li:hover::before {
+  width: 100%;
+}
+.main-header .dekstop-menu li:hover a {
+  color: var(--primary);
+}
 .main-header .dekstop-menu .active::before {
   content: "";
   width: 100%;
@@ -564,10 +592,14 @@
   transform: translate(0, -50%);
   right: -2px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #five-star-service .five-star-service-image img {
   max-height: 100%;
+  max-width: 80%;
 }
 
 #five-star-service .five-star-service h5 {
@@ -751,12 +783,39 @@
 #social-media-review {
   padding: 2rem 0;
   background-color: #F9F9F9;
+  position: relative;
 }
+#social-media-review::before {
+  content: "";
+  width: 51px;
+  height: 81px;
+  position: absolute;
+  top: 111px;
+  left: 0px;
+  background-image: url(../assets/extra/social-medeia-review-left.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#social-media-review::after {
+  content: "";
+  width: 73px;
+  height: 78px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-image: url(../assets/extra/social-medeia-review-right.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 #social-media-review .review-card-container .review-card {
   border: 1px solid rgba(0, 0, 0, 0.10);
   padding: .5rem;
   width: 100%;
+  height: 100%;
 }
 
 #social-media-review .review-card-container {
