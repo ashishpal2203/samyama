@@ -1554,8 +1554,35 @@ padding: 10px 30px;
 }
 
 
+#terms-and-condition .term-box{
+  background-color: #F7F5F5;
+  padding: 2rem 0;
+  list-style: none;
+  font-size: var(--small);
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 7px;
+}
 
 
+#terms-and-condition{
+  padding: 2rem 0 4rem 0;
+}
+#terms-and-condition .term-box li{
+  margin-bottom: 2rem;
+}
+
+#terms-and-condition .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: left;
+  border-radius: 0;
+  font-weight: 600;
+  background-color: var(--primary);
+}
+#terms-and-condition .nav-pills .nav-link {
+  padding-left: 2rem;
+}
 
 
 
