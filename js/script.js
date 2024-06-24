@@ -1,8 +1,9 @@
 const myCarouselElement = document.querySelector('#carouselExampleIndicators')
 
 const carousel = new bootstrap.Carousel(myCarouselElement, {
-  interval: 3000,
-  touch: false
+  interval: 2000,
+  touch: false,
+  pause: false
 })
 
  
@@ -53,20 +54,47 @@ $(document).ready(function () {
 });
 
 // flight-scroll animation
-window.addEventListener("scroll", (e) => {
-    let lineTopBound = document
-        .querySelector(".line")
-        .getBoundingClientRect().top;
-    let lineBottomBound = document
-        .querySelector(".line")
-        .getBoundingClientRect().bottom;
+// window.addEventListener("scroll", (e) => {
+//     let lineTopBound = document
+//         .querySelector(".line")
+//         .getBoundingClientRect().top;
+//     let lineBottomBound = document
+//         .querySelector(".line")
+//         .getBoundingClientRect().bottom;
 
-    let PostiveInt = Math.abs(lineTopBound);
-    let TotalHeight = document.querySelector(".line").offsetHeight;
-    let Percentage = (PostiveInt / TotalHeight) * 80;
+//     let PostiveInt = Math.abs(lineTopBound);
+//     let TotalHeight = document.querySelector(".line").offsetHeight;
+//     let Percentage = (PostiveInt / TotalHeight) * 100;
 
-    if (lineBottomBound > 160) {
-        document.querySelector(".line_inner").style.height = `${Percentage + 2
-            }%`;
-    }
+//     if (lineBottomBound > 160) {
+//         document.querySelector(".line_inner").style.height = `${Percentage + 2
+//             }%`;
+//     }
+// });
+
+window.addEventListener("scroll", () => {
+    const line = document.querySelector(".line");
+    const lineInner = document.querySelector(".line_inner");
+
+    // Get the bounding rectangle of the .line element
+    const lineRect = line.getBoundingClientRect();
+
+    // Calculate the height of the .line element relative to the viewport
+    const viewportHeight = window.innerHeight;
+
+    // Calculate how much of the .line is in view
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    // Calculate the distance from the top of the viewport to the top of the .line element
+    const lineTopOffset = lineRect.top + scrollTop;
+
+    // Calculate the amount scrolled within the .line element
+    const scrolledWithinLine = scrollTop - lineTopOffset + viewportHeight;
+
+    // Calculate the scroll percentage of the .line element
+    const lineHeight = line.offsetHeight;
+    const scrollPercentage = Math.min((scrolledWithinLine / lineHeight) * 100, 125);
+
+    // Update the height of the .line_inner
+    lineInner.style.height = `${scrollPercentage-25}%`;
 });
