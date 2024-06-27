@@ -1650,8 +1650,37 @@ border-top-right-radius: 15px;
 }
 
 
+.tab-pane h2 {
+  font-size: var(--large);
+ 
+  
+}
+.tab-pane h3 {
+  font-size:var(--medium);
+  
 
+}
 
+.tab-pane p {
+  font-size: var(--x-small); 
+  text-align: justify;
+ 
+}
+
+.tab-pane ul li {
+  list-style-type: disc;
+  font-size: var(--x-small); 
+ 
+  font-size: 14px; 
+  color:#252525;
+}
+
+.tab-pane ol li {
+  list-style-type: disc;
+  font-size: var(--x-small); 
+
+  color:#252525;
+}
 
 
 
