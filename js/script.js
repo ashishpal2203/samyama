@@ -1,10 +1,3 @@
-const myCarouselElement = document.querySelector('#carouselExampleIndicators')
-
-const carousel = new bootstrap.Carousel(myCarouselElement, {
-  interval: 2000,
-  touch: false,
-  pause: false
-})
 
  
  // playing youtube short
@@ -72,6 +65,9 @@ $(document).ready(function () {
 //     }
 // });
 
+
+
+
 window.addEventListener("scroll", () => {
     const line = document.querySelector(".line");
     const lineInner = document.querySelector(".line_inner");
@@ -98,3 +94,12 @@ window.addEventListener("scroll", () => {
     // Update the height of the .line_inner
     lineInner.style.height = `${scrollPercentage-25}%`;
 });
+
+
+const myCarouselElement = document.querySelector('#carouselExampleIndicators')
+
+const carousel = new bootstrap.Carousel(myCarouselElement, {
+  interval: 2000,
+  touch: false,
+  pause: false
+})

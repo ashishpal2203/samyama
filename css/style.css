@@ -74,6 +74,10 @@ header{
   color: var(--white);
   
 }
+.preheader .icon-text a{
+  color: var(--white);
+  text-decoration: none;
+}
 
 .preheader .icon-text.whatsapp {
   background-color: #52BA63;
@@ -89,7 +93,7 @@ header{
   max-height: 20px;
 }
 
-.preheader .icon-text.contactUs {
+.preheader .icon-text .contactUs {
   border: 1px solid var(--primary);
   color: var(--primary);
   padding: 1px 7px;
@@ -240,7 +244,20 @@ header{
   font-weight: 600;
   margin-bottom: 1rem;
 }
-
+.cunsult-form .cunsult-form-title.partner-form{
+  font-size: var(--small);
+  text-decoration: none;
+  position: relative;
+}
+.cunsult-form .cunsult-form-title.partner-form::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: var(--white);
+  bottom: -8px;
+  left: 0;
+}
 .cunsult-form .btn {
   padding: 5px 10px;
   font-size: var(--medium);
@@ -942,7 +959,19 @@ text-decoration: none;
   padding: 5px 0;
   font-weight: 600;
 }
+.get-started-btn:hover, .get-started-btn:focus{
+  background-color: var(--white);
+  color: var(--primary);
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+  border: 1px solid var(--primary);
+}
 
+@keyframes pulse{
+  0% {
+    box-shadow: 0 0 0 0 var(--primary);
+  }
+}
 #footer-menu-content{
   background-color: #F9F9F9;
   margin-top: .5rem;
@@ -1133,6 +1162,10 @@ padding: 10px 30px;
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   place-items: center;
+  row-gap: 1.5rem;
+}
+#universities-courses .all-universities img{
+  max-width: 70%;
 }
 
 #discover-course-banner, .why-choose-samyama{
@@ -1150,24 +1183,51 @@ padding: 10px 30px;
   font-weight: 600;
 }
 .why-choose-samyama .why-choose-card .wc-footer p{
-  font-size: var(--small);
+  font-size: var(--x-small);
 }
 .why-choose-samyama .why-choose-card .wc-footer{
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.20);
   padding: 1rem;
   border-radius: 60px;
+  height: 100px;
 }
 
 #veraity-coaching{
   padding: 2rem 0 4rem 0;
   background-color: #F9F9F9;
 }
+.accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23EF0003'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
 
+#about-sec{
+  padding: 2rem 0 4rem 0;
+}
 
+#about-sec p{
+  font-size: var(--small);
+  text-align: justify;
+}
 
+#about-sec .c1-content{
+  background-color: #FAFAFA;
+  padding: 1rem;
+  height: 100%;
+}
+#about-sec .c1-image{
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+}
 
-
-
+#certificat-achivement{
+  padding: 2rem 0 4rem 0;
+}
+#certificat-achivement p{
+  font-size: var(--small);
+}
+#certificat-achivement .certificat-card{
+  width: 40%;
+  margin-bottom: 2rem;
+}
 
 
 
@@ -1699,6 +1759,34 @@ border-top-right-radius: 15px;
   background-color: #FAFAFA;
   padding: 1rem;
   margin: 1rem 0;
+}
+
+#terms-and-condition .tab-pane h2 {
+  font-size: var(--large);
+ 
+  
+}
+#terms-and-condition .tab-pane h3 {
+  font-size:var(--medium);
+  
+
+}
+
+#terms-and-condition .tab-pane p {
+  font-size: var(--small); 
+  text-align: justify;
+ 
+}
+
+#terms-and-condition .tab-pane ul li {
+  font-size: var(--small); 
+}
+
+#terms-and-condition .tab-pane ol li {
+  list-style-type: disc;
+  font-size: var(--small); 
+
+  color:#252525;
 }
 
 #samyama-coaching-classes{
