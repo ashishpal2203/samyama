@@ -1,5 +1,5 @@
 
- 
+
  // playing youtube short
  function playVideo(element) {
     // Get the video URL from the data-video-link attribute

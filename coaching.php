@@ -1250,31 +1250,34 @@
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="" class="img-fluid">
-                                <p>Free demo classes</p>
+                                <p>Online and offline classes</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="" class="img-fluid">
-                                <p>Free demo classes</p>
+                                <p>Fresh batches starting
+                                every month</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="" class="img-fluid">
-                                <p>Free demo classes</p>
+                                <p>25-30 Teaching Classes
+                                varying by class type</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="" class="img-fluid">
-                                <p>Free demo classes</p>
+                                <p>2 Full Length Mock Tests</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="" class="img-fluid">
-                                <p>Free demo classes</p>
+                                <p>IELTS Study Material</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>IELTS Academic & General
+                                Training</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Small group, large group, and 1-on-1 private classes available</p>
                             </div>
                         </div>
                         <div class="bottom-btn">
@@ -1296,31 +1299,32 @@
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Online classes</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Fresh batches starting every month</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>15 Teaching Classes</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>2 Full Length Mock Tests</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>TOEFL Study Material</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Discount on Test Fees</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Experienced and Certified
+                                Faculty</p>
                             </div>
                         </div>
                         <div class="bottom-btn">
@@ -1342,31 +1346,32 @@
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Online classes</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Fresh batches starting every month</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>20 Teaching Classes</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>2 Full Length Mock Tests</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>PTE Study Material</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>PTE Academic & PTE Core</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Experienced and Certified
+                                Faculty</p>
                             </div>
                         </div>
                         <div class="bottom-btn">
@@ -1388,31 +1393,31 @@
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Online classes</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Fresh batches starting every month</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>34 Teaching Classes</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>5 Full Length Mock Tests</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>SAT Study Material</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>One-on-one interaction, Doubt-Solving with the faculty</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Expert faculty members for English and Maths</p>
                             </div>
                         </div>
                         <div class="bottom-btn">
@@ -1434,31 +1439,31 @@
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Online classes</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Fresh batches starting every month</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>50 Teaching Classes</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>10 Full-Length Mock Tests</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>GRE Study Material</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>One-on-one interaction, Doubt-Solving with the faculty</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Expert faculty members for Verbal and Quants</p>
                             </div>
                         </div>
                         <div class="bottom-btn">
@@ -1480,31 +1485,31 @@
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Online classes</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Fresh batch starting every month</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>65 Teaching Classes</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>5 Full-Length Mock Tests</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>GMAT Study Material</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Test Booking Assistance</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Expert faculty members</p>
                             </div>
                         </div>
                         <div class="bottom-btn">
@@ -1526,31 +1531,32 @@
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Online classes</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Fresh batch starting every
+                                1-2 months</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>12 Teaching Classes</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>2  Mock Tests</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Duolingo English Study Material</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Test Booking Assistance</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Experienced and Certified Faculty</p>
                             </div>
                         </div>
                         <div class="bottom-btn">
@@ -1572,31 +1578,34 @@
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Online classes</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Fresh batch starting every
+                                month</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>65+ hours of extensive
+                                teaching</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>3 Full Length Mock Tests</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>German Language Study Material</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Test Booking Assistance</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>Free demo classes</p>
+                                <p>Experienced and Certified
+                                Faculty</p>
                             </div>
                         </div>
                         <div class="bottom-btn">
