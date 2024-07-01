@@ -57,12 +57,25 @@
             <div class="accordion accordion-flush custom-width" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button <?php echo ($_GET['opt'] === 'tourist_visa') ? '' : 'collapsed'; ?>" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseOne" aria-expanded="<?php echo ($_GET['opt'] === 'tourist_visa') ? 'true' : 'false'; ?>" aria-controls="flush-collapseOne">
+                        <button class="accordion-button <?php
+                        if (isset($_GET['opt'])) {
+                            echo ($_GET['opt'] === 'tourist_visa') ? '' : 'collapsed';
+                        }
+                        ?>" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                            aria-expanded="<?php
+                            if (isset($_GET['opt'])){
+                            echo ($_GET['opt'] === 'tourist_visa') ? 'true' : 'false'; 
+                            }
+                            ?>"
+                            aria-controls="flush-collapseOne">
                             Tourist Visa
                         </button>
                     </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse <?php echo ($_GET['opt'] === 'tourist_visa') ? 'show' : ''; ?>"
+                    <div id="flush-collapseOne"
+                        class="accordion-collapse collapse <?php
+                        if (isset($_GET['opt'])){
+                        echo ($_GET['opt'] === 'tourist_visa') ? 'show' : ''; 
+                        } ?>"
                         data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">A tourist visa allows individuals to visit a foreign country for
                             leisure, sightseeing, or recreational
@@ -168,9 +181,9 @@
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <?php 
+                    <?php
                     print_r($_GET['opt'])
-                    ?>
+                        ?>
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseFive" aria-expanded="false"

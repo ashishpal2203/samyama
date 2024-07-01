@@ -28,13 +28,13 @@
                 <input type="text" class="form-control" aria-label="Text input with dropdown button">
             </div>
         </div>
-        <div class="mb-1">
+        <div class="mb-3">
             <div class="">
                 <button type="button" class="btn btn-toggle" data-bs-toggle="button" aria-pressed="false"
                     autocomplete="off">
                     <div class="handle"></div>
                 </button>
-                <span class="whatsapp-lable">Use this as whatsapp number</span>
+                <span class="whatsapp-lable">Use this as WhatsApp number</span>
             </div>
         </div>
         <div class="mb-2">
