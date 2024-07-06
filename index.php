@@ -81,7 +81,8 @@
                             <div class="flip-card-back">
                                 <h4>Canada</h4>
                                 <ul class="sevices-list">
-                                    <li><a href="travel-visa-imigration.php?opt=tourist_visa#accordionFlushExample">Tourist Visa</a></li>
+                                    <li><a href="travel-visa-imigration.php?opt=tourist_visa#accordionFlushExample">Tourist
+                                            Visa</a></li>
                                     <li>Business Visax</li>
                                     <li>Student Visa</li>
                                     <li>Work Visa</li>
@@ -411,101 +412,134 @@
 </section>
 
 <section class="arrow_container">
-    <div class="container">
+    <div class="w-100">
         <div class="section-title">
             <h2>SIMPLE <span>STEPS</span></h2>
         </div>
-        <span class="line">
-            <span class="line_inner">
-                <img src="assets/images/Airplane-01.png" alt="" />
-            </span>
-        </span>
+
         <div class="main-time-line ">
-            <div class="row section-point">
-                <div class="col-lg-6">
-                    <div class="simple-step-image">
-                        <img src="assets/images/consultation.png" alt="" class="h-100">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="simple-image-content">
-                        <div class="simple-step-lable">
-                            <img src="assets/svg-icons/consultation.svg" alt="">
-                            <p>Consultation</p>
+            <span class="line">
+                <span class="line_inner">
+                    <img src="assets/images/Airplane-01.png" alt="" />
+                </span>
+            </span>
+            <div class="gray-bg">
+                <div class="container">
+                    <div class="row section-point">
+                        <div class="col-lg-6">
+                            <div class="simple-step-image">
+                                <img src="assets/images/consultation.png" alt="" class="h-100">
+                            </div>
                         </div>
-                        <h5>Contact us for a free initial consultation.</h5>
-                        <p>You can reach us through our website, phone, chat, or email. We will advise you about
-                            the
-                            necessary documents for your application filing and our pricing.</p>
+                        <div class="col-lg-6">
+                            <div class="simple-image-content">
+                                <div class="simple-step-lable">
+                                    <img src="assets/svg-icons/consultation.svg" alt="">
+                                    <p>Consultation</p>
+                                </div>
+                                <h5>Contact us for a free initial consultation.</h5>
+                                <p>You can reach us through our website, phone, chat, or email. We will advise you about
+                                    the
+                                    necessary documents for your application filing and our pricing.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row section-point">
-                <div class="col-lg-6">
-                    <div class="simple-image-content">
-                        <div class="simple-step-lable">
-                            <img src="assets/svg-icons/processing.svg" alt="">
-                            <p>Processing</p>
+            <div class="white-bg">
+                <div class="container">
+                    <div class="row section-point">
+                        <div class="col-lg-6">
+                            <div class="simple-image-content">
+                                <div class="simple-step-lable">
+                                    <img src="assets/svg-icons/processing.svg" alt="">
+                                    <p>Processing</p>
+                                </div>
+                                <h5>Share relevant documents.</h5>
+                                <p>We start checking and processing your documents after we receive all the necessary
+                                    information and our service fee. We accept all major cards and UPI transactions.</p>
+                            </div>
                         </div>
-                        <h5>Share relevant documents.</h5>
-                        <p>We start checking and processing your documents after we receive all the necessary
-                            information and our service fee. We accept all major cards and UPI transactions.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="simple-step-image">
-                        <img src="assets/images/procecing.png" alt="" class="h-100">
+                        <div class="col-lg-6">
+                            <div class="simple-step-image">
+                                <img src="assets/images/procecing.png" alt="" class="h-100">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row section-point">
-                <div class="col-lg-6">
-                    <div class="simple-step-image">
-                        <img src="assets/images/submission.png" alt="" class="h-100">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="simple-image-content">
-                        <div class="simple-step-lable">
-                            <img src="assets/svg-icons/submission.svg" alt="">
-                            <p>Submission</p>
+            <div class="gray-bg">
+                <div class="container">
+                    <div class="row section-point">
+                        <div class="col-lg-6">
+                            <div class="simple-step-image">
+                                <img src="assets/images/submission.png" alt="" class="h-100">
+                            </div>
                         </div>
-                        <h5>Submit your application pack</h5>
-                        <p>After preparing your application pack, your application will be submitted as per the circumstances to the respective authorities: embassy, Passport Seva Kendra, FRRO or university. </p>
+                        <div class="col-lg-6">
+                            <div class="simple-image-content">
+                                <div class="simple-step-lable">
+                                    <img src="assets/svg-icons/submission.svg" alt="">
+                                    <p>Submission</p>
+                                </div>
+                                <h5>Submit your application pack</h5>
+                                <p>After preparing your application pack, your application will be submitted as per the
+                                    circumstances to the respective authorities: embassy, Passport Seva Kendra, FRRO or
+                                    university. </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row section-point">
-                <div class="col-lg-6">
-                    <div class="simple-image-content">
-                        <div class="simple-step-lable">
-                            <img src="assets/svg-icons/delivery.svg" alt="">
-                            <p>Delivery</p>
+            <div class="white-bg">
+                <div class="container">
+                    <div class="row section-point">
+                        <div class="col-lg-6">
+                            <div class="simple-image-content">
+                                <div class="simple-step-lable">
+                                    <img src="assets/svg-icons/delivery.svg" alt="">
+                                    <p>Delivery</p>
+                                </div>
+                                <h5>Get your documents delivered to your doorstep.</h5>
+                                <p>Your processed documents will be delivered to your residence after approval by the
+                                    authorities. If returned to our office, we will deliver it to you and confirm your
+                                    schedule
+                                    beforehand.</p>
+                            </div>
                         </div>
-                        <h5>Get your documents delivered to your doorstep.</h5>
-                        <p>Your processed documents will be delivered to your residence after approval by the authorities. If returned to our office, we will deliver it to you and confirm your schedule beforehand.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="simple-step-image">
-                        <img src="assets/images/delivery.png" alt="" class="h-100">
+                        <div class="col-lg-6">
+                            <div class="simple-step-image">
+                                <img src="assets/images/delivery.png" alt="" class="h-100">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row section-point">
-                <div class="col-lg-6">
-                    <div class="simple-step-image">
-                        <img src="assets/images/End -To-End-Solution.png" alt="" class="h-100">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="simple-image-content">
-                        <div class="simple-step-lable">
-                            <img src="assets/svg-icons/End-To-End-Solution.svg" alt="">
-                            <p>End -To-End Solution</p>
+            <div class="gray-bg">
+                <div class="container">
+                    <div class="row section-point">
+                        <div class="col-lg-6">
+                            <div class="simple-step-image">
+                                <img src="assets/images/End -To-End-Solution.png" alt="" class="h-100">
+                            </div>
                         </div>
-                        <h5>We have got you covered.</h5>
-                        <p>We offer comprehensive end-to-end solutions tailored to meet the diverse needs of students, tourists, business travelers, or immigrants to foreign countries. You can relax knowing that every aspect of your journey or application process is taken care of with precision and professionalism.</p>
+                        <div class="col-lg-6">
+                            <div class="simple-image-content">
+                                <div class="simple-step-lable">
+                                    <img src="assets/svg-icons/End-To-End-Solution.svg" alt="">
+                                    <p>End -To-End Solution</p>
+                                </div>
+                                <h5>We have got you covered.</h5>
+                                <p>We offer comprehensive end-to-end solutions tailored to meet the diverse needs of
+                                    students,
+                                    tourists, business travelers, or immigrants to foreign countries. You can relax
+                                    knowing
+                                    that
+                                    every aspect of your journey or application process is taken care of with precision
+                                    and
+                                    professionalism.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

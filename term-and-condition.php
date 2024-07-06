@@ -3,7 +3,7 @@
         <section id="terms-and-condition">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 position-relative">
                         <ul class="term-box nav-pills" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link <?php echo ($current_page === $base_url . 'term-and-condition.php?terms') ? 'active' : ''; ?>" id="pills-home-tab" data-bs-toggle="pill"
