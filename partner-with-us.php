@@ -12,12 +12,16 @@
                         <div class="row">
                             <div class="col-lg-5">
                                 <div class="cunsult-form">
-                                    <h4 class="cunsult-form-title partner-form">You can also fill in the partnership form and we will get in touch
+                                    <h4 class="cunsult-form-title partner-form">You can also fill in this partnership form and we will get in touch
                                     with you.</h4>
                                     <div class="cunsult-form-body">
                                         <div class="mb-3">
-                                            <label for="basic-url" class="form-label1">Full Name</label>
-                                            <input type="text" class="form-control w-100" id="basic-url" aria-describedby="basic-addon3 basic-addon4" placeholder="Enter full name">
+                                            <label for="basic-url" class="form-label1">Company/University</label>
+                                            <input type="text" class="form-control w-100" id="basic-url" aria-describedby="basic-addon3 basic-addon4" placeholder="Enter company/university name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="basic-url" class="form-label1">Contact Person</label>
+                                            <input type="text" class="form-control w-100" id="basic-url" aria-describedby="basic-addon3 basic-addon4" placeholder="Enter email">
                                         </div>
                                         <div class="mb-3">
                                             <label for="basic-url" class="form-label1">Email</label>
@@ -44,16 +48,12 @@
                                                 <button type="button" class="btn btn-toggle" data-bs-toggle="button" aria-pressed="false" autocomplete="off">
                                                     <div class="handle"></div>
                                                 </button>
-                                                <span class="whatsapp-lable">Use this as whatsapp number</span>
+                                                <span class="whatsapp-lable">Use this as WhatsApp number</span>
                                             </div>
                                         </div>
                                         <div class="mb-3">
-                                            <label for="basic-url" class="form-label1">Required Services</label>
-                                            <select name="" id="" class="form-control w-100">
-                                                <option value="">option1</option>
-                                                <option value="">option2</option>
-                                                <option value="">option3</option>
-                                            </select>
+                                            <label for="basic-url" class="form-label1">Message</label>
+                                            <input type="text" class="form-control w-100" id="basic-url" aria-describedby="basic-addon3 basic-addon4" placeholder="Enter your message">
                                         </div>
                                         <div class="cunsult-form-footer">
                                             <div class="mb-3">
@@ -78,7 +78,7 @@
                                         </div>
                                        <div class="content-p">
                                         <h6>Phone</h6>
-                                        <p>+91 877 934 6858</p>
+                                        <p><a href="tel:+918779346858">+91 877 934 6858</a></p>
                                        </div>
                                     </div>
                                     <div class="contact-row">
@@ -87,7 +87,7 @@
                                         </div>
                                        <div class="content-p">
                                         <h6>Email</h6>
-                                        <p>partner@samyama.in</p>
+                                        <p><a href="mailto:partners@samyama.in">partners@samyama.in</a></p>
                                        </div>
                                     </div>
                                     <div class="contact-row">
@@ -101,8 +101,11 @@
                                     </div>
                                 </div>
                                 <div class="note-p mt-5">
-                                    <p><span>Note: </span><br> Please note, that we kindly request you to call and book an appointment before visiting our office to ensure that we can provide you with our undivided attention and assistance</p>
-                                    <p><span>Grievance:</span> <br> In case of any Grievance, please email to&nbsp;feedback@samyama.in</p>
+                                    <p><span>Note: </span><br> Please note, that we kindly request you to call and book an appointment before visiting our office to ensure that we can provide you with our undivided attention and assistance.</p>
+                                    <p><span>Grievance:</span> <br> In case of any Grievance, please email to&nbsp;<a href="mailto:feedback@samyama.in">feedback@samyama.in</a></p>
+                                    <br>
+                                    <br>
+                                    <br>
                                 </div>
                             </div>
                         </div>

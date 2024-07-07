@@ -34,14 +34,13 @@
 </section>
 
 <section id="travel-visas">
-    <div class="container">
+    <div class="container pb-5">
         <div class="d-flex align-items-center gap-2 travel-title-main custom-width">
-            <div class="section-title mb-0 w-100">
+            <div class="section-title mb-0 w-75">
                 <h2 class="mb-0"><span>PASSPORT</span> SERVICES</h2>
             </div>
-            <p class="travel-title">All Indian citizens intending to travel abroad must hold a valid passport. At
-                Samyama, we
-                assist in obtaining it. Our services include providing consultations on necessary documents,
+            <p class="travel-title">All Indian citizens intending to travel abroad must hold a valid passport. Our
+                services include providing consultations on necessary documents,
                 assisting with appointment bookings, and guiding you through various passport application
                 processes tailored to your specific circumstances.</p>
         </div>
@@ -85,7 +84,7 @@
                         data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">This applies to citizens who apply for their passport for the first
                             time and never had passport in the past. Exception would be for applicants who need to
-                            obtain their first Ordinary Passport and previously heldOfficial/Diplomatic Passport, then
+                            obtain their first Ordinary Passport and previously held Official/Diplomatic Passport, then
                             they still need to apply for Fresh Passport, and vice versa.</div>
                     </div>
                 </div>
@@ -201,8 +200,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseSix" aria-expanded="false"
-                            aria-controls="flush-collapseSix">
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
                             What is passport application process?
                         </button>
                     </h2>
@@ -247,7 +245,7 @@
     </div>
     <div class="container">
         <div class="d-flex align-items-center gap-2 travel-title-main custom-width">
-            <div class="section-title mb-0 w-100">
+            <div class="section-title mb-0 w-75">
                 <h2 class="mb-0"><span>OCI</span> (Overseas Citizenship of India)</h2>
             </div>
             <p class="travel-title">OCI is a life-long permit in a form of a booklet to enter India without the need to

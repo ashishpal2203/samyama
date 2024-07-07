@@ -26,11 +26,16 @@
 <section id="samyama-coaching">
     <div class="container">
         <ul class="nav nav-pills mb-3 coaching-nav" id="pills-tab" role="tablist">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <button class="nav-link samyamaCoachingC">Samyama Coaching Classes</button>
+            </li> -->
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-samyama-tab" data-bs-toggle="pill" data-bs-target="#pills-samyama"
+                    type="button" role="tab" aria-controls="pills-samyama" aria-selected="true">Samyama Coaching Classes
+                </button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pills-IELTS-tab" data-bs-toggle="pill" data-bs-target="#pills-IELTS"
+                <button class="nav-link " id="pills-IELTS-tab" data-bs-toggle="pill" data-bs-target="#pills-IELTS"
                     type="button" role="tab" aria-controls="pills-IELTS" aria-selected="true">IELTS</button>
             </li>
             <li class="nav-item" role="presentation">
@@ -65,7 +70,11 @@
             </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-IELTS" role="tabpanel" aria-labelledby="pills-IELTS-tab"
+        <div class="tab-pane fade show active" id="pills-samyama" role="tabpanel" aria-labelledby="pills-samyama-tab"
+                tabindex="0">
+              
+            </div>
+            <div class="tab-pane fade" id="pills-IELTS" role="tabpanel" aria-labelledby="pills-IELTS-tab"
                 tabindex="0">
                 <div class="section1">
                     <div class="row">
@@ -1255,12 +1264,12 @@
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="" class="img-fluid">
                                 <p>Fresh batches starting
-                                every month</p>
+                                    every month</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="" class="img-fluid">
                                 <p>25-30 Teaching Classes
-                                varying by class type</p>
+                                    varying by class type</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="" class="img-fluid">
@@ -1273,7 +1282,7 @@
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
                                 <p>IELTS Academic & General
-                                Training</p>
+                                    Training</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
@@ -1324,7 +1333,7 @@
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
                                 <p>Experienced and Certified
-                                Faculty</p>
+                                    Faculty</p>
                             </div>
                         </div>
                         <div class="bottom-btn">
@@ -1371,7 +1380,7 @@
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
                                 <p>Experienced and Certified
-                                Faculty</p>
+                                    Faculty</p>
                             </div>
                         </div>
                         <div class="bottom-btn">
@@ -1536,7 +1545,7 @@
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
                                 <p>Fresh batch starting every
-                                1-2 months</p>
+                                    1-2 months</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
@@ -1544,7 +1553,7 @@
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
-                                <p>2  Mock Tests</p>
+                                <p>2 Mock Tests</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
@@ -1583,12 +1592,12 @@
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
                                 <p>Fresh batch starting every
-                                month</p>
+                                    month</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
                                 <p>65+ hours of extensive
-                                teaching</p>
+                                    teaching</p>
                             </div>
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
@@ -1605,7 +1614,7 @@
                             <div class="advantage-row">
                                 <img src="assets/svg-icons/red-checkbox.svg" alt="">
                                 <p>Experienced and Certified
-                                Faculty</p>
+                                    Faculty</p>
                             </div>
                         </div>
                         <div class="bottom-btn">

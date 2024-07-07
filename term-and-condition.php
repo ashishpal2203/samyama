@@ -27,7 +27,7 @@
                                     data-bs-target="#pills-disabled" type="button" role="tab"
                                     aria-controls="pills-disabled" aria-selected="false">Grievances & Feedback</button>
                             </li>
-                            <li class="nav-item" role="presentation">
+                            <li class="nav-item mb-0" role="presentation">
                                 <button class="nav-link <?php echo ($current_page === $base_url . 'term-and-condition.php?privacy') ? 'active' : ''; ?>" id="pills-privacy-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-privacy" type="button" role="tab"
                                     aria-controls="pills-privacy" aria-selected="false">Privacy Policy</button>
@@ -221,14 +221,14 @@
                                 departments’ fees. The service fees may differ as they are charged according to
                                 the complexity of client’s application, services opted, destination and amount of
                                 work and time the consultant will have to spend on the application.</p>
-                                <p>There are two types of consultations we provide for each client:
+                                <p class="mb-0">There are two types of consultations we provide for each client:
                                 </p>
                                 <ul>
                                     <li>initial free consultation, and
                                     </li>
                                     <li>paid consultation.</li>
                                 </ul>
-                                <p>Initial free consultation includes:
+                                <p class="mb-0">Initial free consultation includes:
                                 </p>
                                 <ul>
                                     <li> Introductory discussion with the client where Samyama consultants
@@ -246,7 +246,7 @@
                                                 
                                 </ul>
 
-                                <p>Paid consultation:
+                                <p class="mb-0">Paid consultation:
                                 </p>
                                 <ul>
                                     <li>Re-confirming list of required documents based on clients’ circumstances
@@ -266,7 +266,7 @@
                                         <li>Advising clients on the appointment process at the embassies, visa
                                             centres, consulates, universities</li>
                                 </ul>
-                                <p>Apart from our main consultation charges (for immigration and visa applications,
+                                <p class="mb-0">Apart from our main consultation charges (for immigration and visa applications,
                                     university admissions, job search), we also charge separate fees for add-on
                                     services:</p>
                                     <ol>

@@ -42,7 +42,7 @@
 </section>
 
 <section id="travel-visas">
-    <div class="container">
+    <div class="container pb-5">
         <div class="d-flex align-items-center gap-2 travel-title-main custom-width">
             <div class="section-title mb-0" style="width: 395px;">
                 <h2 class="mb-0"><span>TRAVEL</span> VISAS</h2>
@@ -61,22 +61,18 @@
                         if (isset($_GET['opt'])) {
                             echo ($_GET['opt'] === 'tourist_visa') ? '' : 'collapsed';
                         }
-                        ?>" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                            aria-expanded="<?php
-                            if (isset($_GET['opt'])){
-                            echo ($_GET['opt'] === 'tourist_visa') ? 'true' : 'false'; 
-                            }
-                            ?>"
-                            aria-controls="flush-collapseOne">
+                        ?>" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="<?php
+                        if (isset($_GET['opt'])) {
+                            echo ($_GET['opt'] === 'tourist_visa') ? 'true' : 'false';
+                        }
+                        ?>" aria-controls="flush-collapseOne">
                             Tourist Visa
                         </button>
                     </h2>
-                    <div id="flush-collapseOne"
-                        class="accordion-collapse collapse <?php
-                        if (isset($_GET['opt'])){
-                        echo ($_GET['opt'] === 'tourist_visa') ? 'show' : ''; 
-                        } ?>"
-                        data-bs-parent="#accordionFlushExample">
+                    <div id="flush-collapseOne" class="accordion-collapse collapse <?php
+                    if (isset($_GET['opt'])) {
+                        echo ($_GET['opt'] === 'tourist_visa') ? 'show' : '';
+                    } ?>" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">A tourist visa allows individuals to visit a foreign country for
                             leisure, sightseeing, or recreational
                             purposes for a limited duration. It prohibits engagement in any form of employment or
@@ -213,9 +209,7 @@
                         </div>
                     </div>
                 </div>
-                <p><span class="fw-semibold">PLEASE NOTE:</span> Processing time of each visa application will differ
-                    based on
-                    country you apply to and the individual circumstances.</p>
+                
             </div>
 
         </div>
@@ -466,19 +460,23 @@
                         </div>
                     </div>
                 </div>
-                <p><span class="fw-semibold">PLEASE NOTE:</span> <br>
-                    Each type of visa requires different set of documents, and it is also based on
-                    individual applicant’s circumstances. Our experts will advise you what will be
-                    required from you based on your own situation. Very often visa application
-                    process might seem very bureaucratic and, in many cases, this is how it
-                    actually is - some countries are more relaxed about some rules than the other.
-                    At Samyama we do our best to answer all questions you may have and
-                    provide end-to-end service to make the dream vacation or moving abroad
-                    easier than it seems! <br>Complete the contact form or give us a call and one of our specialists
-                    will be happy to assist you!
-                </p>
+
             </div>
 
+        </div>
+
+        <div class="not_qa_box">
+            <p><span class="fw-semibold">PLEASE NOTE:</span> <br>
+                Each type of visa requires different set of documents, and it is also based on
+                individual applicant’s circumstances. Our experts will advise you what will be
+                required from you based on your own situation. Very often visa application
+                process might seem very bureaucratic and, in many cases, this is how it
+                actually is - some countries are more relaxed about some rules than the other.
+                At Samyama we do our best to answer all questions you may have and
+                provide end-to-end service to make the dream vacation or moving abroad
+                easier than it seems! Complete the contact form or give us a call and one of our specialists
+                will be happy to assist you!
+            </p>
         </div>
     </div>
 </section>

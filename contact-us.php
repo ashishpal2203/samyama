@@ -21,7 +21,7 @@
                                         </div>
                                        <div class="content-p">
                                         <h6>Phone</h6>
-                                        <p>+91 877 934 6858</p>
+                                        <p> <a href="tel:+918779346858">+91 877 934 6858</a></p>
                                        </div>
                                     </div>
                                     <div class="contact-row">
@@ -30,7 +30,7 @@
                                         </div>
                                        <div class="content-p">
                                         <h6>Email</h6>
-                                        <p>info@samyama.in</p>
+                                        <p><a href="mailto:info@samyama.in">info@samyama.in</a></p>
                                        </div>
                                     </div>
                                     <div class="contact-row">
@@ -44,8 +44,8 @@
                                     </div>
                                 </div>
                                 <div class="note-p mt-5">
-                                    <p><span>Note: </span><br> Please note, that we kindly request you to call and book an appointment before visiting our office to ensure that we can provide you with our undivided attention and assistance</p>
-                                    <p><span>Grievance:</span> <br> In case of any Grievance, please email to feedback@samyama.in</p>
+                                    <p><span>Note: </span><br> Please note, that we kindly request you to call and book an appointment before visiting our office to ensure that we can provide you with our undivided attention and assistance.</p>
+                                    <p><span>Grievance:</span> <br> In case of any Grievance, please email to <a href="mailto:feedback@samyama.in">feedback@samyama.in</a></p>
                                 </div>
                             </div>
                         </div>

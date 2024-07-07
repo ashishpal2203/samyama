@@ -49,7 +49,6 @@
                             </div>
                             <div class="feedback-btns">
                                 <button class="feed_btn">Send</button>
-                                <button class="feed_btn">Send as annonymous</button>
                             </div>
                         </div>
                     </div>
@@ -161,7 +160,7 @@
 <script>
     async function populateCountryDropdown(event) {
         try {
-            const response = await fetch('http://localhost/samyama/assets/json/all_country.json');
+            const response = await fetch('https://gravityweb.in/samyama/assets/json/all_country.json');
             const data = await response.json();
 
             // Assuming your JSON response is an array of country objects
@@ -187,7 +186,7 @@
 
 
 
-    const travel = `<div class="mb-1 d-flex gap-2">
+  const travel = `<div class="mb-1 d-flex gap-2">
       <div class="w-100">
           <select name="" id="country_dropdown" class="form-select w-100">
               <option value="">Destination</option>
@@ -197,6 +196,7 @@
       <div class="w-100">
           <select name="" id="" class="form-select w-100">
               <option value="Business Visa">Types of Visa</option>
+              <option value="Business Visa">Tourist Visa</option>
               <option value="Business Visa">Business Visa</option>
               <option value="Schengen Visa">Schengen Visa</option>
               <option value="Student Visa">Student Visa</option>
@@ -226,7 +226,6 @@
       <option value="UG">UG</option>
       <option value="PG">PG</option>
       <option value="Phd">Phd</option>
-      <option value="Student Visa">Student Visa</option>
       <option value="Diploma/Certificate">Diploma/Certificate</option>
       <option value="Something Else">Something Else</option>
   </select>
@@ -236,7 +235,7 @@
     const coaching = `<div class="mb-1 ">
 <div class="w-100">
   <select name="" id="" class="form-select w-100">
-      <option value="">Select a coaching</option>
+      <option value="">Select a course</option>
       <option value="IELTS">IELTS</option>
       <option value="TOEFL">TOEFL</option>
       <option value="PTE">PTE</option>
@@ -252,7 +251,7 @@
     const passport = `<div class="mb-1 ">
 <div class="w-100">
   <select name="" id="" class="form-select w-100">
-      <option value="">Select a Passport</option>
+      <option value="">Select a service</option>
       <option value="Fresh Passport Application">Fresh Passport Application</option>
       <option value="Passport Renewal">Passport Renewal</option>
   </select>
@@ -262,12 +261,14 @@
     const OCI = `<div class="mb-1 d-flex gap-2">
 <div class="w-100">
   <select name="" id="" class="form-select w-100">
+      <option value="">Select a location</option>
       <option value="Application in India">Application in India</option>
       <option value="Application outside of India">Application outside of India</option>
   </select>
 </div>
 <div class="w-100">
   <select name="" id="" class="form-select w-100">
+      <option value="">Select a service</option>
       <option value="Fresh OCI Application">Fresh OCI Application</option>
       <option value="In Lieu of valid PIO-Card">In Lieu of valid PIO-Card</option>
       <option value="In Lieu of lost PIO-Card">In Lieu of lost PIO-Card</option>
