@@ -177,9 +177,9 @@
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <?php
+                    <!-- <?php
                     print_r($_GET['opt'])
-                        ?>
+                        ?> -->
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseFive" aria-expanded="false"
