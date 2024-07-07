@@ -258,7 +258,7 @@
 
         <div class="QAdropdown-box">
 
-        <div class="accordion accordion-flush custom-width" id="accordionFlushExample">
+        <div class="accordion accordion-flush custom-width" id="accordionFlushExample1">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -267,7 +267,7 @@
                     </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample">
+                    data-bs-parent="#accordionFlushExample1">
                     <div class="accordion-body">
                         <p>This document is issued for:
                         </p>
@@ -292,7 +292,7 @@
                     </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample">
+                    data-bs-parent="#accordionFlushExample1">
                     <div class="accordion-body">
 
                         OCI Card is valid for life. However, new OCI has got to be re-issued each time a new
@@ -312,7 +312,7 @@
                     </button>
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample">
+                    data-bs-parent="#accordionFlushExample1">
                     <div class="accordion-body">
                         <p>The fees will differ depending on circumstances and type of application.
                         </p>
@@ -356,7 +356,7 @@
                     </button>
                 </h2>
                 <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour"
-                    data-bs-parent="#accordionFlushExample">
+                    data-bs-parent="#accordionFlushExample1">
                     <div class="accordion-body">
                             <p>Applying for OCI is a straightforward process:
                             </p>

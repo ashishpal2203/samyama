@@ -261,7 +261,7 @@
                         </button>
                     </h2>
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                        data-bs-parent="#accordionFlushExample">
+                        data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <p>A student visa is designed for individuals who wish to pursue
                                 academic studies or enrol in
