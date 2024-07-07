@@ -60,10 +60,30 @@
                 </div>
             </div>
             <div class="buttonBox">
-                <button>Get Started</button>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#cunsult-submit">Get Started</button>
             </div>
         </div>
     </div>
 </div>
 
 
+
+<!-- submit popup -->
+<div class="modal fade" id="cunsult-submit" tabindex="-1" aria-labelledby="cunsult-submitLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body p-0">
+                <button type="button" class="btn-close popup_custom_close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="submit_popup">
+                    <img src="assets/images/cunsult-submit.svg" alt="" class="img-fluid">
+                    <div class="box-content ">
+                        <p>Thank you for choosing <span>Samyama!</span> <br>
+                            We have received your request for a free consultation, and our team will reach out to you
+                            soon.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

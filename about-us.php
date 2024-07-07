@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="col-lg-5">
-                <div class="">
+                <div class="d-flex">
                     <iframe class="w-100" height="280"
                         src="https://www.youtube.com/embed/leRZNrGqP-g?si=wrr-_6auktT_YvXo" title="YouTube video player"
                         frameborder="0"
