@@ -621,3 +621,10 @@
 
 
 <?php require 'components/footer.php'; ?>
+
+<script>
+     $('.nav-link').click(function(event) {
+          event.preventDefault();
+          $('html, body').animate({ scrollTop: 0 }, 'slow');
+        });
+</script>

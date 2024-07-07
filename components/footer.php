@@ -5,7 +5,7 @@
 
     <!-- Free cunsult Modal -->
     <div class="modal fade" id="freeCunsult" tabindex="-1" aria-labelledby="freeCunsultLabel" aria-hidden="true">
-        <div class="modal-dialog modal-sm">
+        <div class="modal-dialog modal-sm-custom">
             <div class="modal-content">
                 <div class="modal-body p-0 position-relative">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -57,6 +57,7 @@
             </div>
         </div>
     </div>
+
 
 
     <section id="free-cunsult-section">
@@ -155,7 +156,13 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
+<script>
+   
+   
+
+</script>
 
 <script>
     async function populateCountryDropdown(event) {
@@ -234,7 +241,7 @@
 
     const coaching = `<div class="mb-1 ">
 <div class="w-100">
-  <select name="" id="" class="form-select w-100">
+  <select name="" id="" class="form-select w-100 selectToMultiple" name="states[]" multiple="multiple">
       <option value="">Select a course</option>
       <option value="IELTS">IELTS</option>
       <option value="TOEFL">TOEFL</option>
@@ -291,6 +298,7 @@
             populateCountryDropdown(event);
         } else if (input === "coaching") {
             $emptyDiv.html(coaching);
+            $('.selectToMultiple').select2();
         } else if (input === "passport") {
             $emptyDiv.html(passport);
         } else if (input === "OCI") {

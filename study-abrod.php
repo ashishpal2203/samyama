@@ -95,25 +95,138 @@
         <div class="section-title">
             <h2><span>700 + Universities</span> & Variety Of Courses</h2>
         </div>
+
         <div class="all-universities">
-            <img src="assets/images/queen-logo.png" alt="" class="img-fluid">
-            <img src="assets/images/jeferson-logo.png" alt="" class="img-fluid">
-            <img src="./assets/images/logo_3.png" alt="logo" class="img-fluid">
-            <img src="./assets/images/logo_4.png" alt="logo" class="img-fluid">
-            <img src="./assets/images/logo_5.png" alt="logo" class="img-fluid">
-            <img src="./assets/images/logo_6.png" alt="logo" class="img-fluid">
-            <img src="./assets/images/logo_7.png" alt="logo" class="img-fluid">
-            <img src="./assets/images/logo_8.png" alt="logo" class="img-fluid">
-            <img src="./assets/images/logo_9.png" alt="logo" class="img-fluid">
-            <img src="./assets/images/logo_10.png" alt="logo" class="img-fluid">
-            <img src="./assets/images/logo_11.png" alt="logo" class="img-fluid">
-            <img src="./assets/images/logo_12.png" alt="logo" class="img-fluid">
-            <img src="./assets/images/logo_13.png" alt="logo" class="img-fluid">
-            <img src="./assets/images/logo_14.png" alt="logo" class="img-fluid">
-            <img src="./assets/images/logo_15.png" alt="logo" class="img-fluid">
-            <img src="./assets/images/logo_16.png" alt="logo" class="img-fluid">
-            <img src="./assets/images/logo_17.png" alt="logo" class="img-fluid">
-            <img src="./assets/images/logo_18.png" alt="logo" class="img-fluid">
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-1.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-2.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-3.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-4.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-5.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-6.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-7.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-8.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-9.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-10.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-11.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-12.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-13.png" class="img-fluid" alt="" />
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="slider">
+                <div class="slide-track-reverse">
+                <div class="slide">
+                        <img src="assets/images/univercity_logo-14.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-15.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-16.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-17.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-18.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-19.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-20.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-21.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-22.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-23.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-24.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-25.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-26.png" class="img-fluid" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-27.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-28.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-29.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-30.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-31.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-32.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-33.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-34.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-35.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-36.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-37.png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-38png" class="img-fluid" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/univercity_logo-39.png" class="img-fluid" alt="" />
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -263,7 +376,8 @@
                 </div>
             </div>
             <div class="text-center mt-5">
-            <button class="get-started-btn w-25" onclick="window.location.href='coaching.php#samyama-coaching'">Click here to learn more</button>
+                <button class="get-started-btn w-25"
+                    onclick="window.location.href='coaching.php#samyama-coaching'">Click here to learn more</button>
             </div>
         </div>
     </div>
@@ -342,7 +456,7 @@
                     <div class="wc-footer">
                         <h5>Emergency Contacts</h5>
                         <p>Access essential emergency
-                        contact details and local emergency services specific to your destination.</p>
+                            contact details and local emergency services specific to your destination.</p>
                     </div>
                 </div>
             </div>

@@ -829,9 +829,7 @@ header{
   transition: transform 0.2s linear;
 }
 
-.post-slide:hover .post-img img {
-  /*transform: scale(1.1, 1.1);*/
-}
+
 
 .post-slide .over-layer {
 text-decoration: none;
@@ -1062,7 +1060,13 @@ text-decoration: none;
 #freeCunsult .cunsult-form{
   height: 75vh;
 }
-
+#freeCunsult .modal-sm-custom{
+  width: 330px;
+}
+#freeCunsult .modal-content{
+  background-color: transparent;
+  border: none;
+}
 #footer-menu-content{
   background-color: var(--white);
   padding-bottom: 1rem;
@@ -1250,15 +1254,7 @@ padding: 10px 30px;
   padding: 2rem 0 4rem 0;
   background-color: var(--destination);
 }
-#universities-courses .all-universities{
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  place-items: center;
-  row-gap: 1.5rem;
-}
-#universities-courses .all-universities img{
-  max-width: 70%;
-}
+
 
 #discover-course-banner, .why-choose-samyama{
   padding: 3rem 0 4rem 0;
@@ -2007,4 +2003,67 @@ border-top-right-radius: 15px;
   font-size: var(--small);
   margin-top: 2rem;
   text-align: justify;
+}
+
+.select2-selection--multiple{
+  border: none;
+  min-height: inherit!important;
+}
+.cunsult-form .select2-container--default .select2-selection--multiple{
+ font-size: var(--x-small);
+ background-color: #eee;
+}
+.select2-results__option{
+  font-size: var(--x-small);
+}
+.select2-dropdown{
+  z-index: 1060!important;
+}
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 13);
+}
+.slider .slide-track-reverse {
+  animation: scroll 40s linear infinite reverse;
+  display: flex;
+  width: calc(250px * 13);
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
+}
+
+.submit_popup .box-content{
+  padding: 1rem;
+  text-align: center;
+  font-size: var(--small);
+}
+.submit_popup .box-content p span{
+  color: #C10306;
+  font-weight: 500;
+}
+.popup_custom_close{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-size: 10px;
 }
