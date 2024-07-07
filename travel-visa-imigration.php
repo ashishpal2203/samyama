@@ -254,13 +254,13 @@
             <div class="accordion accordion-flush custom-width" id="accordionExample">
                
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
+                    <h2 class="accordion-header" id="flush-headingonee">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            data-bs-target="#flush-collapseonee" aria-expanded="false" aria-controls="flush-collapseonee">
                             Student Visa
                         </button>
                     </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    <div id="flush-collapseonee" class="accordion-collapse collapse" aria-labelledby="flush-headingonee"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <p>A student visa is designed for individuals who wish to pursue
