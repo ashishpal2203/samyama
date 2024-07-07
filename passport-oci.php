@@ -246,132 +246,118 @@
     <div class="container">
         <div class="d-flex align-items-center gap-2 travel-title-main custom-width">
             <div class="section-title mb-0 w-75">
-                <h2 class="mb-0"><span>OCI</span> (Overseas Citizenship of India)</h2>
+                <h2 class="mb-0"><span>OCI SERVICES</span> </h2>
+                <!-- (Overseas Citizenship of India) -->
             </div>
             <p class="travel-title">OCI is a life-long permit in a form of a booklet to enter India without the need to
                 apply for a
-                visa each time you travel..</p>
+                visa each time you travel.</p>
         </div>
 
+
+
         <div class="QAdropdown-box">
-            <div class="accordion accordion-flush custom-width" id="accordionFlushExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseO" aria-expanded="false" aria-controls="flush-collapseO">
-                            Who is OCI For?
-                        </button>
-                    </h2>
-                    <div id="flush-collapseO" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>This document is issued for:
-                            </p>
-                            <ul type="docs">
-                                <li> citizens of foreign countries who have moved outside of India at some point and
-                                    surrendered their Indian nationality.
-                                </li>
-                                <li>were born abroad and never had an Indian citizenship but are of Indian origin.
-                                </li>
-                                <li> are foreign spouses of Indian citizens. </li>
-                                <li>currently hold PIO Card and now wish to apply for OCI Card.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseT" aria-expanded="false" aria-controls="flush-collapseT">
-                            What is OCI Card validity?
-                        </button>
-                    </h2>
-                    <div id="flush-collapseT" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>OCI Card is valid for life.</p>
-                            <p>However, new OCI has got to be re-issued each timea new passport is issued up to the
-                                completion of 20 years of age andonce after completion of 50 years of age.</p>
-                            <p> Re-issuance of OCI is not mandatoryeach time a new passport is issued between 21-50
-                                years of age.</p>
-                            <p> However, if the applicant wishes to obtain new OCI, he/she can apply for the same.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseTh" aria-expanded="false" aria-controls="flush-collapseTh">
-                            What are the Indian Government fees for OCI Application?
-                        </button>
-                    </h2>
-                    <div id="flush-collapseTh" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>The fees will differ depending on circumstances and type of application.
-                            </p>
 
-                            <p><u>If the application is submitted in India:
-                                </u></p>
-                            <ul type="docs">
-                                <li> Fresh OCI application - INR 15,000. </li>
-                                <li>Conversion of PIO to OCI card – INR 5,500.</li>
-                                <li>Re-issuance ofduplicate OCI documents in case of loss/damage – INR 5,500</li>
-                                <li>Re-issuance ofOCI documents in case of issuance of new passport, changeof personal
-                                    particulars, etc. – INR 1,400
-                                </li>
-                                <li>Change of address/occupation - free </li>
-                            </ul>
+        <div class="accordion accordion-flush custom-width" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Who is OCI For?
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>This document is issued for:
+                        </p>
+                        <ul type="docs">
+                            <li> citizens of foreign countries who have moved outside of India at some point and
+                                surrendered their Indian nationality.
+                            </li>
+                            <li>were born abroad and never had an Indian citizenship but are of Indian origin.
+                            </li>
+                            <li> are foreign spouses of Indian citizens. </li>
+                            <li>currently hold PIO Card and now wish to apply for OCI Card.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        What is OCI Card validity?
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
 
-                            <p><u>If the application is submitted outside of India (payable to equivalent amount in
-                                    local
-                                    currency):
-                                </u></p>
-                            <ul>
-                                <li> Fresh OCI application - US$ 275
-                                </li>
-                                <li>Conversion of PIO to OCI card – US$ 100</li>
-                                <li>Re-issuance ofduplicate OCI documents in case of loss/damage – US $ 100
-                                </li>
-                                <li> Re-issuance ofOCI documents in case of issuance of new passport, change of
-                                    personal particulars, etc. – US $ 25</li>
-                                <li>Change of address/occupation– free. </li>
-                            </ul>
-                        </div>
+                        OCI Card is valid for life. However, new OCI has got to be re-issued each time a new
+                        passport is issued up to the completion of 20 years of age and once after completion of 50
+                        years of age.Re-issuance of OCI is not mandatory each time a new passport is issued between
+                        21-50 years of age.However, if the applicant wishes to obtain new OCI, he/she can apply for
+                        the same.
+
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseF" aria-expanded="false" aria-controls="flush-collapseF">
-                            What is the OCI application processing time?
-                        </button>
-                    </h2>
-                    <div id="flush-collapseF" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>Minimum 1 month from the time of submission of application.
-                            </p>
-                            <p>Take the first step towards a lifetime of exploration and connection. Reach out to our
-                                dedicated team today to assess your eligibility and let OCI unlock the doors to your
-                                Indian heritage and beyond.
-                            </p>
-                        </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        What are the Indian Government fees for OCI Application?
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>The fees will differ depending on circumstances and type of application.
+                        </p>
+
+                        <p class="mb-1">
+                            <u>If the application is submitted in India:
+                            </u></p>
+                        <ul type="docs">
+                            <li> Fresh OCI application - INR 15,000. </li>
+                            <li>Conversion of PIO to OCI card – INR 5,500.</li>
+                            <li>Re-issuance ofduplicate OCI documents in case of loss/damage – INR 5,500</li>
+                            <li>Re-issuance ofOCI documents in case of issuance of new passport, changeof personal
+                                particulars, etc. – INR 1,400
+                            </li>
+                            <li>Change of address/occupation - free </li>
+                        </ul>
+
+                        <p class="mb-1">
+                            <u>If the application is submitted outside of India (payable to equivalent amount in
+                                local
+                                currency):
+                            </u></p>
+                        <ul>
+                            <li> Fresh OCI application - US$ 275
+                            </li>
+                            <li>Conversion of PIO to OCI card – US$ 100</li>
+                            <li>Re-issuance ofduplicate OCI documents in case of loss/damage – US $ 100
+                            </li>
+                            <li> Re-issuance ofOCI documents in case of issuance of new passport, change of
+                                personal particulars, etc. – US $ 25</li>
+                            <li>Change of address/occupation– free. </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseFive" aria-expanded="false"
-                            aria-controls="flush-collapseFive">
-                            What is the OCI application process?
-                        </button>
-                    </h2>
-                    <div id="flush-collapseFive" class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingfour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+                        What is the OCI application process?
+                    </button>
+                </h2>
+                <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
                             <p>Applying for OCI is a straightforward process:
                             </p>
                             <ol type="1">
@@ -396,14 +382,10 @@
                                     to India. </li>
                             </ol>
                         </div>
-                    </div>
                 </div>
-
-
-
             </div>
-
         </div>
+                            </div>
     </div>
 </section>
 

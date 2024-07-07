@@ -1215,9 +1215,13 @@ padding: 10px 30px;
 #travel-visas .QAdropdown-box p{
   font-size: var(--small);
   padding-left: .5rem;
+ 
 }
 
-
+.accordion-body ul{
+  padding: 0px 0px 0px 22px !important;
+}
+ 
 
 #popular-s-desti{
   padding: 2rem 0 4rem 0;
