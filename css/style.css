@@ -187,7 +187,10 @@ header{
   z-index: 5;
   transform: translateX(-50%);
 }
-
+#hero-section .hero-container{
+  display: flex;
+  gap: .5rem;
+}
 #hero-section .left {
   width: 75%;
 }
@@ -1173,7 +1176,7 @@ margin-bottom: 0;
   content: "";
   position: absolute;
   height: 100%;
-  width: 1px;
+  width: 0.1px;
   background-color: black;
   left: 0;
   top: 0;
@@ -1189,6 +1192,7 @@ margin-bottom: 0;
 #travel-visas .QAdropdown-box{
   background-color: var(--destination);
   padding: 2rem 0 1px 0;
+  border-radius: 5px;
 }
 #travel-visas .accordion-item{
 margin-bottom: 2rem;
@@ -1219,11 +1223,12 @@ padding: 10px 30px;
 #travel-visas .QAdropdown-box p{
   font-size: var(--small);
   padding-left: .5rem;
+  padding-bottom: .5rem;
  
 }
 
 .accordion-body ul{
-  padding: 0px 0px 0px 22px !important;
+  padding: 0px 0px .5rem 22px !important;
 }
  
 
@@ -1867,17 +1872,98 @@ border-top-right-radius: 15px;
 }
 .section-content1 p{
   font-size: var(--small);
+  text-align: justify;
+}
+.section-content1 p .i-text {
+  font-weight: normal;
+  padding-left: 50px;
+  display: block;
+}
+.section-content1 ul{
+  font-size: var(--small);
+}
+.section-content1 .cari-icon{
+  width: 35px;
+  margin-right: .3rem;
 }
 .section-content1 p span{
   font-weight: 600;
 }
 #samyama-coaching .section-content1{
   background-color: var(--destination);
-  padding: 1rem;
-  margin: 1rem 0;
-  /* height: 100%; */
+  padding: 1rem 1rem 0 1rem;
+  height: 100%;
+  border-radius: 5px;
+}
+.section-image1 img{
+  border-radius: 5px;
+}
+.section-image1 .ielts{
+  border: .5px solid #DC0019;
+  box-shadow: 0px 0px 20px 0px rgba(220,0,26,0.22);
+}
+.section-image1 .curriculum{
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+}
+.section-image1 .scoring{
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.12);
+}
+.section-image1 .comman-s{
+  box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.2);
+}
+.section-image1 .tofel1{
+  border: .5px solid #023D7F;
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+.section-image1 .tofel2{
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+.section-image1 .pearnson1{
+  border: .5px solid #007FA1;
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+.section-image1 .pearnson2{
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+.section-image1 .sat1{
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+.section-image1 .sat2{
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+.section-image1 .gre1{
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+  border: .5px solid #003082;
+}
+.section-image1 .gre2{
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+.section-image1 .gmat1{
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+  border: .5px solid #FFCD03;
+}
+.section-image1 .gmat2{
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+.section-image1 .dulingo1{
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+  border: .5px solid #FCC802;
+}
+.section-image1 .dulingo2{
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+.section-image1 .german1{
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+  border: .5px solid #FFCE00;
+}
+.section-image1 .german2{
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
 }
 
+
+.tab-content .row{
+  margin-bottom: 1rem;
+}
 #terms-and-condition .tab-pane h2 {
   font-size: var(--large);
   margin-bottom: 1rem;
@@ -1912,11 +1998,58 @@ border-top-right-radius: 15px;
 }
 #samyama-coaching-classes .s-coaching-card{
   background-color: var(--white);
+  border-radius: 7px;
+}
+.s-coaching-card.card1{
   box-shadow: 0px 0px 12px 0px rgba(220, 0, 25, 0.25);
 }
+.s-coaching-card.card2{
+  box-shadow: 0px 0px 12px 0px rgba(1,62,127,0.25);
+}
+.s-coaching-card.card3{
+  box-shadow: 0px 0px 12px 0px rgba(0,127,162,0.25);
+}
+.s-coaching-card.card4{
+  box-shadow: 0px 0px 12px 0px rgba(0,153,218,0.25);
+}
+.s-coaching-card.card5{
+  box-shadow: 0px 0px 12px 0px rgba(0,48,130,0.25);
+}
+.s-coaching-card.card6{
+  box-shadow: 0px 0px 12px 0px rgba(255,205,3,0.25);
+}
+.s-coaching-card.card7{
+  box-shadow: 0px 0px 12px 0px rgba(254,199,0,0.25);
+}
+.s-coaching-card.card8{
+  box-shadow: 0px 0px 12px 0px rgba(221,0,0,0.25);
+}
 
-.s-coaching-card .card-header{
-  border-bottom: 1px solid var(--primary);
+
+
+.s-coaching-card.card1 .card-header{
+  border-bottom: 1px solid #DC0016;
+}
+.s-coaching-card.card2 .card-header{
+  border-bottom: 1px solid #013E7F;
+}
+.s-coaching-card.card3 .card-header{
+  border-bottom: 1px solid #007FA2;
+}
+.s-coaching-card.card4 .card-header{
+  border-bottom: 1px solid #64A5F5;
+}
+.s-coaching-card.card5 .card-header{
+  border-bottom: 1px solid #003082;
+}
+.s-coaching-card.card6 .card-header{
+  border-bottom: 1px solid #FFCD03;
+}
+.s-coaching-card.card7 .card-header{
+  border-bottom: 1px solid #FFC702;
+}
+.s-coaching-card.card8 .card-header{
+  border-bottom: 1px solid #FFCE00;
 }
 .s-coaching-card .card-body{
   padding: 1rem;
@@ -1924,6 +2057,12 @@ border-top-right-radius: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
+}
+.s-coaching-card .card-body .bottom-btn{
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
 }
 .s-coaching-card .card-body .advantage-row{
   display: flex;
@@ -1943,6 +2082,7 @@ border-top-right-radius: 15px;
   color: var(--primary);
   text-decoration: none;
 }
+
 
 
 /* #Feedback{
@@ -2070,4 +2210,8 @@ border-top-right-radius: 15px;
   top: 5px;
   right: 5px;
   background-size: 10px;
+}
+.accordion-body u{
+  padding-top: 1rem;
+  display: block;
 }

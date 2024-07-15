@@ -2,7 +2,7 @@
 <!--Partnership submit popup -->
 <div class="modal fade" id="partnership-submit" tabindex="-1" aria-labelledby="partnership-submitLabel"
     aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog  modal-lg modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-body p-0">
                 <button type="button" class="btn-close popup_custom_close" data-bs-dismiss="modal"

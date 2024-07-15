@@ -11,3 +11,66 @@
       margin-bottom: .7rem!important;
     }
 }
+@media screen and (max-width: 992px) {
+  .line{
+    left: 5%;
+    top: 13%;
+    height: 1202px;
+  }
+  .section-point{
+    height: 368px;
+  }
+  .section-point::before{
+    content: initial;
+  }
+  .simple-step-image{
+    height: 184px;
+  }
+  .white-bg .section-point{
+    flex-direction: column-reverse;
+  }
+  .simple-image-content .simple-step-lable{
+    position: relative;
+  }
+  /* .simple-image-content .simple-step-lable::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: -36px;
+  } */
+  #hero-section .hero-container{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #hero-section .left{
+    width: 100%;
+  }
+  #hero-section .right {
+    width: 50%;
+    margin: auto;
+    height: 90vh;
+}
+.free-cunsult-container{
+  width: 50%;
+}
+#copyright .copyright-header{
+  flex-direction: column;
+}
+#end-to-end-section .end-to-end-svg-box{
+  width: 75%;
+}
+}
+
+@media screen and (max-width: 768px){
+  .filp-card-main{
+    width: 100%;
+  }
+  .footer-menu-bottom{
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

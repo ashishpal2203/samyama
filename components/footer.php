@@ -242,7 +242,6 @@
     const coaching = `<div class="mb-1 ">
 <div class="w-100">
   <select name="" id="" class="form-select w-100 selectToMultiple" name="states[]" multiple="multiple">
-      <option value="">Select a course</option>
       <option value="IELTS">IELTS</option>
       <option value="TOEFL">TOEFL</option>
       <option value="PTE">PTE</option>
@@ -279,8 +278,8 @@
       <option value="Fresh OCI Application">Fresh OCI Application</option>
       <option value="In Lieu of valid PIO-Card">In Lieu of valid PIO-Card</option>
       <option value="In Lieu of lost PIO-Card">In Lieu of lost PIO-Card</option>
-      <option value="Change in Personal Circumstances of existing OCI Holder">Change in Personal Circumstances of existing OCI Holder</option>
-      <option value="Special Permission for existing OCI Holder">Special Permission for existing OCI Holder</option>
+      <option value="Change in Personal Circumstances">Change in Personal Circumstances</option>
+      <option value="Special Permission">Special Permission</option>
   </select>
 </div>
 </div>`;
@@ -298,7 +297,9 @@
             populateCountryDropdown(event);
         } else if (input === "coaching") {
             $emptyDiv.html(coaching);
-            $('.selectToMultiple').select2();
+            $('.selectToMultiple').select2({
+                placeholder: 'Select a course',
+            });
         } else if (input === "passport") {
             $emptyDiv.html(passport);
         } else if (input === "OCI") {

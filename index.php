@@ -3,7 +3,7 @@
 <section id="hero-section">
     <img src="assets/gifs/down-arrow-gif.gif" alt="" class="down-arrow-gif">
     <div class="container-fluid">
-        <div class="d-flex gap-2">
+        <div class="hero-container">
             <div class="left">
                 <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -63,7 +63,7 @@
         </div>
         <div class="filp-card-main">
             <div class="row gy-4">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -83,7 +83,7 @@
                                 <ul class="sevices-list">
                                     <li><a href="travel-visa-imigration.php?opt=tourist_visa#accordionFlushExample">Tourist
                                             Visa</a></li>
-                                    <li>Business Visax</li>
+                                    <li>Business Visa</li>
                                     <li>Student Visa</li>
                                     <li>Work Visa</li>
                                     <li>Express Entry Program (PR)</li>
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -122,7 +122,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -151,7 +151,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -178,7 +178,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -206,7 +206,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -246,8 +246,8 @@
         <div class="section-title">
             <h2>OUR <span>SERVICES</span></h2>
         </div>
-        <div class="row">
-            <div class="col-lg-3">
+        <div class="row gy-sm-4">
+            <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="service-card service-card red">
                     <div class="card-header ">
                         <img src="assets/svg-icons/travel-visa.svg" alt="">
@@ -263,7 +263,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="service-card green">
                     <div class="card-header">
                         <img src="assets/svg-icons/study-abroad.svg" alt="">
@@ -278,7 +278,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="service-card yellow">
                     <div class="card-header">
                         <img src="assets/svg-icons/coaching.svg" alt="">
@@ -295,7 +295,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="service-card blue">
                     <div class="card-header">
                         <img src="assets/svg-icons/passport-OCI.svg" alt="">
@@ -422,7 +422,9 @@
                 <span class="line_inner">
                     <img src="assets/images/Airplane-01.png" alt="" />
                 </span>
+                
             </span>
+
             <div class="gray-bg">
                 <div class="container">
                     <div class="row section-point">
@@ -663,7 +665,7 @@
         </div>
         <div class="review-card-container">
             <div class="row gy-3 gx-3">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">
@@ -678,7 +680,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">
@@ -694,7 +696,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">
@@ -709,7 +711,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">
@@ -723,7 +725,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">
@@ -739,7 +741,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">
@@ -755,7 +757,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">
@@ -769,7 +771,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">

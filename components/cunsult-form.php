@@ -55,8 +55,8 @@
             <div class="mb-3">
                 <div class="d-flex accept-term gap-2 align-items-center">
                     <input type="checkbox" name="" id="">
-                    <p class="mb-0">I accept the <span style="color: #44B24F; font-weight: 500;">Terms &
-                            Conditions</span></p>
+                    <p class="mb-0">I accept the <a href="term-and-condition.php?terms" style="color: #44B24F; font-weight: 500; text-decoration: none;">Terms &
+                            Conditions</a href=""></p>
                 </div>
             </div>
             <div class="buttonBox">
@@ -70,7 +70,7 @@
 
 <!-- submit popup -->
 <div class="modal fade" id="cunsult-submit" tabindex="-1" aria-labelledby="cunsult-submitLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-body p-0">
                 <button type="button" class="btn-close popup_custom_close" data-bs-dismiss="modal" aria-label="Close"></button>

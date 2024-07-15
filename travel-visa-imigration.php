@@ -57,22 +57,11 @@
             <div class="accordion accordion-flush custom-width" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button <?php
-                        if (isset($_GET['opt'])) {
-                            echo ($_GET['opt'] === 'tourist_visa') ? '' : 'collapsed';
-                        }
-                        ?>" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="<?php
-                        if (isset($_GET['opt'])) {
-                            echo ($_GET['opt'] === 'tourist_visa') ? 'true' : 'false';
-                        }
-                        ?>" aria-controls="flush-collapseOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                             Tourist Visa
                         </button>
                     </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse <?php
-                    if (isset($_GET['opt'])) {
-                        echo ($_GET['opt'] === 'tourist_visa') ? 'show' : '';
-                    } ?>" data-bs-parent="#accordionFlushExample">
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
                             <p>A tourist visa allows individuals to visit a foreign country for
                                 leisure, sightseeing, or recreational
@@ -194,8 +183,7 @@
                                 your dream vacation or important business trip, as we gather all relevant visa
                                 information
                                 on your
-                                behalf. Below, you will find a general step-by-step process and learn more about what we
-                                offer.</p>
+                                behalf.</p>
                         </div>
                     </div>
                 </div>
@@ -428,43 +416,30 @@
                         data-bs-parent="#accordionExample">
 
                         <div class="accordion-body">
-                            <p class="mb-1">A PR visa, or Permanent Residency visa, is a type of visa that
-                                allows an individual to live and work
-                                indefinitely in a foreign country. It grants the holder the right to reside in the host
-                                country for an
-                                extended period, typically without the need for sponsorship by an employer or family
-                                member.
-                                Additionally, PR visa holders may be eligible to apply for citizenship after meeting
-                                certain
-                                residency
-                                requirements.</p>
-                            <p class="mb-1">In Canada, individuals seeking Permanent Residency (PR) can apply
-                                through various streams,
-                                including the Express Entry system and Provincial Nominee Programs (PNPs).</p>
-                            <p class="mb-1">Express Entry is a points-based system used to manage applications
-                                for permanent residency under
-                                three main economic immigration programs. Candidates create an online profile and are
-                                ranked
-                                based on factors such as age, education, work experience, language proficiency, and
-                                adaptability.</p>
-                            <p class="mb-1">Those with the highest scores are invited to apply for permanent
-                                residency through regular draws
-                                conducted by Immigration, Refugees, and Citizenship Canada (IRCC).</p>
-                            <p class="mb-1"> PNPs are immigration programs administered by Canadian provinces and
-                                territories that allow them
-                                to nominate individuals who meet specific criteria for permanent residency.  Each province and territory have its own PNP with unique eligibility
-                                requirements tailored to their
-                                labour market and economic needs.</p>
-                            <p class="mb-1">Candidates may be nominated by a province or territory based on
-                                factors such as their education,
-                                work experience, language proficiency, and ties to the region.</p>
-                            <p> The PR Visa (subclass 189) in Australia is a permanent residency
-                                visa that allows skilled workers to
-                                live and work anywhere in the country. It is granted (similarly like in Canada) based on
-                                a
-                                points-
-                                based system, evaluating factors such as age, skills, work experience, and English
-                                proficiency.</p>
+                            <p class="mb-1">A PR visa, or Permanent Residency visa, is a type of visa that allows an individual to live
+and work indefinitely in a foreign country. It grants the holder the right to reside in the host
+country for an extended period, typically without the need for sponsorship by an employer or
+family member. Additionally, PR visa holders may be eligible to apply for citizenship after
+meeting certain residency requirements. In Canada, individuals seeking Permanent
+Residency (PR) can apply through various streams, including the Express Entry system and
+Provincial Nominee Programs (PNPs).</p>
+                            <p class="mb-1">Express Entry is a points-based system used to manage applications for permanent
+residency under three main economic immigration programs. Candidates create an online
+profile and are ranked based on factors such as age, education, work experience, language
+proficiency, and adaptability. Those with the highest scores are invited to apply for
+permanent residency through regular draws conducted by Immigration, Refugees, and
+Citizenship Canada (IRCC).</p>
+                            <p class="mb-1">PNPs are immigration programs administered by Canadian provinces and territories that
+allow them to nominate individuals who meet specific criteria for permanent residency. Each
+province and territory have its own PNP with unique eligibility requirements tailored to their
+labour market and economic needs. Candidates may be nominated by a province or territory
+based on factors such as their education, work experience, language proficiency, and ties to
+the region.</p>
+                            <p class="mb-1">The PR Visa (subclass 189) in Australia is a permanent residency visa that allows skilled
+workers to live and work anywhere in the country. It is granted (similarly like in Canada)
+based on a points-based system, evaluating factors such as age, skills, work experience,
+and English proficiency.</p>
+                            
 
                         </div>
                     </div>
