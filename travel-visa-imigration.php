@@ -3,7 +3,7 @@
 <section id="hero-section">
     <img src="assets/gifs/down-arrow-gif.gif" alt="" class="down-arrow-gif">
     <div class="container-fluid">
-        <div class="d-flex gap-2">
+        <div class="hero-container">
             <div class="left">
                 <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -525,5 +525,31 @@ and English proficiency.</p>
         </div>
     </div>
 </section>
+
+<script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        if (window.location.hash) {
+            scrollToHash(window.location.hash);
+        }
+
+        window.addEventListener('hashchange', function () {
+            scrollToHash(window.location.hash);
+        });
+
+        function scrollToHash(hash) {
+            const element = document.querySelector(hash);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                const button = element.querySelector('.accordion-button');
+                if (button) {
+                    button.click();
+                }
+            }
+        }
+    });
+</script>
+
+</script>
 
 <?php require 'components/footer.php'; ?>

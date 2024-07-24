@@ -11,7 +11,7 @@
 
 <section id="about-sec">
     <div class="container">
-        <div class="row mb-4 c1-content">
+        <div class="row mb-4 c1-content reverse-column">
             <div class="col-lg-7">
                 <div class="">
                     <div class="section-title align-items-start mb-1">
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mb-4 c1-content">
+        <div class="row mb-4 c1-content reverse-column">
             <div class="col-lg-7">
                 <div class="">
                     <div class="section-title align-items-start mb-1">
@@ -101,7 +101,7 @@
             </div>
 
         </div>
-        <div class="row mb-4 c1-content">
+        <div class="row mb-4 c1-content reverse-column">
             <div class="col-lg-7">
                 <div class="">
                     <div class="section-title align-items-start mb-1">

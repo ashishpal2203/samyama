@@ -1,8 +1,13 @@
 <?php require 'components/header.php'; ?>
+<style>
+    *{
+        scroll-padding-top: 20%;
+    }
+</style>
 <section id="hero-section">
     <img src="assets/gifs/down-arrow-gif.gif" alt="" class="down-arrow-gif">
     <div class="container-fluid">
-        <div class="d-flex gap-2">
+        <div class="hero-container">
             <div class="left">
                 <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -24,6 +29,7 @@
 </section>
 
 <section id="samyama-coaching">
+
     <div class="container">
         <ul class="nav nav-pills mb-3 coaching-nav" id="pills-tab" role="tablist">
             <!-- <li class="nav-item">
@@ -94,7 +100,7 @@
             <div class="tab-pane fade <?php echo ($current_page === $base_url . 'coaching.php?ielts') ? 'show active' : ''; ?>"
                 id="pills-IELTS" role="tabpanel" aria-labelledby="pills-IELTS-tab" tabindex="0">
                 <div class="section1">
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">What is IELTS?</h4>
@@ -123,7 +129,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">IELTS Curriculum</h4>
@@ -157,13 +163,13 @@
                 </div>
                 <div class="section2">
                     <div class="row">
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-md-2">
                             <div class="section-image1">
                                 <img src="assets/images/Scoring-banner.png" alt="" class="img-fluid scoring">
                             </div>
                         </div>
-                        <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                        <div class="col-lg-10 col-md-10">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Scoring</h4>
                                 <p>The IELTS scoring system spans from 0 to 9 bands, signifying different levels
                                     of English
@@ -199,13 +205,13 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-md-2">
                             <div class="section-image1">
                                 <img src="assets/images/test-tution-banner.png" alt="" class="img-fluid comman-s">
                             </div>
                         </div>
-                        <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                        <div class="col-lg-10 col-md-10">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Test Duration</h4>
                                 <p>Less than 2 hours.</p>
 
@@ -213,13 +219,13 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-md-2">
                             <div class="section-image1">
                                 <img src="assets/images/pricing-banner.png" alt="" class="img-fluid comman-s">
                             </div>
                         </div>
-                        <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                        <div class="col-lg-10 col-md-10">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Pricing</h4>
                                 <p>TOEFL Exam currently costs INR 17,000 payable to the TOEFL exam centre.</p>
 
@@ -227,13 +233,13 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-md-2">
                             <div class="section-image1">
                                 <img src="assets/images/validity-banner.png" alt="" class="img-fluid comman-s">
                             </div>
                         </div>
-                        <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                        <div class="col-lg-10 col-md-10">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Validity</h4>
                                 <p>The TOEFL validity period is 2 years from the test date.</p>
 
@@ -241,13 +247,13 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-md-2">
                             <div class="section-image1">
                                 <img src="assets/images/map-banner.png" alt="" class="img-fluid comman-s">
                             </div>
                         </div>
-                        <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                        <div class="col-lg-10 col-md-10">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Centres to pass TOEFL Test in India</h4>
                                 <p>There are numerous test centres across India where candidates can take the IELTS
                                     exam.
@@ -263,7 +269,7 @@
             <div class="tab-pane fade <?php echo ($current_page === $base_url . 'coaching.php?toefl') ? 'show active' : ''; ?>"
                 id="pills-TOEFL" role="tabpanel" aria-labelledby="pills-TOEFL-tab" tabindex="0">
                 <div class="section1">
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">What is TOEFL?
@@ -285,7 +291,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">TOEFL Curriculum</h4>
@@ -319,7 +325,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Scoring</h4>
                                 <p>The TOEFL score ranges from 0 to 120, with each section holding a specific score
                                     range of
@@ -345,7 +351,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Test Duration</h4>
                                 <p>Less than 2 hours.</p>
 
@@ -359,7 +365,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Pricing</h4>
                                 <p>TOEFL Exam currently costs INR 17,000 payable to the TOEFL exam centre.</p>
 
@@ -373,7 +379,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Validity</h4>
                                 <p>The TOEFL validity period is 2 years from the test date.</p>
 
@@ -387,7 +393,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Centres to pass TOEFL Test in India</h4>
                                 <p>In India, TOEFL test centres are available across all major cities such as Allahabad,
                                     Ahmedabad, Bengaluru, Amritsar, Chennai, Bhopal, Chandigarh, Coimbatore, Delhi NCR,
@@ -407,7 +413,7 @@
                 id="pills-PTE" role="tabpanel" aria-labelledby="pills-PTE-tab" tabindex="0">
 
                 <div class="section1">
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">What is PTE?
@@ -431,7 +437,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">PTE Curriculum</h4>
@@ -465,7 +471,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Scoring</h4>
                                 <p>The PTE (Pearson Test of English) Academic exam is scored on a scale from 10 to 90.
                                     Generally, universities set their own minimum score requirements for admission.
@@ -482,7 +488,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Test Duration</h4>
                                 <p>Approximately 3 hours.</p>
 
@@ -496,7 +502,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Pricing</h4>
                                 <p>PTE Exam currently costs INR 17,000 payable to the PTE exam centre.</p>
 
@@ -510,7 +516,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Validity</h4>
                                 <p>The PTE validity period is 2 years from the test date.</p>
 
@@ -524,7 +530,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Centres to pass TOEFL Test in India</h4>
                                 <p>PTE exam is conducted across 62 major cities in India. Some of the popular PTE India
                                     test
@@ -540,7 +546,7 @@
             <div class="tab-pane fade <?php echo ($current_page === $base_url . 'coaching.php?sat') ? 'show active' : ''; ?>"
                 id="pills-SAT" role="tabpanel" aria-labelledby="pills-SAT-tab" tabindex="0">
                 <div class="section1">
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">What is SAT?
@@ -567,7 +573,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">SAT Curriculum</h4>
@@ -615,7 +621,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Scoring</h4>
                                 <p>SAT scoring is on a scale from 400-1600.</p>
 
@@ -637,7 +643,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Test Duration</h4>
                                 <p>The SAT clocks in at 3 hours (3 hours and 15 minutes with breaks).</p>
 
@@ -651,7 +657,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Pricing</h4>
                                 <p>INR 9,000.</p>
 
@@ -665,7 +671,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Validity</h4>
                                 <p>SAT score is valid up to five years from the test date.</p>
 
@@ -679,7 +685,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Centres to pass TOEFL Test in India</h4>
                                 <p>At present, there are around 73 SAT exam centres in India located across 44 Indian
                                     cities.
@@ -698,7 +704,7 @@
                 id="pills-GRE" role="tabpanel" aria-labelledby="pills-GRE-tab" tabindex="0">
 
                 <div class="section1">
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">What is GRE?
@@ -728,7 +734,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">GRE Curriculum</h4>
@@ -777,7 +783,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Scoring</h4>
                                 <p>Overall GRE score will be between 260 – 340. Verbal and quantitative section scores
                                     range from 130 to 170, increasing by one-point
@@ -795,7 +801,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Test Duration</h4>
                                 <p>Approximately 2 hours.</p>
 
@@ -809,7 +815,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Pricing</h4>
                                 <p>INR 22,550</p>
 
@@ -823,7 +829,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Validity</h4>
                                 <p>GRE score is valid up to five years from the test date.</p>
 
@@ -837,7 +843,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Centres to pass TOEFL Test in India</h4>
                                 <p><b>The following cities that accept GRE in India:</b>
                                     Ahmedabad, Allahabad, Bangalore, Chennai, Cochin, Coimbatore, Dehradun, Gandhinagar,
@@ -853,7 +859,7 @@
             <div class="tab-pane fade <?php echo ($current_page === $base_url . 'coaching.php?gmat') ? 'show active' : ''; ?>"
                 id="pills-GMAT" role="tabpanel" aria-labelledby="pills-GMAT-tab" tabindex="0">
                 <div class="section1">
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">What is GMAT?
@@ -874,7 +880,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">GMAT Curriculum </h4>
@@ -929,7 +935,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Scoring</h4>
                                 <ul>
                                     <li>The final score is reported on a scale of 200 to 800.</li>
@@ -951,7 +957,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Test Duration</h4>
                                 <p>Approximately 3 hours.</p>
 
@@ -965,7 +971,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Pricing</h4>
                                 <p>INR 22,800</p>
 
@@ -979,7 +985,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Validity</h4>
                                 <p>GMAT score is valid up to five years from the test date. </p>
 
@@ -993,7 +999,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Centres to pass TOEFL Test in India</h4>
                                 <p>GMAT focus edition test centers are available in every major city nationwide,
                                     amounting to a
@@ -1007,7 +1013,7 @@
             <div class="tab-pane fade <?php echo ($current_page === $base_url . 'coaching.php?DuolingoEnglish') ? 'show active' : ''; ?>"
                 id="pills-DuolingoEnglish" role="tabpanel" aria-labelledby="pills-DuolingoEnglish-tab" tabindex="0">
                 <div class="section1">
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">What is Duolingo English?
@@ -1033,7 +1039,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">Duolingo Curriculum</h4>
@@ -1089,7 +1095,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Scoring</h4>
                                 <p>Scores on the Duolingo English Test are reported on a scale from 10–160.</p>
 
@@ -1103,7 +1109,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Test Duration</h4>
                                 <p>1 hours.</p>
 
@@ -1117,7 +1123,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Pricing</h4>
                                 <p>INR 5,000.</p>
 
@@ -1131,7 +1137,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Validity</h4>
                                 <p>Results for the Duolingo English Test are valid for two years. </p>
 
@@ -1145,7 +1151,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Centres to pass TOEFL Test in India</h4>
                                 <p>Test is conducted online at your chosen location.</p>
 
@@ -1158,7 +1164,7 @@
                 id="pills-GermanLanguage" role="tabpanel" aria-labelledby="pills-GermanLanguage-tab" tabindex="0">
 
                 <div class="section1">
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">What is German Language (A1)?
@@ -1192,23 +1198,32 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row reverse-column">
                         <div class="col-lg-7">
                             <div class="section-content1">
                                 <h4 class="section-title2">German Language (A1) Curriculum</h4>
-                                <p>The main skills assessed are (all at a basic level, in alignment with the CEFR A1 standards): </p>
+                                <p>The main skills assessed are (all at a basic level, in alignment with the CEFR A1
+                                    standards): </p>
                                 <p><img src="assets/svg-icons/speaking-icon.svg" alt=""
-                                        class="cari-icon"><b>Speaking:</b> <span class="i-text">Participating in simple conversations, introducing oneself, asking and answering questions about personal details, and engaging in basic interactions. Speaking part of the exam is usually conducted in a group.</span>
+                                        class="cari-icon"><b>Speaking:</b> <span class="i-text">Participating in simple
+                                        conversations, introducing oneself, asking and answering questions about
+                                        personal details, and engaging in basic interactions. Speaking part of the exam
+                                        is usually conducted in a group.</span>
                                 </p>
                                 <p><img src="assets/svg-icons/writing-icon.svg" alt=""
-                                        class="cari-icon"><b>Writing:</b><span class="i-text"> Writing short, simple notes or messages, filling out forms with personal information.
+                                        class="cari-icon"><b>Writing:</b><span class="i-text"> Writing short, simple
+                                        notes or messages, filling out forms with personal information.
                                     </span>
                                 </p>
                                 <p><img src="assets/svg-icons/reading-icon.svg" alt=""
-                                        class="cari-icon"><b>Reading:</b><span class="i-text"> Understanding simple sentences and commonly used expressions in short texts like notices, catalogues, or menus.</span>
+                                        class="cari-icon"><b>Reading:</b><span class="i-text"> Understanding simple
+                                        sentences and commonly used expressions in short texts like notices, catalogues,
+                                        or menus.</span>
                                 </p>
                                 <p><img src="assets/svg-icons/listening-icon.svg" alt="" class="cari-icon"><b>Listening:
-                                    </b><span class="i-text">understanding everyday expressions and very basic phrases when people speak slowly and clearly, concerning oneself, family, and immediate surroundings.</span>
+                                    </b><span class="i-text">understanding everyday expressions and very basic phrases
+                                        when people speak slowly and clearly, concerning oneself, family, and immediate
+                                        surroundings.</span>
 
                                 </p>
 
@@ -1230,7 +1245,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Scoring</h4>
                                 <p>It is a 60 points exam, and students must score 36 points (60%) to pass the exam.</p>
 
@@ -1244,7 +1259,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Test Duration</h4>
                                 <p>1 hour and 15 minutes. </p>
 
@@ -1258,7 +1273,7 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Pricing</h4>
                                 <p>INR 9,400</p>
 
@@ -1272,9 +1287,10 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Validity</h4>
-                                <p>Goethe-Zertifikats A1 through C2 do not expire. Many institutions and employers, however, expect the certificate to be dated not more than two years ago.</p>
+                                <p>Goethe-Zertifikats A1 through C2 do not expire. Many institutions and employers,
+                                    however, expect the certificate to be dated not more than two years ago.</p>
 
                             </div>
                         </div>
@@ -1286,13 +1302,13 @@
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <div class="section-content1 mt-1">
+                            <div class="section-content1">
                                 <h4 class="section-title2">Centres to pass German Language (A1)</h4>
-                               <ul>
-                                <li>Goethe-Institute</li>
-                                <li>telc GmbH (The European Language Certificate)</li>
-                                <li>Austrian Language Diploma (ÖSD)</li>
-                               </ul>
+                                <ul>
+                                    <li>Goethe-Institute</li>
+                                    <li>telc GmbH (The European Language Certificate)</li>
+                                    <li>Austrian Language Diploma (ÖSD)</li>
+                                </ul>
 
                             </div>
                         </div>
@@ -1312,8 +1328,8 @@
                 individual needs. <br>Fees vary for each class type. Please contact us for more information to
                 discuss the most suitable classes for your needs.</p>
         </div>
-        <div class="row gy-5">
-            <div class="col-lg-3">
+        <div class="row md-gy-5 g-2">
+            <div class="col-lg-3 col-md-4 col-6">
                 <div class="s-coaching-card card1">
                     <div class="card-header">
                         <img src="assets/images/ielts-card-logo.png" alt="" class="img-fluid">
@@ -1362,7 +1378,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-4 col-6">
                 <div class="s-coaching-card card2">
                     <div class="card-header">
                         <img src="assets/images/toefl-card-logo.png" alt="" class=" img-fluid">
@@ -1409,7 +1425,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-4 col-6">
                 <div class="s-coaching-card card3">
                     <div class="card-header">
                         <img src="assets/images/pearson-card-logo.png" alt="" class="img-fluid">
@@ -1456,7 +1472,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-4 col-6">
                 <div class="s-coaching-card card4">
                     <div class="card-header">
                         <img src="assets/images/sat-card-logo.png" alt="" class="img-fluid">
@@ -1502,7 +1518,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-4 col-6">
                 <div class="s-coaching-card card5">
                     <div class="card-header">
                         <img src="assets/images/gre-card-logo.png" alt="" class="img-fluid">
@@ -1548,7 +1564,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-4 col-6">
                 <div class="s-coaching-card card6">
                     <div class="card-header">
                         <img src="assets/images/gmat-card-logo.png" alt="" class="img-fluid">
@@ -1594,7 +1610,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-4 col-6">
                 <div class="s-coaching-card card7">
                     <div class="card-header">
                         <img src="assets/images/duolinge-card-logo.png" alt="" class="img-fluid">
@@ -1641,7 +1657,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-4 col-6">
                 <div class="s-coaching-card card8">
                     <div class="card-header">
                         <img src="assets/images/german-card-logo.png" alt="" class="img-fluid">

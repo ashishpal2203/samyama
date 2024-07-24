@@ -3,7 +3,7 @@
 <section id="hero-section">
     <img src="assets/gifs/down-arrow-gif.gif" alt="" class="down-arrow-gif">
     <div class="container-fluid">
-        <div class="d-flex gap-2">
+        <div class="hero-container">
             <div class="left">
                 <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -30,8 +30,8 @@
             <h2><span>Popular STUDY</span> DESTINATIONS</h2>
         </div>
         <div class="popular-d-card-container">
-            <div class="row gy-5">
-                <div class="col-lg-4">
+            <div class="row g-2 gy-md-5">
+                <div class="col-lg-4 col-6">
                     <div class="popular-d-card">
                         <img src="assets/images/usa-dest.png" alt="" class="img-fluid">
                         <div class="d-card-footer">
@@ -40,7 +40,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-6">
                     <div class="popular-d-card">
                         <img src="assets/images/canada.png" alt="aa" class="img-fluid">
                         <div class="d-card-footer">
@@ -49,7 +49,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-6">
                     <div class="popular-d-card">
                         <img src="assets/images/uk.png" alt="" class="img-fluid">
                         <div class="d-card-footer">
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-6">
                     <div class="popular-d-card">
                         <img src="assets/images/astrailia.png" alt="" class="img-fluid">
                         <div class="d-card-footer">
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-6">
                     <div class="popular-d-card">
                         <img src="assets/images/ireland.png" alt="" class="img-fluid">
                         <div class="d-card-footer">
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-6">
                     <div class="popular-d-card">
                         <img src="assets/images/germany.png" alt="" class="img-fluid">
                         <div class="d-card-footer">
@@ -240,15 +240,15 @@
 <section class="why-choose-samyama">
     <div class="container">
         <div class="section-title">
-            <h2>Why<span> Choose Samyama</span> as Your <span>Educational Consultant?</span></h2>
+            <h2>Why<span> Choose Samyama</span><br class="d-md-none d-inline"> as Your <span>Educational Consultant?</span></h2>
             <p class="mb-0 text-center">At Samyama, we provide End-To-End assistance, from obtaining your passport,
                 university
                 admission to getting your student visa, we provide <br> comprehensive support every step of the
                 way, ensuring a smooth transition to your new academic environment.</p>
         </div>
 
-        <div class="row gy-4">
-            <div class="col-lg-4">
+        <div class="row g-2 g-md-4">
+            <div class="col-lg-4 col-6">
                 <div class="why-choose-card">
                     <img src="assets/images/free-admission.png" alt="" class="img-fluid">
                     <div class="wc-footer">
@@ -258,7 +258,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
                 <div class="why-choose-card">
                     <img src="assets/images/free-admission_2.png" alt="" class="">
                     <div class="wc-footer">
@@ -268,7 +268,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
                 <div class="why-choose-card">
                     <img src="assets/images/free-admission_3.png" alt="" class="">
                     <div class="wc-footer">
@@ -278,7 +278,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
                 <div class="why-choose-card">
                     <img src="assets/images/free-admission_4.png" alt="" class="">
                     <div class="wc-footer">
@@ -288,7 +288,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
                 <div class="why-choose-card">
                     <img src="assets/images/free-admission_5.png" alt="" class="">
                     <div class="wc-footer">
@@ -298,7 +298,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
                 <div class="why-choose-card">
                     <img src="assets/images/free-admission_6.png" alt="" class="">
                     <div class="wc-footer">
@@ -308,7 +308,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
                 <div class="why-choose-card">
                     <img src="assets/images/free-admission_7.png" alt="" class="">
                     <div class="wc-footer">
@@ -318,7 +318,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
                 <div class="why-choose-card">
                     <img src="assets/images/free-admission_8.png" alt="" class="">
                     <div class="wc-footer">
@@ -328,7 +328,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
                 <div class="why-choose-card">
                     <img src="assets/images/free-admission_9.png" alt="" class="">
                     <div class="wc-footer">
@@ -349,34 +349,34 @@
         </div>
 
         <div class="coaching-classes-container">
-            <div class="row gx-5">
-                <div class="col-lg-3">
+            <div class="row gx-1 gx-md-5">
+                <div class="col-lg-3 col-md-4 col-6">
                     <img src="assets/images/ielts.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-6">
                     <img src="assets/images/coching_classes_2.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-6">
                     <img src="assets/images/coching_classes_3.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-6">
                     <img src="assets/images/coching_classes_4.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-6">
                     <img src="assets/images/coching_classes_5.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-6">
                     <img src="assets/images/coching_classes_6.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-6">
                     <img src="assets/images/coching_classes_7.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-6">
                     <img src="assets/images/coching_classes_8.png" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="text-center mt-5">
-                <button class="get-started-btn w-25"
+                <button class="get-started-btn"
                     onclick="window.location.href='coaching.php#samyama-coaching'">Click here to learn more</button>
             </div>
         </div>
@@ -393,8 +393,8 @@
                 the essential information and resources you need.</p>
         </div>
 
-        <div class="row gy-4">
-            <div class="col-lg-4">
+        <div class="row g-md-4 g-2">
+            <div class="col-lg-4 col-6">
                 <div class="why-choose-card">
                     <img src="assets/images/free-admission (2).png" alt="" class="">
                     <div class="wc-footer">
@@ -405,7 +405,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
                 <div class="why-choose-card">
                     <img src="assets/images/free-admission-(3).png" alt="" class="">
                     <div class="wc-footer">
@@ -416,7 +416,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
                 <div class="why-choose-card">
                     <img src="assets\images\free-admission (4).png" alt="" class="">
                     <div class="wc-footer">
@@ -428,7 +428,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
                 <div class="why-choose-card">
                     <img src="assets\images\free-admission (5).png" alt="" class="">
                     <div class="wc-footer">
@@ -439,7 +439,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
                 <div class="why-choose-card">
                     <img src="assets/images/free-admission (6).png" alt="" class="">
                     <div class="wc-footer">
@@ -450,7 +450,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
                 <div class="why-choose-card">
                     <img src="assets\images\free-admission (7).png" alt="" class="">
                     <div class="wc-footer">

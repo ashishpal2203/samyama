@@ -23,14 +23,16 @@
 
 
 
-<section id="contact-us">
+<section id="contact-us" class="partner-w-us">
     <div class="container">
         <div class="contact-us-container">
             <div class="section-title">
                 <h2><span>Partner</span> With Us</h2>
-                <p class="mb-2 text-center">Thank you for considering Samyama for your visa, study abroad and
-                    immigration needs. We're here to assist you every step of the way. <br> Feel free to reach out to us
-                    via email or phone, or simply fill out the contact form.</p>
+                <p class="mb-2 text-center">Welcome to the Partner With Us page at Samyama! <br>
+We are thrilled
+to explore collaboration opportunities with companies and
+universities that share our commitment to making a positive
+impact.</p>
             </div>
 
             <div class="contact-us-card">

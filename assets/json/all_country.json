@@ -114,7 +114,7 @@
   {"name": "Kazakhstan", "code": "KZ"}, 
   {"name": "Kenya", "code": "KE"}, 
   {"name": "Kiribati", "code": "KI"}, 
-  {"name": "Korea, Democratic People'S Republic of", "code": "KP"}, 
+  {"name": "Korea, Democratic People's Republic of", "code": "KP"}, 
   {"name": "Korea, Republic of", "code": "KR"}, 
   {"name": "Kuwait", "code": "KW"}, 
   {"name": "Kyrgyzstan", "code": "KG"}, 
@@ -239,7 +239,6 @@
   {"name": "Virgin Islands, British", "code": "VG"}, 
   {"name": "Virgin Islands, U.S.", "code": "VI"}, 
   {"name": "Wallis and Futuna", "code": "WF"}, 
-  {"name": "Western Sahara", "code": "EH"}, 
   {"name": "Yemen", "code": "YE"}, 
   {"name": "Zambia", "code": "ZM"}, 
   {"name": "Zimbabwe", "code": "ZW"} 

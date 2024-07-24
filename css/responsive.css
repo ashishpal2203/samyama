@@ -11,11 +11,40 @@
       margin-bottom: .7rem!important;
     }
 }
+
 @media screen and (max-width: 992px) {
+  .contact-us-card .row:first-of-type{
+    gap: 3rem;
+  }
+  #about-sec .c1-content {
+    gap: 3rem;
+  }
+
+  .reverse-column{
+    flex-direction: column-reverse;
+  }
+
+  #terms-and-condition .term-box{
+    top: 106px;
+  }
+
+  .main-header .dekstop-menu{
+    display: none;
+  }
+  .main-header .header{
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-header .mobile-menu-btn{
+    display: block;
+  }
+  .main-header .mobile-menu-btn img{
+    width: 40px;
+  }
   .line{
     left: 5%;
-    top: 13%;
-    height: 1202px;
+    top: 12%;
+    height: 1590px;
   }
   .section-point{
     height: 368px;
@@ -32,16 +61,9 @@
   .simple-image-content .simple-step-lable{
     position: relative;
   }
-  /* .simple-image-content .simple-step-lable::before{
-    content: "";
-    width: 10px;
-    height: 10px;
-    background-color: var(--primary);
-    border-radius: 50%;
-    position: absolute;
-    top: 8px;
-    left: -36px;
-  } */
+  #our-ser-section .service-card.blue::after{
+    display: none;
+  }
   #hero-section .hero-container{
     flex-direction: column;
     gap: 2rem;
@@ -52,7 +74,7 @@
   #hero-section .right {
     width: 50%;
     margin: auto;
-    height: 90vh;
+    height: 460px;
 }
 .free-cunsult-container{
   width: 50%;
@@ -63,14 +85,352 @@
 #end-to-end-section .end-to-end-svg-box{
   width: 75%;
 }
+.carousel-indicators{
+  right: 0;
+}
+#travel-visas .custom-width{
+  flex-direction: column;
+}
+#travel-visas .travel-title{
+  text-align: center;
+  padding-left: 0;
+}
+#travel-visas .travel-title::before{
+  display: none;
+}
+.section-title{
+  width: 100%!important;
+}
+#popular-s-desti .popular-d-card-container{
+  width: 100%;
+}
+.preheader .right{
+  display: none!important;
+}
+.preheader .left{
+  width: 100%;
+  justify-content: space-between;
+}
+.h-email{
+  display: none!important;
+}
+#veraity-coaching .get-started-btn{
+  width: 50%;
+}
+
 }
 
 @media screen and (max-width: 768px){
+  :root {
+    --heading1: 24px;
+    --title: 18px;
+  }
+  .contact-us-container{
+    width: 100%;
+  }
+  #contact-us .cunsult-form{
+    height: 438px;
+  }
+  .partner-w-us .cunsult-form{
+    height: 495px!important;
+  }
+  .footer-menu-container .quick-links-label{
+    font-weight: 500;
+    font-size: var(--medium);
+  }
+  #terms-and-condition .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: none;
+    background: none;
+    color: var(--primary);
+    padding: .5rem;
+    position: relative;
+  }
+  #terms-and-condition .nav-pills .nav-link.active::before{
+    content: "";
+    width: calc(100% - 1rem);
+    height: 2px;
+    border-radius: 10px;
+    background-color: var(--primary);
+    position: absolute;
+    bottom: 4px;
+    left: .5rem;
+  }
+  #terms-and-condition .nav-pills .nav-link{
+    padding: .5rem;
+  }
+  #terms-and-condition .term-box{
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+    width: initial;
+    justify-content: center;
+  }
+  .section-image1 img{
+    width: 100%;
+  }
   .filp-card-main{
     width: 100%;
   }
   .footer-menu-bottom{
     flex-direction: column;
     gap: 1rem;
+  }
+  #end-to-end-section::before{
+    width: 90px;
+    height: 107px;
+  }
+  #end-to-end-section::after{
+    width: 90px;
+    height: 107px;
+  }
+  #end-to-end-section .end-to-end-svg-box{
+    width: 100%;
+  }
+  .review-card .review-body p{
+    text-align: justify;
+  }
+  #social-media-review::before{
+    display: none;
+  }
+  #social-media-review::after{
+    display: none;
+  }
+  .slider{
+    height: 85px;
+  }
+  .slider .slide{
+    width: 200px;
+    height: 85px;
+  }
+  .section-title h2{
+    text-align: center;
+  }
+  #veraity-coaching .get-started-btn{
+    width: 75%;
+  }
+  #samyama-coaching .coaching-nav {
+    padding: 6px;
+    row-gap: .7rem;
+    gap: 1rem;
+    justify-content: center;
+    border-radius: 0;
+}
+#samyama-coaching nav{
+ overflow: auto;
+}
+#samyama-coaching .coaching-nav{
+  position: sticky;
+  top: 107px;
+  left: 0;
+  padding: 12px 12px;
+}
+}
+@media screen and (max-width: 576px){
+  #footer-menu-content .footer-menu-bottom-right{
+    gap: initial;
+  }
+  .contact-us-card {
+    padding: 1rem;
+  }
+  .simple-step-image {
+    height: 166px;
+  }
+  .card-c{
+    display: block;
+  }
+  #copyright .container-fluid{
+    padding: 0;
+  }
+  .hr_line{
+    height: .5px;
+    background-color: black;
+    width: 100%;
+  }
+  #copyright .copyright-header p{
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+  }
+  #footer-menu-content{
+    border-bottom: none;
+  }
+  #footer-menu-content .footer-menu-bottom-right{
+    justify-content: space-between;
+  }
+  #copyright .copyright-header{
+    flex-direction: column-reverse !important;
+    gap: .5rem;
+  }
+  #copyright .copyright-header span{
+    display: none;
+  }
+  .mobile-social{
+    display: flex;
+    gap: 20%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+  }
+  .mobile-social .card-c{
+    width: 40%;
+  }
+  .mobile-social .socialc{
+   width: 40%;
+   justify-content: space-between;
+  }
+  .mobile-social a img{
+    width: 13px;
+  }
+  .payment-options{
+    display: none!important;
+  }
+  #samyama-coaching .coaching-nav{
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+  }
+  #about-sec .c1-content{
+    padding: 2rem 0;
+  }
+  #about-sec .c1-image{
+    width: 100%;
+  }
+  #hero-section .right{
+    display: none;
+  }
+  .laptop-banner{
+    display: none;
+  }
+  .mobile-banner{
+    display: block;
+  }
+  .mobile-leadbox{
+    display: block;
+  }
+  #freeCunsult .modal-sm-custom {
+    width: 95%;
+  }
+  #freeCunsult .cunsult-form{
+    height: 500px;
+  }
+  #hero-section .container-fluid{
+    padding: 0;
+  }
+  #hero-section{
+    margin-top: 0;
+  }
+  #our-ser-section .service-card::before{
+    display: none;
+  }
+  #end-to-end-section .end-to-end-svg-box .svg-man-box{
+    width: 210px;
+  }
+  #end-to-end-section::before {
+    width: 45px;
+    height: 56px;
+    top: 1px;
+    left: 1px;
+}
+#end-to-end-section::after {
+  width: 45px;
+    height: 56px;
+    bottom: 1px;
+    right: 1px;
+}
+#end-to-end-section .end-to-end-svg-box .svg-man-box .end-to-end-bulb{
+  width: 54px;
+}
+#hero-section .right{
+  width: 100%;
+}
+.flip-card{
+  height: 206px;
+}
+.section-title p {
+  text-align: center;
+}
+#footer-menu-content .back-to-home{
+  top: 350px;
+  width: 67px;
+  --bs-gutter-x: 1.5rem;
+  right: calc(var(--bs-gutter-x)* .5);
+}
+.copyright-header .follow_us{
+  width: 100%;
+}
+
+#travel-visas .custom-width {
+  width: 95%;
+}
+.why-choose-samyama .why-choose-card {
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.20);
+  border-radius: 5px;
+  padding: .4rem;
+}
+.why-choose-samyama .why-choose-card .wc-footer {
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0;
+  height: 105px;
+}
+.s-coaching-card .card-body .advantage-row{
+  gap: .3rem;
+}
+.s-coaching-card .card-body .advantage-row img{
+  width: 15px;
+}
+.s-coaching-card .card-body{
+  padding: .5rem;
+}
+}
+
+
+
+@media screen and (max-width: 486px){
+  :root {
+    --heading1: 28px;
+    --title: 20px;
+    --large: 18px;
+    --medium: 11px;
+    --small: 10px;
+    --x-small: 9px;
+  }
+  .flip-card-back{
+    padding: 5px;
+  }
+  .flip-card .sevices-list li{
+    padding-left: 0;
+  }
+  .flip-card-front .popular-tag-box {
+    width: 48px;
+  }
+  .flip-card-front .popular-tag-box .swap-icon img{
+    width: 40%;
+  }
+  .flip-card-front .popular-tag-box .popular-tag {
+    font-size: 8px;
+  }
+  #our-ser-section .service-card .card-body {
+    padding: 5px;
+  }
+  #our-ser-section .service-card .card-header{
+    text-align: center;
+    padding: 5px;
+  }
+  #our-ser-section .service-card .card-header img{
+    max-width: 67px;
+  }
+  #our-ser-section .service-card .card-body p{
+    margin-bottom: 0;
+  }
+  #our-ser-section .service-card {
+    height: 275px;
+  }
+  #five-star-service .five-star-service{
+    padding: 10px 79px 10px 33px;
+    height: 105px;
+  }
+  #five-star-service .five-star-service-image{
+    width: 110px;
+    height: 110px;
   }
 }

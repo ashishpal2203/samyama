@@ -20,19 +20,24 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="assets/images/HERO-BANNER1.png" class="d-block w-100" alt="...">
+                            <img src="assets/images/HERO-BANNER1.png" class="laptop-banner w-100" alt="...">
+                            <img src="assets/images/mobile-banner-1.jpeg" class="mobile-banner w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/HERO-BANNER2.png" class="d-block w-100" alt="...">
+                            <img src="assets/images/HERO-BANNER2.png" class="laptop-banner w-100" alt="...">
+                            <img src="assets/images/mobile-banner-1.jpeg" class="mobile-banner w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/HERO-BANNER3.png" class="d-block w-100" alt="...">
+                            <img src="assets/images/HERO-BANNER3.png" class="laptop-banner w-100" alt="...">
+                            <img src="assets/images/mobile-banner-1.jpeg" class="mobile-banner w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/HERO-BANNER4.png" class="d-block w-100" alt="...">
+                            <img src="assets/images/HERO-BANNER4.png" class="laptop-banner w-100" alt="...">
+                            <img src="assets/images/mobile-banner-1.jpeg" class="mobile-banner w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/HERO-BANNER5.png" class="d-block w-100" alt="...">
+                            <img src="assets/images/HERO-BANNER5.png" class="laptop-banner w-100" alt="...">
+                            <img src="assets/images/mobile-banner-1.jpeg" class="mobile-banner w-100" alt="...">
                         </div>
                     </div>
                     <!-- <button class="carousel-control-prev" type="button"
@@ -51,6 +56,9 @@
                 <?php require 'components/cunsult-form.php'; ?>
             </div>
         </div>
+        <div class="mobile-leadbox container">
+            <button class="" type="button" data-bs-toggle="modal" data-bs-target="#freeCunsult">Get Free Consultation</button>
+        </div>
     </div>
 </section>
 
@@ -62,8 +70,8 @@
             <h2>OUR <span>POPULAR</span> DESTINATIONS</h2>
         </div>
         <div class="filp-card-main">
-            <div class="row gy-4">
-                <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="row gy-2 gx-2 gx-md-4 gy-md-4">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-6">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -93,7 +101,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-6">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -122,7 +130,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-6">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -151,7 +159,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-6">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -178,7 +186,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-6">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -206,7 +214,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-6">
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -246,8 +254,8 @@
         <div class="section-title">
             <h2>OUR <span>SERVICES</span></h2>
         </div>
-        <div class="row gy-sm-4">
-            <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="row gy-2 gx-2 gx-md-4 gy-md-4">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div class="service-card service-card red">
                     <div class="card-header ">
                         <img src="assets/svg-icons/travel-visa.svg" alt="">
@@ -263,7 +271,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div class="service-card green">
                     <div class="card-header">
                         <img src="assets/svg-icons/study-abroad.svg" alt="">
@@ -278,7 +286,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div class="service-card yellow">
                     <div class="card-header">
                         <img src="assets/svg-icons/coaching.svg" alt="">
@@ -295,7 +303,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div class="service-card blue">
                     <div class="card-header">
                         <img src="assets/svg-icons/passport-OCI.svg" alt="">
@@ -422,7 +430,7 @@
                 <span class="line_inner">
                     <img src="assets/images/Airplane-01.png" alt="" />
                 </span>
-                
+
             </span>
 
             <div class="gray-bg">
@@ -664,8 +672,8 @@
             <h2><span>Social Media</span> REVIEWS</h2>
         </div>
         <div class="review-card-container">
-            <div class="row gy-3 gx-3">
-                <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="row g-md-3 g-2">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">
@@ -680,7 +688,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">
@@ -696,7 +704,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">
@@ -711,7 +719,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">
@@ -725,7 +733,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">
@@ -741,7 +749,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">
@@ -757,7 +765,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">
@@ -771,7 +779,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="review-card">
                         <div class="review-header d-flex justify-content-between align-items-center">
                             <div class="d-flex align-items-center gap-2 user">

@@ -20,7 +20,7 @@
     <div class="modal fade" id="Feedback" tabindex="-1" aria-labelledby="FeedbackLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 <div class="modal-body">
                     <div class="container">
                         <div class="section-title">
@@ -36,7 +36,8 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <label for="" class="feFormLable w-100">Contact Number</label>
-                                    <input type="text" class="feFormEnput w-100" placeholder="Enter your contact number">
+                                    <input type="text" class="feFormEnput w-100"
+                                        placeholder="Enter your contact number">
                                 </div>
                                 <div class="col-lg-12">
                                     <label for="" class="feFormLable w-100">Email</label>
@@ -44,7 +45,8 @@
                                 </div>
                                 <div class="col-lg-12">
                                     <label for="" class="feFormLable w-100">Message</label>
-                                    <textarea class="feFormEnput w-100" placeholder="Enter your message" rows="6" aria-label="With textarea"></textarea>
+                                    <textarea class="feFormEnput w-100" placeholder="Enter your message" rows="6"
+                                        aria-label="With textarea"></textarea>
                                 </div>
                             </div>
                             <div class="feedback-btns">
@@ -86,19 +88,23 @@
         </div>
         <div class="container-fluid">
             <div class="footer-menu-container">
-                <p class="text-center quick-links-label">Quick Links</p>
-                <div class="d-flex justify-content-center gap-4">
-                    <a href="travel-visa-imigration.php" class="quick-link">Travel Visas & Immigration</a>
-                    <a href="study-abrod.php" class="quick-link">Study Abroad</a>
-                    <a href="coaching.php" class="quick-link">Coaching</a>
-                    <a href="passport-oci.php" class="quick-link">Passport & OCI</a>
+                <div class="">
+                    <p class="text-center quick-links-label">Quick Links</p>
+                    <div class="d-flex justify-content-center gap-4 flex-wrap">
+                        <a href="travel-visa-imigration.php" class="quick-link">Travel Visas & Immigration</a>
+                        <a href="study-abrod.php" class="quick-link">Study Abroad</a>
+                        <a href="coaching.php" class="quick-link">Coaching</a>
+                        <a href="passport-oci.php" class="quick-link">Passport & OCI</a>
+                    </div>
                 </div>
-                <p class="text-center quick-links-label mt-5">Other Links</p>
-                <div class="d-flex justify-content-center gap-4">
-                    <a href="term-and-condition.php?terms" class="quick-link">Terms & Conditions</a>
-                    <a href="term-and-condition.php?privacy" class="quick-link">Privacy Policy</a>
-                    <a href="term-and-condition.php?refund" class="quick-link">Refund & Cancellation Policy</a>
-                    <!--<a href="#" class="quick-link">Passport & OCI</a>-->
+                <div class="">
+                    <p class="text-center quick-links-label">Other Links</p>
+                    <div class="d-flex justify-content-center flex-wrap gap-4">
+                        <a href="term-and-condition.php?terms" class="quick-link">Terms & Conditions</a>
+                        <a href="term-and-condition.php?privacy" class="quick-link">Privacy Policy</a>
+                        <a href="term-and-condition.php?refund" class="quick-link">Refund & Cancellation Policy</a>
+                        <!--<a href="#" class="quick-link">Passport & OCI</a>-->
+                    </div>
                 </div>
             </div>
             <div class="footer-menu-bottom d-flex justify-content-between">
@@ -121,24 +127,30 @@
         <div class="container-fluid">
             <div class="copyright-header">
                 <p>Copyright Ⓒ 2024, Samyama. All rights reserved.</p>
-                <div class="d-flex align-items-center gap-4">
-                    <span>Follow us:</span>
-                    <a href="https://maps.app.goo.gl/tV2Khj6Zgz5tN3WS6" target="_blank"> <img
-                            src="assets/svg-icons/google-icon.svg" alt=""></a>
-                    <a href="https://wa.me/918779346858" target="_blank"> <img src="assets/svg-icons/whatsapp-icon.svg"
-                            alt=""></a>
-                    <a href="https://www.facebook.com/samyamaindia" target="_blank"> <img
-                            src="assets/svg-icons/facebook-icon.svg" alt=""></a>
-                    <a href="https://www.instagram.com/samyamaindia" target="_blank"><img
-                            src="assets/svg-icons/instagram-icon.svg" alt=""></a>
-                    <a href="https://www.youtube.com/@samyamaindia" target="_blank"> <img
-                            src="assets/svg-icons/youtube-icon.svg" alt=""></a>
-                    <a href="https://x.com/samyamaindia" target="_blank"> <img src="assets/svg-icons/x-icon.svg"
-                            alt=""></a>
-                    <a href="https://www.linkedin.com/company/samyama-india/" target="_blank"> <img
-                            src="assets/svg-icons/linkedin-icon.svg" alt=""></a>
-                    <a href="https://in.pinterest.com/samyamaindia/" target="_blank"> <img
-                            src="assets/svg-icons/pintrest-icon.svg" alt=""></a>
+                <div class="hr_line"></div>
+                <div class="mobile-social">
+                    <div class="card-c">
+                        <img src="assets/images/card-logo-icons.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="socialc d-flex align-items-center gap-0 gap-md-4">
+                        <span class="follow_us">Follow us:</span>
+                        <a href="https://maps.app.goo.gl/tV2Khj6Zgz5tN3WS6" target="_blank"> <img
+                                src="assets/svg-icons/google-icon.svg" alt=""></a>
+                        <a href="https://wa.me/918779346858" target="_blank"> <img
+                                src="assets/svg-icons/whatsapp-icon.svg" alt=""></a>
+                        <a href="https://www.facebook.com/samyamaindia" target="_blank"> <img
+                                src="assets/svg-icons/facebook-icon.svg" alt=""></a>
+                        <a href="https://www.instagram.com/samyamaindia" target="_blank"><img
+                                src="assets/svg-icons/instagram-icon.svg" alt=""></a>
+                        <a href="https://www.youtube.com/@samyamaindia" target="_blank"> <img
+                                src="assets/svg-icons/youtube-icon.svg" alt=""></a>
+                        <a href="https://x.com/samyamaindia" target="_blank"> <img src="assets/svg-icons/x-icon.svg"
+                                alt=""></a>
+                        <a href="https://www.linkedin.com/company/samyama-india/" target="_blank"> <img
+                                src="assets/svg-icons/linkedin-icon.svg" alt=""></a>
+                        <a href="https://in.pinterest.com/samyamaindia/" target="_blank"> <img
+                                src="assets/svg-icons/pintrest-icon.svg" alt=""></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -156,11 +168,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
 <script>
-   
-   
+
+
 
 </script>
 
@@ -193,7 +205,7 @@
 
 
 
-  const travel = `<div class="mb-1 d-flex gap-2">
+    const travel = `<div class="mb-1 d-flex gap-2">
       <div class="w-100">
           <select name="" id="country_dropdown" class="form-select w-100">
               <option value="">Destination</option>

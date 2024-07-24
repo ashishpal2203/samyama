@@ -3,7 +3,7 @@
 <section id="hero-section">
     <img src="assets/gifs/down-arrow-gif.gif" alt="" class="down-arrow-gif">
     <div class="container-fluid">
-        <div class="d-flex gap-2">
+        <div class="hero-container">
             <div class="left">
                 <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
@@ -14,16 +14,6 @@
 
 
                     </div>
-                    <!-- <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button> -->
                 </div>
             </div>
             <div class="right">
@@ -65,7 +55,8 @@
                                 whichever
                                 comes first.
                             </p>
-                            <p><b>2. Diplomatic Passport:</b> This passport is exclusively issued to designated members authorised by the Government of India.</p>
+                            <p><b>2. Diplomatic Passport:</b> This passport is exclusively issued to designated members
+                                authorised by the Government of India.</p>
                             <p><b>3. Official Passport:</b> Designated Government servants or individuals specifically
                                 authorised by the Government for official assignments abroad receive this type of
                                 passport.</p>
@@ -188,7 +179,10 @@
                             <p>The Regular Service fees (mentioned above) are payable online prior booking the
                                 submission appointment. Online passport fee payment and booking an appointment are
                                 taken care of by Samyama Team.</p>
-                            <p>Tatkaal Service fee is an additional fee (to the above-mentioned fees) of Rs. 2,000/- payable directly by the applicant at the Passport Office. It is payable in cash, upon Passport Officer’s confirmation that the applicant is eligible to avail Tatkaal service.</p>
+                            <p>Tatkaal Service fee is an additional fee (to the above-mentioned fees) of Rs. 2,000/-
+                                payable directly by the applicant at the Passport Office. It is payable in cash, upon
+                                Passport Officer’s confirmation that the applicant is eligible to avail Tatkaal service.
+                            </p>
                             <p>Leave the complexities to us – simply fill out our contact form or give us a call, and
                                 our
                                 team will guide you through every step of the passport acquisition process. Your journey
@@ -208,14 +202,17 @@
                         data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
                             <ol>
-                                <li><b>Initial Consultation:</b> Receive expert guidance on the necessary documents required for your passport application.</li>
+                                <li><b>Initial Consultation:</b> Receive expert guidance on the necessary documents
+                                    required for your passport application.</li>
                                 <li><b>Payment:</b> We will assist you in smoothly navigating the payment process to us.
                                 </li>
-                                <li><b>Gathering Essential Information:</b> Once payment is made, you will be guided through
+                                <li><b>Gathering Essential Information:</b> Once payment is made, you will be guided
+                                    through
                                     filling out a questionnaire, which enables us to complete the application form
                                     online.
                                 </li>
-                                <li><b>Payment and Appointment Booking:</b> Once we complete your application form, we will
+                                <li><b>Payment and Appointment Booking:</b> Once we complete your application form, we
+                                    will
                                     facilitate the online payment process and book an appointment for you based on the
                                     chosen date and location.
                                 </li>
@@ -223,7 +220,8 @@
                                     required
                                     documents to Passport Office for processing.
                                 </li>
-                                <li><b>Application Tracking:</b> Let our agents monitor the progress of your application for
+                                <li><b>Application Tracking:</b> Let our agents monitor the progress of your application
+                                    for
                                     you.</li>
                                 <li><b>Police Verification:</b> This step involves the police visiting your home for
                                     verification, while
@@ -255,16 +253,16 @@
 
 
         <div class="QAdropdown-box">
-            <div class="accordion accordion-flush custom-width" id="accordionFlushExample1">
+            <div class="accordion accordion-flush custom-width" id="accordionFlushExamples">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne1">
                             Who is OCI For?
                         </button>
                     </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                        data-bs-parent="#accordionFlushExample1">
+                    <div id="flush-collapseOne1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExamples">
                         <div class="accordion-body">
                             <p>This document is issued for:
                             </p>
@@ -284,29 +282,30 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            data-bs-target="#flush-collapseTwo2" aria-expanded="false" aria-controls="flush-collapseTwo2">
                             What is OCI Card validity?
                         </button>
                     </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                        data-bs-parent="#accordionFlushExample1">
-                        <div class="accordion-body">OCI Card is valid for life. However, new OCI has got to be re-issued each time a new
-passport is issued up to the completion of 20 years of age and once after completion of 50
-years of age. Re-issuance of OCI is not mandatory each time a new passport is issued
-between 21-50 years of age. However, if the applicant wishes to obtain new OCI, he/she can
-apply for the same.</div>
+                    <div id="flush-collapseTwo2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExamples">
+                        <div class="accordion-body">OCI Card is valid for life. However, new OCI has got to be re-issued
+                            each time a new
+                            passport is issued up to the completion of 20 years of age and once after completion of 50
+                            years of age. Re-issuance of OCI is not mandatory each time a new passport is issued
+                            between 21-50 years of age. However, if the applicant wishes to obtain new OCI, he/she can
+                            apply for the same.</div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseThree" aria-expanded="false"
-                            aria-controls="flush-collapseThree">
+                            data-bs-target="#flush-collapseThree3" aria-expanded="false"
+                            aria-controls="flush-collapseThree3">
                             What are the Indian Government fees for OCI Application?
                         </button>
                     </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample1">
+                    <div id="flush-collapseThree3" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExamples">
                         <div class="accordion-body">
                             <p>The fees will differ depending on circumstances and type of application.
                             </p>
@@ -347,13 +346,13 @@ apply for the same.</div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingfour1">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapsefour1" aria-expanded="false"
-                            aria-controls="flush-collapsefour1">
+                            data-bs-target="#flush-collapsefour4" aria-expanded="false"
+                            aria-controls="flush-collapsefour4">
                             What is the OCI application processing time?
                         </button>
                     </h2>
-                    <div id="flush-collapsefour1" class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingfour1" data-bs-parent="#accordionFlushExample1">
+                    <div id="flush-collapsefour4" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingfour1" data-bs-parent="#accordionFlushExamples">
                         <div class="accordion-body">
                             <p>Minimum 1 month from the time of submission of application.</p>
                             <!-- <p>Take the first step towards a lifetime of exploration and connection. Reach out to our
@@ -365,13 +364,13 @@ apply for the same.</div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingfour">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapsefour" aria-expanded="false"
-                            aria-controls="flush-collapsefour">
+                            data-bs-target="#flush-collapsefour41" aria-expanded="false"
+                            aria-controls="flush-collapsefour41">
                             What is the OCI application process?
                         </button>
                     </h2>
-                    <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour"
-                        data-bs-parent="#accordionFlushExample1">
+                    <div id="flush-collapsefour41" class="accordion-collapse collapse" aria-labelledby="flush-headingfour"
+                        data-bs-parent="#accordionFlushExamples">
                         <div class="accordion-body">
                             <p>Applying for OCI is a straightforward process:
                             </p>
