@@ -15,7 +15,8 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="assets/images/HERO-BANNER4.png" class="d-block w-100" alt="...">
+                            <img src="assets/images/HERO-BANNER4.png" class="laptop-banner w-100" alt="...">
+                            <img src="assets/images/mobile-banner-4.jpg" class="mobile-banner w-100" alt="...">
                         </div>
                     </div>
 

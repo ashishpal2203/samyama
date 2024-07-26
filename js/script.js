@@ -48,6 +48,19 @@ $(document).ready(function () {
   });
 });
 
+$('.owl-carousel2').owlCarousel({
+  items: 4,
+  margin: 20,
+  itemsDesktop: [1199, 3],
+  itemsDesktopSmall: [980, 2],
+  itemsMobile: [600, 1],
+  navigation: true,
+  navigationText: ["", ""],
+  pagination: true,
+  autoPlay: false,
+  autoPlayTimeout: 2000, // Set slide duration to 2 seconds
+});
+
 // flight-scroll animation
 // window.addEventListener("scroll", (e) => {
 //     let lineTopBound = document
@@ -101,7 +114,7 @@ window.addEventListener("scroll", () => {
 const myCarouselElement = document.querySelector('#carouselExampleIndicators')
 
 const carousel = new bootstrap.Carousel(myCarouselElement, {
-  interval: 2000,
+  interval: 2500,
   touch: false,
   pause: false
 })

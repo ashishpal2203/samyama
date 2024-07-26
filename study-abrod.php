@@ -11,7 +11,8 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="assets/images/HERO-BANNER3.png" class="d-block w-100" alt="...">
+                            <img src="assets/images/HERO-BANNER3.png" class="laptop-banner w-100" alt="...">
+                            <img src="assets/images/mobile-banner-3.jpg" class="mobile-banner w-100" alt="...">
                         </div>
                     </div>
 
@@ -233,7 +234,8 @@
 
 <section id="discover-course-banner">
     <div class="container">
-        <img src="assets/images/discover-the-courses.png" alt="" class="img-fluid">
+        <img src="assets/images/discover-the-courses.png" alt="" class="laptop-banner img-fluid">
+        <img src="assets/images/discover-the-courses.jpg" class="mobile-banner img-fluid" alt="...">
     </div>
 </section>
 

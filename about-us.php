@@ -4,7 +4,8 @@
     <img src="assets/gifs/down-arrow-gif.gif" alt="" class="down-arrow-gif">
     <div class="container-fluid">
         <div class="">
-            <img src="assets/images/About-Us-banner.png" class="d-block w-100" alt="...">
+            <img src="assets/images/About-Us-banner.png" class="laptop-banner w-100" alt="...">
+            <img src="assets/images/About-Us-banner.jpg" class="mobile-banner w-100" alt="...">
         </div>
     </div>
 </section>
