@@ -326,6 +326,17 @@ header{
   font-size: var(--small);
   font-weight: 600;
   transition: all ease .4s;
+  cursor: pointer;
+}
+.intl-tel-input {
+  width: 100%;
+}
+.cunsult-form .buttonBox button:disabled{
+  background-color: rgb(209, 209, 209);
+  cursor: default;
+}
+.cunsult-form .buttonBox button:disabled:hover{
+  color: #fff;
 }
 .mobile-leadbox button{
   width: 100%;
@@ -1047,7 +1058,9 @@ text-decoration: none;
   margin-bottom: 0;
   font-size: var(--x-small);
 }
-
+.partner-w-us .cunsult-form{
+  padding-bottom: 5rem;
+}
 #certificates-section{
   background-color: var(--white);
 }

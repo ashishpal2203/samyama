@@ -1,7 +1,6 @@
 
 
 
-
 // playing youtube short
 function playVideo(element) {
   // Get the video URL from the data-video-link attribute
@@ -36,6 +35,7 @@ var animation = lottie.loadAnimation({
 
 // owl-carausal
 $(document).ready(function () {
+
   $("#news-slider").owlCarousel({
     items: 4,
     itemsDesktop: [1199, 3],
@@ -57,28 +57,11 @@ $('.owl-carousel2').owlCarousel({
   navigation: true,
   navigationText: ["", ""],
   pagination: true,
-  autoPlay: false,
+  autoPlay: true,
   autoPlayTimeout: 2000, // Set slide duration to 2 seconds
 });
 
-// flight-scroll animation
-// window.addEventListener("scroll", (e) => {
-//     let lineTopBound = document
-//         .querySelector(".line")
-//         .getBoundingClientRect().top;
-//     let lineBottomBound = document
-//         .querySelector(".line")
-//         .getBoundingClientRect().bottom;
 
-//     let PostiveInt = Math.abs(lineTopBound);
-//     let TotalHeight = document.querySelector(".line").offsetHeight;
-//     let Percentage = (PostiveInt / TotalHeight) * 100;
-
-//     if (lineBottomBound > 160) {
-//         document.querySelector(".line_inner").style.height = `${Percentage + 2
-//             }%`;
-//     }
-// });
 
 
 

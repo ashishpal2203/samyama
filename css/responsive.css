@@ -5,7 +5,7 @@
       --large: 18px;
       --medium: 14px;
       --small: 12px;
-      --x-small: 10px;
+      --x-small: 12px;
     }
     .cunsult-form .mb-3{
       margin-bottom: .7rem!important;
@@ -129,11 +129,9 @@
     width: 100%;
   }
   #contact-us .cunsult-form{
-    height: 438px;
+    height: 545px;
   }
-  .partner-w-us .cunsult-form{
-    height: 495px!important;
-  }
+
   .footer-menu-container .quick-links-label{
     font-weight: 500;
     font-size: var(--medium);
@@ -423,7 +421,7 @@
   box-shadow: none;
   padding: 0;
   border-radius: 0;
-  height: 105px;
+  height: 172px;
 }
 .s-coaching-card .card-body .advantage-row{
   gap: .3rem;
@@ -433,6 +431,7 @@
 }
 .s-coaching-card .card-body{
   padding: .5rem;
+  height: 352px;
 }
 }
 
@@ -446,6 +445,18 @@
     --medium: 16px;
     --small: 14px;
     --x-small: 14px;
+  }
+  #samyama-coaching-classes .s-coaching-card .card-header{
+    height: 100px;
+    text-align: center;
+  }
+  .s-coaching-card.card4 .card-header{
+ background-color: #009ada;
+ border-top-left-radius: 7px;
+ border-top-right-radius: 7px;
+  }
+  #samyama-coaching-classes .s-coaching-card .card-header img{
+    height: 100%;
   }
   .flip-card-back{
     padding: 5px;
@@ -476,6 +487,6 @@
     margin-bottom: 0;
   }
   #our-ser-section .service-card {
-    height: 275px;
+    height: 316px;
   }
 }

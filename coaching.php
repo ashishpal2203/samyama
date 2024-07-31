@@ -1330,7 +1330,7 @@
                 discuss the most suitable classes for your needs.</p>
         </div>
         <div class="row md-gy-5 g-2">
-            <div class="col-lg-3 col-md-4 col-6">
+            <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card1">
                     <div class="card-header">
                         <img src="assets/images/ielts-card-logo.png" alt="" class="img-fluid">
@@ -1379,7 +1379,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-6">
+            <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card2">
                     <div class="card-header">
                         <img src="assets/images/toefl-card-logo.png" alt="" class=" img-fluid">
@@ -1426,7 +1426,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-6">
+            <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card3">
                     <div class="card-header">
                         <img src="assets/images/pearson-card-logo.png" alt="" class="img-fluid">
@@ -1473,7 +1473,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-6">
+            <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card4">
                     <div class="card-header">
                         <img src="assets/images/sat-card-logo.png" alt="" class="img-fluid">
@@ -1519,7 +1519,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-6">
+            <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card5">
                     <div class="card-header">
                         <img src="assets/images/gre-card-logo.png" alt="" class="img-fluid">
@@ -1565,7 +1565,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-6">
+            <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card6">
                     <div class="card-header">
                         <img src="assets/images/gmat-card-logo.png" alt="" class="img-fluid">
@@ -1611,7 +1611,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-6">
+            <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card7">
                     <div class="card-header">
                         <img src="assets/images/duolinge-card-logo.png" alt="" class="img-fluid">
@@ -1658,7 +1658,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-6">
+            <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card8">
                     <div class="card-header">
                         <img src="assets/images/german-card-logo.png" alt="" class="img-fluid">
