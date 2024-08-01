@@ -1,7 +1,6 @@
 
 
 
-
 // playing youtube short
 function playVideo(element) {
   // Get the video URL from the data-video-link attribute
@@ -36,6 +35,7 @@ var animation = lottie.loadAnimation({
 
 // owl-carausal
 $(document).ready(function () {
+
   $("#news-slider").owlCarousel({
     items: 4,
     itemsDesktop: [1199, 3],
@@ -48,24 +48,20 @@ $(document).ready(function () {
   });
 });
 
-// flight-scroll animation
-// window.addEventListener("scroll", (e) => {
-//     let lineTopBound = document
-//         .querySelector(".line")
-//         .getBoundingClientRect().top;
-//     let lineBottomBound = document
-//         .querySelector(".line")
-//         .getBoundingClientRect().bottom;
+$('.owl-carousel2').owlCarousel({
+  items: 4,
+  margin: 20,
+  itemsDesktop: [1199, 3],
+  itemsDesktopSmall: [980, 2],
+  itemsMobile: [600, 1],
+  navigation: true,
+  navigationText: ["", ""],
+  pagination: true,
+  autoPlay: true,
+  autoPlayTimeout: 2000, // Set slide duration to 2 seconds
+});
 
-//     let PostiveInt = Math.abs(lineTopBound);
-//     let TotalHeight = document.querySelector(".line").offsetHeight;
-//     let Percentage = (PostiveInt / TotalHeight) * 100;
 
-//     if (lineBottomBound > 160) {
-//         document.querySelector(".line_inner").style.height = `${Percentage + 2
-//             }%`;
-//     }
-// });
 
 
 
@@ -101,7 +97,7 @@ window.addEventListener("scroll", () => {
 const myCarouselElement = document.querySelector('#carouselExampleIndicators')
 
 const carousel = new bootstrap.Carousel(myCarouselElement, {
-  interval: 2000,
+  interval: 2500,
   touch: false,
   pause: false
 })

@@ -2,6 +2,29 @@
 
 <footer>
 
+    <!-- submit popup -->
+    <div class="modal fade" id="cunsult-submit" tabindex="-1" aria-labelledby="cunsult-submitLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <button type="button" class="btn-close popup_custom_close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    <div class="submit_popup">
+                        <img src="assets/images/cunsult-submit.svg" alt="" class="img-fluid">
+                        <div class="box-content ">
+                            <p>Thank you for choosing <span>Samyama!</span> <br>
+                                We have received your request for a free consultation, and our team will reach out to
+                                you
+                                soon.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- Free cunsult Modal -->
     <div class="modal fade" id="freeCunsult" tabindex="-1" aria-labelledby="freeCunsultLabel" aria-hidden="true">
@@ -19,39 +42,45 @@
     <!-- Feedback Modal -->
     <div class="modal fade" id="Feedback" tabindex="-1" aria-labelledby="FeedbackLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-content pt-3">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 <div class="modal-body">
-                    <div class="container">
-                        <div class="section-title">
-                            <h2>We Value Your <span>Feedback!</span></h2>
-                            <p class="mb-2">Help Us Improve by Sharing Your Thoughts and Suggestions.</p>
-                        </div>
+                    <form action="feedback-mail.php" method="post">
+                        <div class="container">
+                            <div class="section-title">
+                                <h2>We Value Your <span>Feedback!</span></h2>
+                                <p class="mb-2">Help Us Improve by Sharing Your Thoughts and Suggestions.</p>
+                            </div>
 
-                        <div class="feedback-form">
-                            <div class="row gy-3">
-                                <div class="col-lg-6">
-                                    <label for="" class="feFormLable w-100">Name</label>
-                                    <input type="text" class="feFormEnput w-100" placeholder="Enter your name">
+                            <div class="feedback-form">
+                                <div class="row gy-3">
+                                    <div class="col-lg-6">
+                                        <label for="" class="feFormLable w-100">Name</label>
+                                        <input type="text" class="feFormEnput w-100" placeholder="Enter your name"
+                                            name="name" required>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="" class="feFormLable w-100">Contact Number</label>
+                                        <input type="number" class="feFormEnput w-100"
+                                            placeholder="Enter your contact number" name="phone" required>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="" class="feFormLable w-100">Email</label>
+                                        <input type="email" class="feFormEnput w-100"
+                                            placeholder="Enter your email address" name="email" required>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="" class="feFormLable w-100">Message</label>
+                                        <textarea class="feFormEnput w-100" placeholder="Enter your message" rows="6"
+                                            aria-label="With textarea" name="message" required></textarea>
+                                    </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <label for="" class="feFormLable w-100">Contact Number</label>
-                                    <input type="text" class="feFormEnput w-100" placeholder="Enter your contact number">
+                                <div class="feedback-btns">
+                                    <button class="feed_btn" type="submit">Send</button>
                                 </div>
-                                <div class="col-lg-12">
-                                    <label for="" class="feFormLable w-100">Email</label>
-                                    <input type="text" class="feFormEnput w-100" placeholder="Enter your email address">
-                                </div>
-                                <div class="col-lg-12">
-                                    <label for="" class="feFormLable w-100">Message</label>
-                                    <textarea class="feFormEnput w-100" placeholder="Enter your message" rows="6" aria-label="With textarea"></textarea>
-                                </div>
-                            </div>
-                            <div class="feedback-btns">
-                                <button class="feed_btn">Send</button>
                             </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
 
             </div>
@@ -86,19 +115,23 @@
         </div>
         <div class="container-fluid">
             <div class="footer-menu-container">
-                <p class="text-center quick-links-label">Quick Links</p>
-                <div class="d-flex justify-content-center gap-4">
-                    <a href="travel-visa-imigration.php" class="quick-link">Travel Visas & Immigration</a>
-                    <a href="study-abrod.php" class="quick-link">Study Abroad</a>
-                    <a href="coaching.php" class="quick-link">Coaching</a>
-                    <a href="passport-oci.php" class="quick-link">Passport & OCI</a>
+                <div class="">
+                    <p class="text-center quick-links-label">Quick Links</p>
+                    <div class="d-flex justify-content-center gap-4 flex-wrap">
+                        <a href="travel-visa-imigration.php" class="quick-link">Travel Visas & Immigration</a>
+                        <a href="study-abrod.php" class="quick-link">Study Abroad</a>
+                        <a href="coaching.php" class="quick-link">Coaching</a>
+                        <a href="passport-oci.php" class="quick-link">Passport & OCI</a>
+                    </div>
                 </div>
-                <p class="text-center quick-links-label mt-5">Other Links</p>
-                <div class="d-flex justify-content-center gap-4">
-                    <a href="term-and-condition.php?terms" class="quick-link">Terms & Conditions</a>
-                    <a href="term-and-condition.php?privacy" class="quick-link">Privacy Policy</a>
-                    <a href="term-and-condition.php?refund" class="quick-link">Refund & Cancellation Policy</a>
-                    <!--<a href="#" class="quick-link">Passport & OCI</a>-->
+                <div class="">
+                    <p class="text-center quick-links-label">Other Links</p>
+                    <div class="d-flex justify-content-center flex-wrap gap-4">
+                        <a href="term-and-condition.php?terms" class="quick-link">Terms & Conditions</a>
+                        <a href="term-and-condition.php?privacy" class="quick-link">Privacy Policy</a>
+                        <a href="term-and-condition.php?refund" class="quick-link">Refund & Cancellation Policy</a>
+                        <!--<a href="#" class="quick-link">Passport & OCI</a>-->
+                    </div>
                 </div>
             </div>
             <div class="footer-menu-bottom d-flex justify-content-between">
@@ -121,24 +154,30 @@
         <div class="container-fluid">
             <div class="copyright-header">
                 <p>Copyright Ⓒ 2024, Samyama. All rights reserved.</p>
-                <div class="d-flex align-items-center gap-4">
-                    <span>Follow us:</span>
-                    <a href="https://maps.app.goo.gl/tV2Khj6Zgz5tN3WS6" target="_blank"> <img
-                            src="assets/svg-icons/google-icon.svg" alt=""></a>
-                    <a href="https://wa.me/918779346858" target="_blank"> <img src="assets/svg-icons/whatsapp-icon.svg"
-                            alt=""></a>
-                    <a href="https://www.facebook.com/samyamaindia" target="_blank"> <img
-                            src="assets/svg-icons/facebook-icon.svg" alt=""></a>
-                    <a href="https://www.instagram.com/samyamaindia" target="_blank"><img
-                            src="assets/svg-icons/instagram-icon.svg" alt=""></a>
-                    <a href="https://www.youtube.com/@samyamaindia" target="_blank"> <img
-                            src="assets/svg-icons/youtube-icon.svg" alt=""></a>
-                    <a href="https://x.com/samyamaindia" target="_blank"> <img src="assets/svg-icons/x-icon.svg"
-                            alt=""></a>
-                    <a href="https://www.linkedin.com/company/samyama-india/" target="_blank"> <img
-                            src="assets/svg-icons/linkedin-icon.svg" alt=""></a>
-                    <a href="https://in.pinterest.com/samyamaindia/" target="_blank"> <img
-                            src="assets/svg-icons/pintrest-icon.svg" alt=""></a>
+                <div class="hr_line"></div>
+                <div class="mobile-social">
+                    <div class="card-c">
+                        <img src="assets/images/card-logo-icons.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="socialc d-flex align-items-center gap-0 gap-md-4">
+                        <span class="follow_us">Follow us:</span>
+                        <a href="https://maps.app.goo.gl/tV2Khj6Zgz5tN3WS6" target="_blank"> <img
+                                src="assets/svg-icons/google-icon.svg" alt=""></a>
+                        <a href="https://wa.me/918779346858" target="_blank"> <img
+                                src="assets/svg-icons/whatsapp-icon.svg" alt=""></a>
+                        <a href="https://www.facebook.com/samyamaindia" target="_blank"> <img
+                                src="assets/svg-icons/facebook-icon.svg" alt=""></a>
+                        <a href="https://www.instagram.com/samyamaindia" target="_blank"><img
+                                src="assets/svg-icons/instagram-icon.svg" alt=""></a>
+                        <a href="https://www.youtube.com/@samyamaindia" target="_blank"> <img
+                                src="assets/svg-icons/youtube-icon.svg" alt=""></a>
+                        <a href="https://x.com/samyamaindia" target="_blank"> <img src="assets/svg-icons/x-icon.svg"
+                                alt=""></a>
+                        <a href="https://www.linkedin.com/company/samyama-india/" target="_blank"> <img
+                                src="assets/svg-icons/linkedin-icon.svg" alt=""></a>
+                        <a href="https://in.pinterest.com/samyamaindia/" target="_blank"> <img
+                                src="assets/svg-icons/pintrest-icon.svg" alt=""></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -156,11 +195,34 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.6/js/intlTelInput.min.js"></script>
 <script>
-   
-   
+    $(function () {
+        var code = ""; // Assigning value from model.
+        $('.phone').val(code);
+        $('.phone').intlTelInput({
+            autoHideDialCode: true,
+            autoPlaceholder: "ON",
+            dropdownContainer: document.body,
+            formatOnDisplay: true,
+            // hiddenInput: "full_number",
+            initialCountry: "in",
+            //  nationalMode: true,
+            placeholderNumberType: "MOBILE",
+            preferredCountries: ['in', 'gb', 'us'],
+            separateDialCode: true
+        });
+    });
+
+    function toggleCheckbox(button) {
+        const checkbox = document.getElementById('whatsapp');
+        if (checkbox) {
+            checkbox.checked = !checkbox.checked;
+            button.classList.toggle('active', checkbox.checked);
+        }
+    }
 
 </script>
 
@@ -184,7 +246,7 @@
             for (const country of countries) {
                 const countryName = country.name;
                 const countryCode = country.code;
-                $dropdown.append(`<option value="${countryCode}">${countryName}</option>`);
+                $dropdown.append(`<option value="${countryName}">${countryName}</option>`);
             }
         } catch (error) {
             console.error('Error fetching country data:', error);
@@ -193,15 +255,15 @@
 
 
 
-  const travel = `<div class="mb-1 d-flex gap-2">
+    const travel = `<div class="mb-1 d-flex gap-2" >
       <div class="w-100">
-          <select name="" id="country_dropdown" class="form-select w-100">
+          <select name="destination" id="country_dropdown" class="form-select w-100">
               <option value="">Destination</option>
               
           </select>
       </div>
       <div class="w-100">
-          <select name="" id="" class="form-select w-100">
+          <select name="types_of_visa" id="" class="form-select w-100">
               <option value="Business Visa">Types of Visa</option>
               <option value="Business Visa">Tourist Visa</option>
               <option value="Business Visa">Business Visa</option>
@@ -222,13 +284,13 @@
 
     const study = `<div class="mb-1 d-flex gap-2">
 <div class="w-100">
-  <select name="" id="country_dropdown" class="form-select w-100">
+  <select name="destination" id="country_dropdown" class="form-select w-100">
               <option value="">Destination</option>
               
           </select>
 </div>
 <div class="w-100">
-  <select name="" id="" class="form-select w-100">
+  <select name="course_types" id="" class="form-select w-100">
       <option value="">Course Types</option>
       <option value="UG">UG</option>
       <option value="PG">PG</option>
@@ -241,8 +303,7 @@
 
     const coaching = `<div class="mb-1 ">
 <div class="w-100">
-  <select name="" id="" class="form-select w-100 selectToMultiple" name="states[]" multiple="multiple">
-      <option value="">Select a course</option>
+  <select name="select_course[]" id="" class="form-select w-100 selectToMultiple" name="states[]" multiple="multiple">
       <option value="IELTS">IELTS</option>
       <option value="TOEFL">TOEFL</option>
       <option value="PTE">PTE</option>
@@ -257,7 +318,7 @@
 
     const passport = `<div class="mb-1 ">
 <div class="w-100">
-  <select name="" id="" class="form-select w-100">
+  <select name="select_a_service" id="" class="form-select w-100">
       <option value="">Select a service</option>
       <option value="Fresh Passport Application">Fresh Passport Application</option>
       <option value="Passport Renewal">Passport Renewal</option>
@@ -267,20 +328,20 @@
 
     const OCI = `<div class="mb-1 d-flex gap-2">
 <div class="w-100">
-  <select name="" id="" class="form-select w-100">
+  <select name="select_a_location" id="" class="form-select w-100">
       <option value="">Select a location</option>
       <option value="Application in India">Application in India</option>
       <option value="Application outside of India">Application outside of India</option>
   </select>
 </div>
 <div class="w-100">
-  <select name="" id="" class="form-select w-100">
+  <select name="select_a_service" id="" class="form-select w-100">
       <option value="">Select a service</option>
       <option value="Fresh OCI Application">Fresh OCI Application</option>
       <option value="In Lieu of valid PIO-Card">In Lieu of valid PIO-Card</option>
       <option value="In Lieu of lost PIO-Card">In Lieu of lost PIO-Card</option>
-      <option value="Change in Personal Circumstances of existing OCI Holder">Change in Personal Circumstances of existing OCI Holder</option>
-      <option value="Special Permission for existing OCI Holder">Special Permission for existing OCI Holder</option>
+      <option value="Change in Personal Circumstances">Change in Personal Circumstances</option>
+      <option value="Special Permission">Special Permission</option>
   </select>
 </div>
 </div>`;
@@ -298,7 +359,9 @@
             populateCountryDropdown(event);
         } else if (input === "coaching") {
             $emptyDiv.html(coaching);
-            $('.selectToMultiple').select2();
+            $('.selectToMultiple').select2({
+                placeholder: 'Select a course',
+            });
         } else if (input === "passport") {
             $emptyDiv.html(passport);
         } else if (input === "OCI") {
@@ -307,8 +370,61 @@
             $emptyDiv.html("");
         }
     }
+
+
+    function validateMyForm(event, formElement) {
+        // Prevent the form from submitting by default
+
+        const $form = $(formElement);
+
+        const fullName = $form.find('input[name="name"]').val();
+        const email = $form.find('input[name="email"]').val();
+        const phone = $form.find('input[name="phone"]').val();
+        const service = $form.find('select[name="service"]').val();
+        const acceptTerms = $form.find('input[name="accept"]').prop('checked');
+
+        console.log(email);
+
+        if (!fullName || !email || !phone || !service) {
+            event.preventDefault();
+            alert('Please fill out all fields');
+            return;
+        }
+
+        if (!acceptTerms) {
+            event.preventDefault();
+            alert('Please accept the Terms & Conditions');
+            return;
+        }
+
+        const code = $form.find('input[name="code"]');
+        const codeInput = $form.find('input[name="phone"]').intlTelInput("getSelectedCountryData").dialCode;
+        code.val(codeInput);
+
+
+    }
+
+
 </script>
+
+
+<?php
+if ($current_page === $base_url . 'index.php?consultation') {
+    echo "<script>
+   var myModal = new bootstrap.Modal(document.getElementById('cunsult-submit'));
+            myModal.show();
+    </script>";
+}
+if ($current_page === $base_url . 'partner-with-us.php?partnership') {
+    echo "<script>
+   var myModal = new bootstrap.Modal(document.getElementById('partnership-submit'));
+            myModal.show();
+    </script>";
+}
+?>
+
 <script src="js/script.js"></script>
+
 
 
 </body>

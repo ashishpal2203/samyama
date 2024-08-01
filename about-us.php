@@ -4,14 +4,15 @@
     <img src="assets/gifs/down-arrow-gif.gif" alt="" class="down-arrow-gif">
     <div class="container-fluid">
         <div class="">
-            <img src="assets/images/About-Us-banner.png" class="d-block w-100" alt="...">
+            <img src="assets/images/About-Us-banner.png" class="laptop-banner w-100" alt="...">
+            <img src="assets/images/About-Us-banner.jpg" class="mobile-banner w-100" alt="...">
         </div>
     </div>
 </section>
 
 <section id="about-sec">
     <div class="container">
-        <div class="row mb-4 c1-content">
+        <div class="row mb-4 c1-content reverse-column">
             <div class="col-lg-7">
                 <div class="">
                     <div class="section-title align-items-start mb-1">
@@ -42,7 +43,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mb-4 c1-content">
+        <div class="row mb-4 c1-content reverse-column">
             <div class="col-lg-7">
                 <div class="">
                     <div class="section-title align-items-start mb-1">
@@ -101,7 +102,7 @@
             </div>
 
         </div>
-        <div class="row mb-4 c1-content">
+        <div class="row mb-4 c1-content reverse-column">
             <div class="col-lg-7">
                 <div class="">
                     <div class="section-title align-items-start mb-1">
