@@ -269,7 +269,7 @@
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             Work Visa
                         </button>
-                    </h2>
+                    </h2> 
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
