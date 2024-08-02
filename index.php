@@ -258,7 +258,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="service-card service-card red">
                     <div class="card-header ">
-                        <img src="assets/svg-icons/travel-visa.svg" alt="">
+                        <img src="assets/icon/samyama-visaagent.webp" alt="samyama  visaagent">
                         <h5>Travel Visas & Immigration</h5>
                     </div>
                     <div class="card-body">
@@ -274,7 +274,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="service-card green">
                     <div class="card-header">
-                        <img src="assets/svg-icons/study-abroad.svg" alt="">
+                        <img src="assets/icon/Samyama-study-abroad-consultants.webp" alt="">
                         <h5>Study Abroad</h5>
                     </div>
                     <div class="card-body">
@@ -289,7 +289,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="service-card yellow">
                     <div class="card-header">
-                        <img src="assets/svg-icons/coaching.svg" alt="">
+                        <img src="assets/icon/Samyama-coaching-classes.webp" alt="">
                         <h5>Coaching</h5>
                     </div>
                     <div class="card-body">
@@ -306,7 +306,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="service-card blue">
                     <div class="card-header">
-                        <img src="assets/svg-icons/passport-OCI.svg" alt="">
+                        <img src="assets/icon/samyama-passport-and-OCI-agent.webp" alt="">
                         <h5>Passport & OCI</h5>
                     </div>
                     <div class="card-body">
@@ -338,7 +338,7 @@
             <div class="svg-man-box">
                 <div class="position-relative">
                     <img src="assets/gifs/end-to-end-bulb.gif" alt="" class="end-to-end-bulb">
-                    <img src="assets/images/end-to-end-man.png" alt="" class="img-fluid">
+                    <img src="assets/image/Samyama-end-to-end.webp" alt="" class="img-fluid">
                 </div>
             </div>
             <img src="assets/extra/end-to-en-services.svg" alt="" class="img-fluid">
