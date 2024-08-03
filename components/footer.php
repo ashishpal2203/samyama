@@ -346,23 +346,24 @@
 </div>
 </div>`;
     function optionsHtml(event) {
+    
         const input = event.target.value;
 
         // Use jQuery to find the closest `.empty_div` and update its content
         const $emptyDiv = $(event.target).closest('.cunsult-form-body').find('.empty_div');
 
-        if (input === "travel") {
+        if (input === "Travel Visas & Immigration") {
             $emptyDiv.html(travel);
             populateCountryDropdown(event);
-        } else if (input === "study") {
+        } else if (input === "Study Abroad") {
             $emptyDiv.html(study);
             populateCountryDropdown(event);
-        } else if (input === "coaching") {
+        } else if (input === "Coaching") {
             $emptyDiv.html(coaching);
             $('.selectToMultiple').select2({
                 placeholder: 'Select a course',
             });
-        } else if (input === "passport") {
+        } else if (input === "Passport") {
             $emptyDiv.html(passport);
         } else if (input === "OCI") {
             $emptyDiv.html(OCI);
@@ -409,7 +410,7 @@
 
 
 <?php
-if ($current_page === $base_url . 'index.php?consultation') {
+if ($current_page === $base_url . '?consultation') {
     echo "<script>
    var myModal = new bootstrap.Modal(document.getElementById('cunsult-submit'));
             myModal.show();

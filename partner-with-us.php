@@ -86,9 +86,8 @@
                                     </div>
                                     <div class="mb-3">
                                         <label for="basic-url" class="form-label1">Message</label>
-                                        <input type="text" class="form-control w-100"
-                                            aria-describedby="basic-addon3 basic-addon4"
-                                            placeholder="Enter your message" name="message" >
+                                        <textarea class="form-control w-100" aria-describedby="basic-addon3 basic-addon4" placeholder="Enter your message" name="message"></textarea>
+
                                     </div>
                                     <div class="cunsult-form-footer">
                                         <div class="mb-3">
@@ -198,7 +197,7 @@
         const companyName = $form.find('input[name="company_name"]').val();
         const contactPersonName = $form.find('input[name="contact_person_name"]').val();
         const email = $form.find('input[name="email"]').val();
-        const message = $form.find('input[name="message"]').val();
+        const message = $form.find('textarea[name="message"]').val();
         const acceptTerms = $form.find('input[name="accept"]').prop('checked');
 
         if (!companyName || !contactPersonName || !email || !message || !phone) {

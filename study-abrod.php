@@ -1,5 +1,11 @@
 <?php require 'components/header.php'; ?>
 
+<style>
+    .section-title h2::before{
+    content: inherit;
+  }
+</style>
+
 <section id="hero-section">
     <img src="assets/gifs/down-arrow-gif.gif" alt="" class="down-arrow-gif">
     <div class="container-fluid">
@@ -21,6 +27,9 @@
             <div class="right">
                 <?php require 'components/cunsult-form.php'; ?>
             </div>
+        </div>
+        <div class="mobile-leadbox container">
+            <button class="" type="button" data-bs-toggle="modal" data-bs-target="#freeCunsult">Get Free Consultation</button>
         </div>
     </div>
 </section>
@@ -437,7 +446,7 @@
                         <h5>Country Information</h5>
                         <p>Gain valuable insights into your
                             destination country’s culture, customs, laws, and societal
-                            norms to adapt and thrive.</p>
+                            norms to adapt.</p>
                     </div>
                 </div>
             </div>

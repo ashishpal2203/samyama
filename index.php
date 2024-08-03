@@ -89,8 +89,8 @@
                             <div class="flip-card-back">
                                 <h4>Canada</h4>
                                 <ul class="sevices-list">
-                                    <li><a href="travel-visa-imigration.php?opt=tourist_visa#accordionFlushExample">Tourist
-                                            Visa</a></li>
+                                    <li>Tourist
+                                            Visa</li>
                                     <li>Business Visa</li>
                                     <li>Student Visa</li>
                                     <li>Work Visa</li>
@@ -255,7 +255,7 @@
             <h2>OUR <span>SERVICES</span></h2>
         </div>
         <div class="row gy-2 gx-2 gx-md-4 gy-md-4">
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div class="service-card service-card red">
                     <div class="card-header ">
                         <img src="assets/svg-icons/travel-visa.svg" alt="">
@@ -271,7 +271,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div class="service-card green">
                     <div class="card-header">
                         <img src="assets/svg-icons/study-abroad.svg" alt="">
@@ -286,7 +286,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div class="service-card yellow">
                     <div class="card-header">
                         <img src="assets/svg-icons/coaching.svg" alt="">
@@ -303,7 +303,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                 <div class="service-card blue">
                     <div class="card-header">
                         <img src="assets/svg-icons/passport-OCI.svg" alt="">
@@ -341,7 +341,8 @@
                     <img src="assets/images/end-to-end-man.png" alt="" class="img-fluid">
                 </div>
             </div>
-            <img src="assets/extra/end-to-en-services.svg" alt="" class="img-fluid">
+            <img src="assets/extra/end-to-en-services.svg" alt="" class="img-fluid laptop-banner">
+            <img src="assets/extra/end-to-en-services-mobile.png" alt="" class="img-fluid w-100 mobile-banner">
         </div>
     </div>
 </section>
@@ -353,7 +354,7 @@
             <h2><span>FIVE STAR</span> SERVICE</h2>
         </div>
         <div class="five-star-container">
-            <div class="row gy-3 gy-md-5">
+            <div class="row gy-5 gy-md-3 gy-md-5">
                 <div class="col-lg-6">
                     <div class="five-star-service super-fast">
                         <div class="five-star-service-image">
@@ -420,7 +421,7 @@
 </section>
 
 <section class="arrow_container">
-    <div class="w-100">
+    <div class="w-100 position-relative">
         <div class="section-title">
             <h2>SIMPLE <span>STEPS</span></h2>
         </div>
