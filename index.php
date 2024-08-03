@@ -275,7 +275,7 @@
                 <div class="service-card green">
                     <div class="card-header">
                         <img src="assets/svg-icons/study-abroad.svg" alt="">
-                        <h5>Study Abroad</h5>
+                        <h5>Study Abroad <br class="d-sm-none"> <br class=" d-sm-none"></h5>
                     </div>
                     <div class="card-body">
                         <p>Unlock your global education journey with Samyama. Get a complimentary initial

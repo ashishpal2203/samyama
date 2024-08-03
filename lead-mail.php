@@ -11,22 +11,19 @@ if (isset($_POST["submit"])) {
     $mail = new PHPMailer(true);
 
     try {
-        // Enable verbose debug output (uncomment during testing)
-        // $mail->SMTPDebug = 2; 
-
         $mail->isSMTP();
-        $mail->Host       = 'mail.samyama.in';
+        $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'leads@samyama.in';
-        $mail->Password   = 'Goodleads@123';
+        $mail->Username   = 'samyama.in.leads@gmail.com';
+        $mail->Password   = 'kgff qblt deqr zybt';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
-        $mail->setFrom('leads@samyama.in', 'Samyama Contact');
-        $mail->addAddress('ashish@gravityweb.in');
-        $mail->addReplyTo(filter_var($_POST['email'], FILTER_SANITIZE_EMAIL), filter_var($_POST['name'], FILTER_SANITIZE_STRING));
+        $mail->setFrom($_POST["email"], $_POST["name"]);
+        $mail->addAddress('info@samyama.in');
+        $mail->addReplyTo($_POST["email"], $_POST["name"]);
 
-        $service = filter_var($_POST['service'], FILTER_SANITIZE_STRING);
+        $service = $_POST['service'];
         $extraFields = '';
 
         if ($service == 'Travel Visas & Immigration') {
@@ -48,11 +45,11 @@ if (isset($_POST["submit"])) {
         $mail->Subject = 'New Consultation Form Submission';
         $mail->Body    = "
             <h2>Consultation Form Submission</h2>
-            <p><strong>Full Name:</strong> " . filter_var($_POST['name'], FILTER_SANITIZE_STRING) . "</p>
-            <p><strong>Email:</strong> " . filter_var($_POST['email'], FILTER_SANITIZE_EMAIL) . "</p>
-            <p><strong>Contact No:</strong>+" . filter_var($_POST['code'], FILTER_SANITIZE_STRING) . " " . filter_var($_POST['phone'], FILTER_SANITIZE_STRING) . "</p>
+            <p><strong>Full Name:</strong> {$_POST['name']}</p>
+            <p><strong>Email:</strong> {$_POST['email']}</p>
+            <p><strong>Contact No:</strong>+{$_POST['code']} {$_POST['phone']}</p>
             <p><strong>Use as WhatsApp number:</strong> " . (isset($_POST['whatsapp_status']) ? 'Yes' : 'No') . "</p>
-            <p><strong>Required Service:</strong> " . filter_var($_POST['service'], FILTER_SANITIZE_STRING) . "</p>
+            <p><strong>Required Service:</strong> {$_POST['service']}</p>
             $extraFields
         ";
 

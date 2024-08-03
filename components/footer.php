@@ -229,7 +229,7 @@
 <script>
     async function populateCountryDropdown(event) {
         try {
-            const response = await fetch('https://gravityweb.in/samyama/assets/json/all_country.json');
+            const response = await fetch('assets/json/all_country.json');
             const data = await response.json();
 
             // Assuming your JSON response is an array of country objects

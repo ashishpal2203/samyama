@@ -137,7 +137,7 @@
                                     <a href="about-us.php">About Us</a></li>
                                     <li
                                     class="<?php echo ($current_page === $base_url . 'partner-with-us.php') ? 'active' : ''; ?>">
-                                    <a href="partner-with-us.php">Partner With US</a></li>
+                                    <a href="partner-with-us.php">Partner With Us</a></li>
                                     <li
                                     class="<?php echo ($current_page === $base_url . 'contact-us.php') ? 'active' : ''; ?>">
                                     <a href="contact-us.php">Contact Us</a></li>

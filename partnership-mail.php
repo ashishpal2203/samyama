@@ -20,19 +20,18 @@ if (isset($_POST["submit"])) {
 
     try {
         // Server settings
-        $mail->isSMTP();
-        $mail->Host       = 'mail.samyama.in';
-        $mail->SMTPAuth   = true;
-        $mail->Username   = 'leads@samyama.in';
-        $mail->Password   = 'Goodleads@123';
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-        $mail->Port       = 465;
-
+        $mail->isSMTP();                                      // Send using SMTP
+        $mail->Host       = 'smtp.gmail.com';                 // Set the SMTP server to send through
+        $mail->SMTPAuth   = true;                             // Enable SMTP authentication
+        $mail->Username   = 'samyama.in.leads@gmail.com';
+        $mail->Password   = 'kgff qblt deqr zybt';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;      // Enable implicit SSL encryption
+        $mail->Port       = 465;                              // TCP port to connect to
 
         // Recipients
-        $mail->setFrom('leads@samyama.in', 'Samyama Contact');
-        $mail->addAddress('ashish@gravityweb.in');
-        $mail->addReplyTo(filter_var($_POST['email'], FILTER_SANITIZE_EMAIL), filter_var($_POST['name'], FILTER_SANITIZE_STRING));
+        $mail->setFrom($_POST["email"], $_POST["contact_person_name"]); // Sender email and name
+        $mail->addAddress('partners@samyama.in');                   // Add a recipient
+        $mail->addReplyTo($_POST["email"], $_POST["contact_person_name"]); // Reply to sender email
 
         // Content
         $mail->isHTML(true);                                  // Set email format to HTML

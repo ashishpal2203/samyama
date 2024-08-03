@@ -13,6 +13,10 @@
 }
 
 @media screen and (max-width: 992px) {
+  .get-started-btn:hover, .get-started-btn:focus, .cunsult-form {
+    color: var(--white);
+    border: none;
+  }
   .main-time-line{
     position: inherit;
   }
@@ -238,6 +242,15 @@
 }
 }
 @media screen and (max-width: 576px){
+  .arrow_container{
+    padding-bottom: 3rem;
+  }
+  .arrow_container .section-title{
+    margin-bottom: 0;
+  }
+  .flip-card-front {
+    padding: 3rem 0;
+  }
   #social-media-review .owl-controls .owl-buttons .owl-prev{
     top: initial;
     left: 40%;
@@ -275,15 +288,15 @@
   background-color: initial;
 } */
 #five-star-service .five-star-service{
-  padding-left: 22px;
-  padding-right: 73px;
+  padding-left: 44px;
+  padding-right: 82px;
 }
 #five-star-service .five-star-service p{
   font-size: 10px;
 }
 .line {
-  top: 208px;
-  height: 1755px;
+  top: 216px;
+  height: 78%;
 }
   .section-point {
     height: 100%;
@@ -306,6 +319,7 @@
   }
   .simple-step-image {
     height: 166px;  
+    margin-bottom: 1rem;
   }
   .card-c{
     display: block;
@@ -453,6 +467,9 @@
   padding: .5rem;
   height: 352px;
 }
+#discover-course-banner{
+  padding-bottom: 0;
+}
 }
 
 
@@ -467,6 +484,7 @@
     --x-small: 14px;
   }
   .get-started-btn{
+    border: none;
     background: linear-gradient(180deg, rgba(219,0,17,1) 20%, rgba(117,0,9,1) 100%);
   }
   #footer-menu-content .footer-menu-bottom-right .partner-with-us, #footer-menu-content .footer-menu-bottom-right .feedback, #footer-menu-content .footer-menu-bottom-right .contact-us {
@@ -493,7 +511,7 @@
     height: 100%;
   }
   .flip-card-back{
-    padding: 5px;
+    padding: 10px;
   }
   .flip-card .sevices-list li{
     padding-left: 0;

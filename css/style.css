@@ -42,9 +42,7 @@
   padding-bottom: 4rem;
 }
 
-.arrow_container{
-  padding-bottom: 0rem!important;
-}
+
 .carousel-indicators{
     bottom: -34px;
     right: -34%;
@@ -1583,6 +1581,7 @@ padding: 10px 30px;
   justify-content: center;
   background-color: #f4f4f4;
   position: relative;
+  padding-bottom: 0;
 }
 .arrow_container .gray-bg, .arrow_container .white-bg{
   width: 100%;

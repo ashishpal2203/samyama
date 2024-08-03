@@ -11,7 +11,6 @@
                     <img src="assets/images/partnership-submit.svg" alt="" class="img-fluid mt-4">
                     <div class="box-content ">
                         <p>Thank you for choosing <span>Samyama!</span> <br>
-                        Thank you for choosing Samyama!
                         We have received your request to partner with us, and our team will reach out to you soon.</p>
                     </div>
                 </div>
