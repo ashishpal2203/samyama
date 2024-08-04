@@ -93,8 +93,8 @@
                             <div class="flip-card-back">
                                 <h4>Canada</h4>
                                 <ul class="sevices-list">
-                                    <li>Tourist
-                                            Visa</li>
+                                    <li><a href="travel-visa-imigration.php?opt=tourist_visa#accordionFlushExample">Tourist
+                                            Visa</a></li>
                                     <li>Business Visa</li>
                                     <li>Student Visa</li>
                                     <li>Work Visa</li>
@@ -283,10 +283,10 @@
             <h2>OUR <span>SERVICES</span></h2>
         </div>
         <div class="row gy-2 gx-2 gx-md-4 gy-md-4">
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="service-card service-card red">
                     <div class="card-header ">
-                        <img src="assets/svg-icons/travel-visa.svg" alt="">
+                        <img src="assets/icon/samyama-visaagent.webp" alt="samyama  visaagent">
                         <h5>Travel Visas & Immigration</h5>
                     </div>
                     <div class="card-body">
@@ -299,11 +299,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="service-card green">
                     <div class="card-header">
-                        <img src="assets/svg-icons/study-abroad.svg" alt="">
-                        <h5>Study Abroad <br class="d-sm-none"> <br class=" d-sm-none"></h5>
+                        <img src="assets/icon/Samyama-study-abroad-consultants.webp" alt="">
+                        <h5>Study Abroad</h5>
                     </div>
                     <div class="card-body">
                         <p>Unlock your global education journey with Samyama. Get a complimentary initial
@@ -314,10 +314,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="service-card yellow">
                     <div class="card-header">
-                        <img src="assets/svg-icons/coaching.svg" alt="">
+                        <img src="assets/icon/Samyama-coaching-classes.webp" alt="">
                         <h5>Coaching</h5>
                     </div>
                     <div class="card-body">
@@ -331,10 +331,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="service-card blue">
                     <div class="card-header">
-                        <img src="assets/svg-icons/passport-OCI.svg" alt="">
+                        <img src="assets/icon/samyama-passport-and-OCI-agent.webp" alt="">
                         <h5>Passport & OCI</h5>
                     </div>
                     <div class="card-body">
@@ -365,8 +365,9 @@
         <div class="end-to-end-svg-box">
             <div class="svg-man-box">
                 <div class="position-relative">
-                    <img src="assets/gifs/end-to-end-bulb.gif" alt="" class="end-to-end-bulb">
-                    <img src="assets/images/end-to-end-man.png" alt="" class="img-fluid">
+                    <img src="assets/gifs/end-to-end-bulb.gif" alt="" class="end-to-end-bulb"> 
+                    
+                    <img src="assets/image/Samyama-end-to-end.webp" alt="" class="img-fluid">
                 </div>
             </div>
             <img src="assets/extra/end-to-en-services.svg" alt="" class="img-fluid laptop-banner">
@@ -374,7 +375,6 @@
         </div>
     </div>
 </section>
-
 <section id="five-star-service">
     <img src="assets/extra/cross-line3.svg" alt="" class="cross-line3 img-fluid">
     <div class="container">
@@ -382,7 +382,7 @@
             <h2><span>FIVE STAR</span> SERVICE</h2>
         </div>
         <div class="five-star-container">
-            <div class="row gy-5 gy-md-3 gy-md-5">
+            <div class="row gy-3 gy-md-5">
                 <div class="col-lg-6">
                     <div class="five-star-service super-fast">
                         <div class="five-star-service-image">
@@ -449,7 +449,7 @@
 </section>
 
 <section class="arrow_container">
-    <div class="w-100 position-relative">
+    <div class="w-100">
         <div class="section-title">
             <h2>SIMPLE <span>STEPS</span></h2>
         </div>
