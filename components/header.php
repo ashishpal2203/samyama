@@ -180,7 +180,7 @@ else{
                                                 </a>
                                             </li>
 
-                                        </ul>
+                                        </ul> 
                                         <ul class="right d-flex align-items-center gap-5">
                                             <li class="icon-text"><img src="assets/svg-icons/preheader-partner.svg"><a
                                                     href="partner-with-us.php">PARTNER WITH US</a></li>
