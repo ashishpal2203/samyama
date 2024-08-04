@@ -1,5 +1,13 @@
 <?php require 'components/header.php'; ?>
 
+<style>
+    @media screen and (max-width: 576px){
+    .section-title.hide1 h2::before {
+        content: inherit;
+    }
+}
+</style>
+
 <section id="hero-section">
     <img src="assets/gifs/down-arrow-gif.gif" alt="" class="down-arrow-gif">
     <div class="container-fluid">
@@ -22,12 +30,16 @@
                 <?php require 'components/cunsult-form.php'; ?>
             </div>
         </div>
+        <div class="mobile-leadbox container">
+            <button class="" type="button" data-bs-toggle="modal" data-bs-target="#freeCunsult">Get Free
+                Consultation</button>
+        </div>
     </div>
 </section>
 
 <section id="popular-s-desti">
     <div class="container">
-        <div class="section-title">
+        <div class="section-title hide1">
             <h2><span>Popular STUDY</span> DESTINATIONS</h2>
         </div>
         <div class="popular-d-card-container">
@@ -93,7 +105,7 @@
 
 <section id="universities-courses">
     <div class="container">
-        <div class="section-title">
+        <div class="section-title hide1">
             <h2><span>700 + Universities</span> & Variety Of Courses</h2>
         </div>
 
@@ -139,12 +151,12 @@
                     <div class="slide">
                         <img src="assets/images/univercity_logo-13.png" class="img-fluid" alt="" />
                     </div>
-                   
+
                 </div>
             </div>
             <div class="slider">
                 <div class="slide-track-reverse">
-                <div class="slide">
+                    <div class="slide">
                         <img src="assets/images/univercity_logo-14.png" class="img-fluid" alt="" />
                     </div>
                     <div class="slide">
@@ -241,8 +253,9 @@
 
 <section class="why-choose-samyama">
     <div class="container">
-        <div class="section-title">
-            <h2>Why<span> Choose Samyama</span><br class="d-md-none d-inline"> as Your <span>Educational Consultant?</span></h2>
+        <div class="section-title hide1">
+            <h2>Why<span> Choose Samyama</span><br class="d-md-none d-inline"> as Your <span>Educational
+                    Consultant?</span></h2>
             <p class="mb-0 text-center">At Samyama, we provide End-To-End assistance, from obtaining your passport,
                 university
                 admission to getting your student visa, we provide <br> comprehensive support every step of the
@@ -346,7 +359,7 @@
 
 <section id="veraity-coaching">
     <div class="container">
-        <div class="section-title">
+        <div class="section-title hide1">
             <h2>We offer variety of<span> coaching classes</span> </h2>
         </div>
 
@@ -378,8 +391,8 @@
                 </div>
             </div>
             <div class="text-center mt-5">
-                <button class="get-started-btn"
-                    onclick="window.location.href='coaching.php#samyama-coaching'">Click here to learn more</button>
+                <button class="get-started-btn" onclick="window.location.href='coaching.php#samyama-coaching'">Click
+                    here to learn more</button>
             </div>
         </div>
     </div>
@@ -387,10 +400,10 @@
 
 <section class="why-choose-samyama">
     <div class="container">
-        <div class="section-title">
+        <div class="section-title hide1">
             <h2>PRE-BOARDING<span> GUIDANCE</span></h2>
             <p class="mb-0 text-center">Embarking on your educational journey abroad is an exciting
-                step for personal and academic growth. To ensure a smooth <br>
+                step for personal and academic growth. To ensure a smooth <br class="d-none d-sm-block">
                 transition, our comprehensive pre-boarding guidance provides
                 the essential information and resources you need.</p>
         </div>
@@ -437,7 +450,7 @@
                         <h5>Country Information</h5>
                         <p>Gain valuable insights into your
                             destination country’s culture, customs, laws, and societal
-                            norms to adapt and thrive.</p>
+                            norms to adapt.</p>
                     </div>
                 </div>
             </div>

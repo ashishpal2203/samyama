@@ -14,31 +14,31 @@ if (isset($_POST["submit"])) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'ashishpal2203@gmail.com';
-        $mail->Password   = 'lfle uaui buva kmzs';
+        $mail->Username   = 'samyama.in.leads@gmail.com';
+        $mail->Password   = 'kgff qblt deqr zybt';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
         $mail->setFrom($_POST["email"], $_POST["name"]);
-        $mail->addAddress('ashishpal2204@gmail.com');
+        $mail->addAddress('info@samyama.in');
         $mail->addReplyTo($_POST["email"], $_POST["name"]);
 
         $service = $_POST['service'];
         $extraFields = '';
 
-        if ($service == 'travel') {
-            $extraFields .= "<p><strong>Destination:</strong> {$_POST['destination']}</p>";
-            $extraFields .= "<p><strong>Type of Visa:</strong> {$_POST['types_of_visa']}</p>";
-        } elseif ($service == 'study') {
-            $extraFields .= "<p><strong>Destination:</strong> {$_POST['destination']}</p>";
-            $extraFields .= "<p><strong>Course Type:</strong> {$_POST['course_types']}</p>";
-        } elseif ($service == 'coaching') {
-            $extraFields .= "<p><strong>Selected Courses:</strong> " . implode(', ', $_POST['select_course']) . "</p>";
-        } elseif ($service == 'passport') {
-            $extraFields .= "<p><strong>Selected Service:</strong> {$_POST['select_a_service']}</p>";
+        if ($service == 'Travel Visas & Immigration') {
+            $extraFields .= "<p><strong>Destination:</strong> " . filter_var($_POST['destination'], FILTER_SANITIZE_STRING) . "</p>";
+            $extraFields .= "<p><strong>Type of Visa:</strong> " . filter_var($_POST['types_of_visa'], FILTER_SANITIZE_STRING) . "</p>";
+        } elseif ($service == 'Study Abroad') {
+            $extraFields .= "<p><strong>Destination:</strong> " . filter_var($_POST['destination'], FILTER_SANITIZE_STRING) . "</p>";
+            $extraFields .= "<p><strong>Course Type:</strong> " . filter_var($_POST['course_types'], FILTER_SANITIZE_STRING) . "</p>";
+        } elseif ($service == 'Coaching') {
+            $extraFields .= "<p><strong>Selected Courses:</strong> " . implode(', ', array_map('filter_var', $_POST['select_course'], array_fill(0, count($_POST['select_course']), FILTER_SANITIZE_STRING))) . "</p>";
+        } elseif ($service == 'Passport') {
+            $extraFields .= "<p><strong>Selected Service:</strong> " . filter_var($_POST['select_a_service'], FILTER_SANITIZE_STRING) . "</p>";
         } elseif ($service == 'OCI') {
-            $extraFields .= "<p><strong>Location:</strong> {$_POST['select_a_location']}</p>";
-            $extraFields .= "<p><strong>Selected Service:</strong> {$_POST['select_a_service']}</p>";
+            $extraFields .= "<p><strong>Location:</strong> " . filter_var($_POST['select_a_location'], FILTER_SANITIZE_STRING) . "</p>";
+            $extraFields .= "<p><strong>Selected Service:</strong> " . filter_var($_POST['select_a_service'], FILTER_SANITIZE_STRING) . "</p>";
         }
 
         $mail->isHTML(true);

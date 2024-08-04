@@ -40,6 +40,9 @@
                 <?php require 'components/cunsult-form.php'; ?>
             </div>
         </div>
+        <div class="mobile-leadbox container">
+            <button class="" type="button" data-bs-toggle="modal" data-bs-target="#freeCunsult">Get Free Consultation</button>
+        </div>
     </div>
 </section>
 

@@ -337,15 +337,16 @@
         <div class="end-to-end-svg-box">
             <div class="svg-man-box">
                 <div class="position-relative">
-                    <img src="assets/gifs/end-to-end-bulb.gif" alt="" class="end-to-end-bulb">
+                    <img src="assets/gifs/end-to-end-bulb.gif" alt="" class="end-to-end-bulb"> 
+                    
                     <img src="assets/image/Samyama-end-to-end.webp" alt="" class="img-fluid">
                 </div>
             </div>
-            <img src="assets/extra/end-to-en-services.svg" alt="" class="img-fluid">
+            <img src="assets/extra/end-to-en-services.svg" alt="" class="img-fluid laptop-banner">
+            <img src="assets/extra/end-to-en-services-mobile.png" alt="" class="img-fluid w-100 mobile-banner">
         </div>
     </div>
 </section>
-
 <section id="five-star-service">
     <img src="assets/extra/cross-line3.svg" alt="" class="cross-line3 img-fluid">
     <div class="container">
