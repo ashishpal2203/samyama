@@ -1,75 +1,60 @@
-<?php $titleUrl = basename($_SERVER['PHP_SELF']);
+<?php 
+$titleUrl = basename($_SERVER['PHP_SELF']);
 
-$companyName ="Samyama";
+$companyName = "Samyama";
 $productName = "Visa and Passport Services Provider";
 
-
-if (strstr($titleUrl,"index.php")){
+if ($titleUrl == "index.php"){
     $title = "$companyName | Visa Agent and Study Abroad Consultants";
-     
     $description = "Samyama is best consultant for visa, immigration, and study abroad services. We also provide various coaching classes";  
- $link =  "https://www.samyama.in/";
-}
-
-else if(strstr($titleUrl, "about-us.php")){
+    $link = "https://www.samyama.in/";
+} 
+elseif ($titleUrl == "about-us.php"){
     $title = "$companyName | About Us";     
     $description = "At Samyama, our dream is a united world. Inspired by the Sanskrit phrase VasudhaivaKutumbakam meaning The World is One Family.";
-     $link =  "https://www.samyama.in/about-us.php";
-}
-
-else if(strstr($titleUrl, "travel-visa-imigration.php")){
+    $link = "https://www.samyama.in/about-us.php";
+} 
+elseif ($titleUrl == "travel-visa-imigration.php"){
     $title = "$companyName | Visa Agent and Immigration Consultants";     
     $description = "Samyama is best visa agent and immigration consultant for Schengen visa, Ireland visa, UK visa, US visa, Australia visa, Dubai visa, Singapore visa.";
-     $link =  "https://www.samyama.in/travel-visa-imigration.php";
-}
-
-
-
-else if(strstr($titleUrl, "study-abrod.php")){
-    $title = "$companyName | Study Abroad Consultants ";     
-    $description = "Samyama isan expert study abroad consultant, providing personalized guidance for admission abroad. We also provide student visa consultation.";
-    $link =  "https://www.samyama.in/study-abrod.php";
-}
-
-else if(strstr($titleUrl, "coaching.php")){
-    $title = "$companyName | IELTS, TOEFL, PTE, SAT, GRE, GMAT, Duolingo ";     
-    $description = "Samyama offers coaching classes forIELTS, TOEFL, PTE, SAT, GRE, GMAT, Duolingo English and German Language.";
-    $link =  "https://www.samyama.in/coaching.php";
-}
-
-else if(strstr($titleUrl, "passport-oci.php")){
-    $title = "$companyName | Passport Agent and Indian OCI Consultant ";     
+    $link = "https://www.samyama.in/travel-visa-imigration.php";
+} 
+elseif ($titleUrl == "study-abrod.php"){
+    $title = "$companyName | Study Abroad Consultants";     
+    $description = "Samyama is an expert study abroad consultant, providing personalized guidance for admission abroad. We also provide student visa consultation.";
+    $link = "https://www.samyama.in/study-abrod.php";
+} 
+elseif ($titleUrl == "coaching.php"){
+    $title = "$companyName | IELTS, TOEFL, PTE, SAT, GRE, GMAT, Duolingo";     
+    $description = "Samyama offers coaching classes for IELTS, TOEFL, PTE, SAT, GRE, GMAT, Duolingo English and German Language.";
+    $link = "https://www.samyama.in/coaching.php";
+} 
+elseif ($titleUrl == "passport-oci.php"){
+    $title = "$companyName | Passport Agent and Indian OCI Consultant";     
     $description = "Samyama: Trusted Passport Agent & Indian OCI Consultant. Expert help with passport applications, OCI card services for a smooth process.";
-    $link =  "https://www.samyama.in/passport-oci.php";
-}
-
-
-else if(strstr($titleUrl, "term-and-condition.php")){
+    $link = "https://www.samyama.in/passport-oci.php";
+} 
+elseif ($titleUrl == "term-and-condition.php"){
     $title = "$companyName | Terms & Conditions";     
     $description = "Discover Samyama Terms and Conditions, ensuring transparency and trust in our services.";
-    $link =  "https://www.samyama.in/term-and-condition.php";
-}
-else if(strstr($titleUrl, "partner-with-us.php")){
+    $link = "https://www.samyama.in/term-and-condition.php";
+} 
+elseif ($titleUrl == "partner-with-us.php"){
     $title = "$companyName | Partner With Us";     
     $description = "We are thrilled to explore collaboration opportunities with companies and universities that share our commitment to making a positive impact.";
-    $link =  "https://www.samyama.in/partner-with-us.php";
-}
-
-else if(strstr($titleUrl, "contact-us.php")){
+    $link = "https://www.samyama.in/partner-with-us.php";
+} 
+elseif ($titleUrl == "contact-us.php"){
     $title = "$companyName | Partner With Us";     
-    $description = "We're here to assist you every step of the way.Feel free to reach out to us via email or phone, or simply fill out the contact form.";
-    $link =  "https://www.samyama.in/contact-us.php";
-}
- 
-
+    $description = "We're here to assist you every step of the way. Feel free to reach out to us via email or phone, or simply fill out the contact form.";
+    $link = "https://www.samyama.in/contact-us.php";
+} 
 else{
     $title = "$companyName"; 
-    $description ="Samyama is best consultant for visa, immigration, and study abroad services. We also provide various coaching classes";
-   
+    $description = "Samyama is best consultant for visa, immigration, and study abroad services. We also provide various coaching classes";
+    $link = "https://www.samyama.in/";
 }
-
-?> 
-
+?>
 
 
 
