@@ -84,7 +84,11 @@
                                     </div>
                                 </div>
                                 <img src="assets/svg-icons/canada-flag.svg" alt="" class="flip-card-flag">
-                                <img src="assets/svg-icons/canada-text.svg" alt="" class="flip-card-text">
+                                <div class="flipcb">
+<img src="assets/svg-icons/veryfy_icon.png" alt="" class="flip-card-text">
+<h4>Canada</h4>
+                                </div>
+                                
                             </div>
                             <div class="flip-card-back">
                                 <h4>Canada</h4>
@@ -114,7 +118,12 @@
                                     </div>
                                 </div>
                                 <img src="assets/svg-icons/usa-flag.svg" alt="" class="flip-card-flag">
-                                <img src="assets/svg-icons/usa-text.svg" alt="" class="flip-card-text">
+                                <div class="flipcb">
+<img src="assets/svg-icons/veryfy_icon.png" alt="" class="flip-card-text">
+<h4>USA</h4>
+
+                                </div>
+                                
                             </div>
                             <div class="flip-card-back">
                                 <h4>USA</h4>
@@ -143,7 +152,12 @@
                                     </div>
                                 </div>
                                 <img src="assets/svg-icons/uk-flag.svg" alt="" class="flip-card-flag">
-                                <img src="assets/svg-icons/uk-text.svg" alt="" class="flip-card-text">
+                                <div class="flipcb">
+<img src="assets/svg-icons/veryfy_icon.png" alt="" class="flip-card-text">
+<h4>UK</h4>
+
+                                </div>
+                                
                             </div>
                             <div class="flip-card-back">
                                 <h4>UK</h4>
@@ -172,7 +186,12 @@
                                     </div>
                                 </div>
                                 <img src="assets/svg-icons/germany-flag.svg" alt="" class="flip-card-flag">
-                                <img src="assets/svg-icons/germany-text.svg" alt="" class="flip-card-text">
+                                <div class="flipcb">
+<img src="assets/svg-icons/veryfy_icon.png" alt="" class="flip-card-text">
+<h4>Germany</h4>
+
+                                </div>
+                                
                             </div>
                             <div class="flip-card-back">
                                 <h4>Germany</h4>
@@ -199,7 +218,12 @@
                                     </div>
                                 </div>
                                 <img src="assets/svg-icons/singapore-flag.svg" alt="" class="flip-card-flag">
-                                <img src="assets/svg-icons/singapore-text.svg" alt="" class="flip-card-text">
+                                <div class="flipcb">
+<img src="assets/svg-icons/veryfy_icon.png" alt="" class="flip-card-text">
+<h4>Singapore</h4>
+
+                                </div>
+                                
                             </div>
                             <div class="flip-card-back">
                                 <h4>Singapore</h4>
@@ -227,7 +251,11 @@
                                     </div>
                                 </div>
                                 <img src="assets/svg-icons/australia-flag.svg" alt="" class="flip-card-flag">
-                                <img src="assets/svg-icons/australia-text.svg" alt="" class="flip-card-text">
+                                <div class="flipcb">
+<img src="assets/svg-icons/veryfy_icon.png" alt="" class="flip-card-text">
+<h4>Australia</h4>
+                                </div>
+                                
                             </div>
                             <div class="flip-card-back">
                                 <h4>Australia</h4>

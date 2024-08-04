@@ -242,6 +242,9 @@
 }
 }
 @media screen and (max-width: 576px){
+  .flip-card-front .flip-card-text {
+    max-width: 25px;
+  }
   .arrow_container{
     padding-bottom: 3rem;
   }
@@ -301,11 +304,9 @@
   .section-point {
     height: 100%;
   }
-  .flip-card-front .flip-card-text {
-    max-width: 50%;
-  }
+
   .flip-card-front .flip-card-flag {
-    width: 32%;
+    width: 35%;
   }
 
   
