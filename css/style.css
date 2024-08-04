@@ -814,6 +814,7 @@ header{
 #five-star-service .five-star-service-image img {
   max-height: 100%;
   max-width: 80%;
+  border-radius: 50%;
 }
 
 #five-star-service .five-star-service h5 {

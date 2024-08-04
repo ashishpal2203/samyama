@@ -68,14 +68,14 @@
             </div>
             <div class="col-lg-5">
                 <div class="c1-image">
-                    <img src="assets/images/our-vision-image.png" alt="" class="img-fluid">
+                    <img src="assets/image/Samyama-our-vision.webp" alt="Samyama-our vision" title="Samyama-our -vision" class="img-fluid">
                 </div>
             </div>
         </div>
         <div class="row mb-4 c1-content">
             <div class="col-lg-5">
                 <div class="c1-image">
-                    <img src="assets/images/our-mission-image.png" alt="" class="img-fluid">
+                    <img src="assets/image/Samyama-our-mission.webp" alt="Samyama-our-mission" title="Samyama-our-mission" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-7">
@@ -130,14 +130,14 @@
             </div>
             <div class="col-lg-5">
                 <div class="c1-image">
-                    <img src="assets/images/our-values-image.png" alt="" class="img-fluid">
+                    <img src="assets/image/Samyama-our-values.webp" alt="Samyama-our-values" title="Samyama-our-values" class="img-fluid">
                 </div>
             </div>
         </div>
         <div class="row c1-content">
             <div class="col-lg-5">
                 <div class="c1-image">
-                    <img src="assets/images/our-strength-image.png" alt="" class="img-fluid">
+                    <img src="assets/image/Samyama-our-strengths.webp" alt="Samyama-our-strengths" title="Samyama-our-strengths" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-7">

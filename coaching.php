@@ -129,7 +129,7 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="section-image1">
-                                <img src="assets/images/IELTS-banner.png" alt="" class="img-fluid ielts">
+                                <img src="assets/image/IELTS-coaching-classe.webp" alt="" class="img-fluid ielts">
                             </div>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="section-image1">
-                                <img src="assets/images/IELTS-curriculum-banner.png" alt=""
+                                <img src="assets/image/IELTS-curriculum-banner.webp" alt=""
                                     class="img-fluid curriculum">
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                     <div class="row">
                         <div class="col-lg-2 col-md-2">
                             <div class="section-image1">
-                                <img src="assets/images/Scoring-banner.png" alt="" class="img-fluid scoring">
+                                <img src="assets/image/ielts-scoring.webp" alt="" class="img-fluid scoring">
                             </div>
                         </div>
                         <div class="col-lg-10 col-md-10">
@@ -211,7 +211,7 @@
                     <div class="row">
                         <div class="col-lg-2 col-md-2">
                             <div class="section-image1">
-                                <img src="assets/images/test-tution-banner.png" alt="" class="img-fluid comman-s">
+                                <img src="assets/image/german-test-duration.webp" alt="" class="img-fluid comman-s">
                             </div>
                         </div>
                         <div class="col-lg-10 col-md-10">
@@ -225,7 +225,7 @@
                     <div class="row">
                         <div class="col-lg-2 col-md-2">
                             <div class="section-image1">
-                                <img src="assets/images/pricing-banner.png" alt="" class="img-fluid comman-s">
+                                <img src="assets/image/german-testcost.webp" alt="" class="img-fluid comman-s">
                             </div>
                         </div>
                         <div class="col-lg-10 col-md-10">
@@ -239,7 +239,7 @@
                     <div class="row">
                         <div class="col-lg-2 col-md-2">
                             <div class="section-image1">
-                                <img src="assets/images/validity-banner.png" alt="" class="img-fluid comman-s">
+                                <img src="assets/image/duolingovalidity.webp" alt="" class="img-fluid comman-s">
                             </div>
                         </div>
                         <div class="col-lg-10 col-md-10">
@@ -253,7 +253,7 @@
                     <div class="row">
                         <div class="col-lg-2 col-md-2">
                             <div class="section-image1">
-                                <img src="assets/images/map-banner.png" alt="" class="img-fluid comman-s">
+                                <img src="assets/image/german-test-centers.webp" alt="" class="img-fluid comman-s">
                             </div>
                         </div>
                         <div class="col-lg-10 col-md-10">
@@ -291,7 +291,7 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="section-image1">
-                                <img src="assets/images/tofel-banner-1.png" alt="" class="img-fluid tofel1">
+                                <img src="assets/image/tofel-samyama.webp" alt="tofel samyama" title="tofel samyama" class="img-fluid tofel1">
                             </div>
                         </div>
                     </div>
@@ -316,7 +316,7 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="section-image1">
-                                <img src="assets/images/tofel-banner-2.png" alt="" class="img-fluid tofel2">
+                                <img src="assets/image/TOEFL-curriculum.webp" alt="TOEFL-curriculum" title="TOEFL-curriculum" class="img-fluid tofel2">
                             </div>
                         </div>
                     </div>
@@ -325,7 +325,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/Scoring-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/ielts-scoring.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -351,7 +351,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/test-tution-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-test-duration.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -365,7 +365,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/pricing-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-testcost.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -379,7 +379,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/validity-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/duolingovalidity.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -393,7 +393,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/map-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-test-centers.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -437,7 +437,7 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="section-image1">
-                                <img src="assets/images/pearnson-1.png" alt="" class="img-fluid pearnson1">
+                                <img src="assets/image/pte-coaching-classe.webp" alt="pte-coaching-classe" title="pte coaching classe" class="img-fluid pearnson1">
                             </div>
                         </div>
                     </div>
@@ -461,7 +461,7 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="section-image1">
-                                <img src="assets/images/pearnson-2.png" alt="" class="img-fluid pearnson2">
+                                <img src="assets/image/PTE-curriculum.webp" alt="PTE-curriculum" title="PTE curriculum" class="img-fluid pearnson2">
                             </div>
                         </div>
                     </div>
@@ -471,7 +471,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/Scoring-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/ielts-scoring.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -488,7 +488,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/test-tution-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-test-duration.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -502,7 +502,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/pricing-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-testcost.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -516,7 +516,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/validity-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/duolingovalidity.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -530,7 +530,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/map-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-test-centers.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -573,7 +573,7 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="section-image1">
-                                <img src="assets/images/sat-banner-1.png" alt="" class="img-fluid sat1">
+                                <img src="assets/image/sat-samyama.webp" alt="sat-samyama" title="sat-samyama" class="img-fluid sat1">
                             </div>
                         </div>
                     </div>
@@ -611,7 +611,7 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="section-image1">
-                                <img src="assets/images/sat-banner-2.png" alt="" class="img-fluid sat2">
+                                <img src="assets/image/SAT-curriculum.webp" alt="SAT-curriculum" title ="SAT-curriculum" class="img-fluid sat2">
                             </div>
                         </div>
                     </div>
@@ -621,7 +621,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/Scoring-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/ielts-scoring.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -643,7 +643,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/test-tution-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-test-duration.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -657,7 +657,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/pricing-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-testcost.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -671,7 +671,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/validity-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/duolingovalidity.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -685,7 +685,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/map-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-test-centers.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -783,7 +783,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/Scoring-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/ielts-scoring.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -801,7 +801,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/test-tution-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-test-duration.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -815,7 +815,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/pricing-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-testcost.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -829,7 +829,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/validity-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/duolingovalidity.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -843,7 +843,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/map-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-test-centers.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -935,7 +935,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/Scoring-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/ielts-scoring.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -957,7 +957,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/test-tution-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-test-duration.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -971,7 +971,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/pricing-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-testcost.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -985,7 +985,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/validity-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/duolingovalidity.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -999,7 +999,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/map-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-test-centers.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -1095,7 +1095,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/Scoring-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/ielts-scoring.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -1109,7 +1109,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/test-tution-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-test-duration.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -1123,7 +1123,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/pricing-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-testcost.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -1137,7 +1137,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/validity-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/duolingovalidity.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -1151,7 +1151,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/map-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-test-centers.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -1245,7 +1245,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/Scoring-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/ielts-scoring.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -1259,7 +1259,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/test-tution-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-test-duration.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -1273,7 +1273,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/pricing-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-testcost.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -1287,7 +1287,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/validity-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/duolingovalidity.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -1302,7 +1302,7 @@
                     <div class="row">
                         <div class="col-lg-2">
                             <div class="section-image1">
-                                <img src="assets/images/map-banner.png" alt="" class="img-fluid">
+                                <img src="assets/image/german-test-centers.webp" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-lg-10">
@@ -1336,7 +1336,7 @@
             <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card1">
                     <div class="card-header">
-                        <img src="assets/images/ielts-card-logo.png" alt="" class="img-fluid">
+                        <img src="assets/image/ielts-coaching-classesss.webp" alt="vhjnkm" class="img-fluid">
                     </div>
                     <div class="card-body">
                         <div class="">
@@ -1385,7 +1385,7 @@
             <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card2">
                     <div class="card-header">
-                        <img src="assets/images/toefl-card-logo.png" alt="" class=" img-fluid">
+                        <img src="assets/image/toefl-card-logo.webp" alt="" class=" img-fluid">
                     </div>
                     <div class="card-body">
                         <div class="">
@@ -1432,7 +1432,7 @@
             <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card3">
                     <div class="card-header">
-                        <img src="assets/images/pearson-card-logo.png" alt="" class="img-fluid">
+                        <img src="assets/image/pearson-card-logo.webp" alt="" class="img-fluid">
                     </div>
                     <div class="card-body">
                         <div class="">
@@ -1479,7 +1479,7 @@
             <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card4">
                     <div class="card-header">
-                        <img src="assets/images/sat-card-logo.png" alt="" class="img-fluid">
+                        <img src="assets/image/SAT-coaching-classe.webp" alt="" class="img-fluid">
                     </div>
                     <div class="card-body">
                         <div class="">
@@ -1525,7 +1525,7 @@
             <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card5">
                     <div class="card-header">
-                        <img src="assets/images/gre-card-logo.png" alt="" class="img-fluid">
+                        <img src="assets/image/TOEFL-coaching-classess.webp" alt="" class="img-fluid">
                     </div>
                     <div class="card-body">
                         <div class="">
@@ -1571,7 +1571,7 @@
             <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card6">
                     <div class="card-header">
-                        <img src="assets/images/gmat-card-logo.png" alt="" class="img-fluid">
+                        <img src="assets/image/gmat-card-logo.webp" alt="" class="img-fluid">
                     </div>
                     <div class="card-body">
                         <div class="">
@@ -1617,7 +1617,7 @@
             <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card7">
                     <div class="card-header">
-                        <img src="assets/images/duolinge-card-logo.png" alt="" class="img-fluid">
+                        <img src="assets/image/duolinge-card-logo.webp" alt="" class="img-fluid">
                     </div>
                     <div class="card-body">
                         <div class="">
@@ -1664,7 +1664,7 @@
             <div class="col-lg-3 col-md-4 col-12">
                 <div class="s-coaching-card card8">
                     <div class="card-header">
-                        <img src="assets/images/german-card-logo.png" alt="" class="img-fluid">
+                        <img src="assets/image/coaching-classes.webp" alt="" class="img-fluid">
                     </div>
                     <div class="card-body">
                         <div class="">

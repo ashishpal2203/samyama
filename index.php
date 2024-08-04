@@ -20,23 +20,23 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="assets/images/HERO-BANNER1.png" class="laptop-banner w-100" alt="...">
+                            <img src="assets/banner/Samyama-travel-visa-agent.webp" class="laptop-banner w-100" alt="Samyama-travel-visa-agent" title="Samyam -travel visa agent">
                             <img src="assets/images/mobile-banner-1.jpg" class="mobile-banner w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/HERO-BANNER2.png" class="laptop-banner w-100" alt="...">
+                            <img src="assets/banner/Samyama-immigration-consultant.webp" class="laptop-banner w-100" alt="Samyama-immigration-consultant" title="Samyama immigration consultant">
                             <img src="assets/images/mobile-banner-2.jpg" class="mobile-banner w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/HERO-BANNER3.png" class="laptop-banner w-100" alt="...">
+                            <img src="assets/banner/Samyama-study-abroad-consultants.webp" class="laptop-banner w-100" alt="Samyama-study-abroad-consultants" title="Samyama study abroad consultants">
                             <img src="assets/images/mobile-banner-3.jpg" class="mobile-banner w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/HERO-BANNER4.png" class="laptop-banner w-100" alt="...">
+                            <img src="assets/banner/Samyama-coaching-classes.webp" class="laptop-banner w-100" alt="Samyama coaching classes" title="Samyama coaching classes">
                             <img src="assets/images/mobile-banner-4.jpg" class="mobile-banner w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/HERO-BANNER5.png" class="laptop-banner w-100" alt="...">
+                            <img src="assets/banner/Samyama-passport-and-OCI-agent.webp" class="laptop-banner w-100" alt="Samyama-passport-and-OCI agent" title="Samyama passpor and OCI agent">
                             <img src="assets/images/mobile-banner-5.jpg" class="mobile-banner w-100" alt="...">
                         </div>
                     </div>
@@ -286,7 +286,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="service-card service-card red">
                     <div class="card-header ">
-                        <img src="assets/icon/samyama-visaagent.webp" alt="samyama  visaagent">
+                        <img src="assets/icon/samyama-visaagent.webp" alt="samyama  visaagent" title="samyama  visaagent">
                         <h5>Travel Visas & Immigration</h5>
                     </div>
                     <div class="card-body">
@@ -302,7 +302,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="service-card green">
                     <div class="card-header">
-                        <img src="assets/icon/Samyama-study-abroad-consultants.webp" alt="">
+                        <img src="assets/icon/Samyama-study-abroad-consultants.webp" alt="Samyama-study-abroad-consultants" title="Samyama-study-abroad-consultants">
                         <h5>Study Abroad</h5>
                     </div>
                     <div class="card-body">
@@ -317,7 +317,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="service-card yellow">
                     <div class="card-header">
-                        <img src="assets/icon/Samyama-coaching-classes.webp" alt="">
+                        <img src="assets/icon/Samyama-coaching-classes.webp" alt="Samyama-coaching-classes" title="Samyama-coaching-classes">
                         <h5>Coaching</h5>
                     </div>
                     <div class="card-body">
@@ -334,7 +334,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="service-card blue">
                     <div class="card-header">
-                        <img src="assets/icon/samyama-passport-and-OCI-agent.webp" alt="">
+                        <img src="assets/icon/samyama-passport-and-OCI-agent.webp" alt="samyama-passport-and-OCI-agent" title="samyama-passport-and-OCI-agent">
                         <h5>Passport & OCI</h5>
                     </div>
                     <div class="card-body">
@@ -367,7 +367,7 @@
                 <div class="position-relative">
                     <img src="assets/gifs/end-to-end-bulb.gif" alt="" class="end-to-end-bulb"> 
                     
-                    <img src="assets/image/Samyama-end-to-end.webp" alt="" class="img-fluid">
+                    <img src="assets/image/Samyama-end-to-end.webp" alt="Samyama-end-to-end" title="Samyama-end-to-end" class="img-fluid">
                 </div>
             </div>
             <img src="assets/extra/end-to-en-services.svg" alt="" class="img-fluid laptop-banner">
@@ -386,7 +386,7 @@
                 <div class="col-lg-6">
                     <div class="five-star-service super-fast">
                         <div class="five-star-service-image">
-                            <img src="assets/images/super-fast.svg" alt="" class="img-fluid ">
+                            <img src="assets/image/Samyama-fast-service.webp" alt="Samyama-fast-service" title="Samyama-fast-service" class="img-fluid ">
                         </div>
                         <h5>Super-Fast</h5>
                         <p>We use a perfect balance of tech coupled with highly experienced consultants to
@@ -396,7 +396,7 @@
                 <div class="col-lg-6">
                     <div class="five-star-service fair-pricing">
                         <div class="five-star-service-image">
-                            <img src="assets/images/Fair-Pricing.svg" alt="" class="img-fluid ">
+                            <img src="assets/icon/Samyama-Fair-Pricing.webp" alt="Samyama-Fair-Pricing" title="Samyama-Fair-Pricing" class="img-fluid ">
                         </div>
                         <h5>Fair Pricing</h5>
                         <p>No hidden charges and complete pricing transparency. Our free initial consultation
@@ -406,7 +406,7 @@
                 <div class="col-lg-6">
                     <div class="five-star-service convenient">
                         <div class="five-star-service-image">
-                            <img src="assets/images/Convenient.svg" alt="" class="img-fluid ">
+                            <img src="assets/icon/Samyama-convenient-service.webp" alt="Samyama-convenient-service" title="Samyama-convenient-service" class="img-fluid ">
                         </div>
                         <h5>Convenient</h5>
                         <p>You don’t have to look anywhere else as we provide full end-to-end solutions, and we
@@ -416,7 +416,7 @@
                 <div class="col-lg-6">
                     <div class="five-star-service precise">
                         <div class="five-star-service-image">
-                            <img src="assets/images/Precise.svg" alt="" class="img-fluid ">
+                            <img src="assets/icon/Samyama-precise.webp" alt="Samyama-precise" title="Samyama-precise" class="img-fluid ">
                         </div>
                         <h5>Precise</h5>
                         <p>Our consultants go through vetting process and possess many years of expertise. This
@@ -426,7 +426,7 @@
                 <div class="col-lg-6">
                     <div class="five-star-service reliable">
                         <div class="five-star-service-image">
-                            <img src="assets/images/Reliable.svg" alt="" class="img-fluid ">
+                            <img src="assets/image/Samyama-reliable-service.webp" alt="Samyama-reliable-service" title="Samyama-reliable-service" class="img-fluid ">
                         </div>
                         <h5>Reliable</h5>
                         <p>Your data is highly secured with us and is confidential. We will never sell or reveal
@@ -436,7 +436,7 @@
                 <div class="col-lg-6">
                     <div class="five-star-service feedback">
                         <div class="five-star-service-image">
-                            <img src="assets/images/Feedback.svg" alt="" class="img-fluid ">
+                            <img src="assets/icon/samyama-feedback.webp" alt="samyama-feedback" title="samyama-feedback" class="img-fluid ">
                         </div>
                         <h5>Feedback</h5>
                         <p>At Samyama, we take our work seriously and are always looking for ways to improve
@@ -467,7 +467,7 @@
                     <div class="row section-point">
                         <div class="col-lg-6">
                             <div class="simple-step-image">
-                                <img src="assets/images/consultation.png" alt="" class="h-100">
+                                <img src="assets/image/Samyama-free-consultation.webp" alt="Samyama-free-consultation" title="Samyama-free-consultation" class="h-100">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -501,7 +501,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="simple-step-image">
-                                <img src="assets/images/procecing.png" alt="" class="h-100">
+                                <img src="assets/image/Samyama-documents-check.webp" alt="Samyama-documents-check" title="Samyama-documents-check" class="h-100">
                             </div>
                         </div>
                     </div>
@@ -512,7 +512,7 @@
                     <div class="row section-point">
                         <div class="col-lg-6">
                             <div class="simple-step-image">
-                                <img src="assets/images/submission.png" alt="" class="h-100">
+                                <img src="assets/image/Samyama-submission.webp" alt="Samyama-submission" title="Samyama-submission" class="h-100">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -548,7 +548,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="simple-step-image">
-                                <img src="assets/images/delivery.png" alt="" class="h-100">
+                                <img src="assets/image/Samyama-documents-delivery.webp" alt="Samyama-documents-delivery" title="Samyama-documents-delivery" class="h-100">
                             </div>
                         </div>
                     </div>
@@ -565,7 +565,7 @@
                         <div class="col-lg-6">
                             <div class="simple-image-content">
                                 <div class="simple-step-lable">
-                                    <img src="assets/svg-icons/End-To-End-Solution.svg" alt="">
+                                    <img src="assets/image/end-to-end-solution.webp" alt="end-to-end-solution" title="end-to-end-solution">
                                     <p>End -To-End Solution</p>
                                 </div>
                                 <h5>We have got you covered.</h5>
@@ -620,7 +620,7 @@
                     <div id="news-slider" class="owl-carousel">
                         <div class="post-slide">
                             <div class="post-img">
-                                <img src="assets/images/parul-thumb.png" alt="" />
+                                <img src="assets/image/samyama-uk-visa.webp" alt="samyama-uk-visa" title="samyama-uk-visa" />
 
                                 <a class="over-layer" onclick="playVideo(this);"
                                     data-video-link="https://www.youtube.com/embed/lon4Rq8b8kI?autoplay=1"><i
@@ -633,7 +633,7 @@
                         </div>
                         <div class="post-slide">
                             <div class="post-img">
-                                <img src="assets/images/karanveer-thumb.png" alt="" />
+                                <img src="assets/image/Samyama-Australia-visa.webp" alt="Samyama-Australia-visa" title="Samyama-Australia-visa" />
 
                             </div>
                             <div class="post-content">
@@ -643,7 +643,7 @@
                         </div>
                         <div class="post-slide">
                             <div class="post-img">
-                                <img src="assets/images/peeyush-thumb.png" alt="">
+                                <img src="assets/image/samyama-travel-insurance.webp" alt="samyama-travel-insurance" title="samyama-travel-insurance">
                                 <a class="over-layer" onclick="playVideo(this);"
                                     data-video-link="https://www.youtube.com/embed/qMjIUcZv3hw?autoplay=1"><i
                                         class="fa fa-play"></i>Watch their story</a>

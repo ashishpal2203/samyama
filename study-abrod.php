@@ -46,7 +46,7 @@
             <div class="row g-2 gy-md-5">
                 <div class="col-lg-4 col-6">
                     <div class="popular-d-card">
-                        <img src="assets/images/usa-dest.png" alt="" class="img-fluid">
+                        <img src="assets/image/Study-in-usa.webp" alt="" class="img-fluid">
                         <div class="d-card-footer">
                             <h5>USA</h5>
                             <p><span>27,000 +</span> courses available</p>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="col-lg-4 col-6">
                     <div class="popular-d-card">
-                        <img src="assets/images/canada.png" alt="aa" class="img-fluid">
+                        <img src="assets/image/Study-in-Canada.webp" alt="aa" class="img-fluid">
                         <div class="d-card-footer">
                             <h5>Canada</h5>
                             <p><span>6,000 +</span> courses available</p>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="col-lg-4 col-6">
                     <div class="popular-d-card">
-                        <img src="assets/images/uk.png" alt="" class="img-fluid">
+                        <img src="assets/image/Study-in-UK.webp" alt="" class="img-fluid">
                         <div class="d-card-footer">
                             <h5>UK</h5>
                             <p><span>36,000 +</span> courses available</p>
@@ -73,7 +73,7 @@
                 </div>
                 <div class="col-lg-4 col-6">
                     <div class="popular-d-card">
-                        <img src="assets/images/astrailia.png" alt="" class="img-fluid">
+                        <img src="assets/image/Study-in-Australia.webp" alt="" class="img-fluid">
                         <div class="d-card-footer">
                             <h5>Australia</h5>
                             <p><span>5,000 +</span> courses available</p>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="col-lg-4 col-6">
                     <div class="popular-d-card">
-                        <img src="assets/images/ireland.png" alt="" class="img-fluid">
+                        <img src="assets/image/Study-in-Ireland.webp" alt="" class="img-fluid">
                         <div class="d-card-footer">
                             <h5>Ireland</h5>
                             <p><span>2,000 +</span> courses available</p>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="col-lg-4 col-6">
                     <div class="popular-d-card">
-                        <img src="assets/images/germany.png" alt="" class="img-fluid">
+                        <img src="assets/image/study-in-germany.webp" alt="" class="img-fluid">
                         <div class="d-card-footer">
                             <h5>Germany</h5>
                             <p><span>500 +</span> courses available</p>
@@ -246,8 +246,8 @@
 
 <section id="discover-course-banner">
     <div class="container">
-        <img src="assets/images/discover-the-courses.png" alt="" class="laptop-banner img-fluid">
-        <img src="assets/images/discover-the-courses.jpg" class="mobile-banner img-fluid" alt="...">
+        <img src="assets/image/Samyama-Study-Courses.webp" alt="" class="laptop-banner img-fluid">
+        <img src="assets/image/Samyama-Study-Course.webp" class="mobile-banner img-fluid" alt="...">
     </div>
 </section>
 
@@ -366,28 +366,28 @@
         <div class="coaching-classes-container">
             <div class="row gx-1 gx-md-5">
                 <div class="col-lg-3 col-md-4 col-6">
-                    <img src="assets/images/ielts.png" alt="" class="img-fluid">
+                    <img src="assets/image/IELTS-coaching-classes.webp" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                    <img src="assets/images/coching_classes_2.png" alt="" class="img-fluid">
+                    <img src="assets/image/TOEFL-coching_classes.webp" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                    <img src="assets/images/coching_classes_3.png" alt="" class="img-fluid">
+                    <img src="assets/image/PTE-coaching-classes.webp" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                    <img src="assets/images/coching_classes_4.png" alt="" class="img-fluid">
+                    <img src="assets/image/sat-coaching-classes.webp" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                    <img src="assets/images/coching_classes_5.png" alt="" class="img-fluid">
+                    <img src="assets/image/gre-coaching-classes.webp" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                    <img src="assets/images/coching_classes_6.png" alt="" class="img-fluid">
+                    <img src="assets/image/GMAT-coaching-classes.webp" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                    <img src="assets/images/coching_classes_7.png" alt="" class="img-fluid">
+                    <img src="assets/image/duolingo-coaching-classes.webp" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                    <img src="assets/images/coching_classes_8.png" alt="" class="img-fluid">
+                    <img src="assets/image/German-coaching-classes.webp" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="text-center mt-5">

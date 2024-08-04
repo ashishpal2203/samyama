@@ -98,7 +98,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="free-cunsult-container">
-                        <img src="assets/images/free-consultation-vector.svg" alt="">
+                        <img src="assets/icon/free-consultation-vector.webp" alt="">
                         <button class="get-started-btn" type="button" data-bs-toggle="modal"
                             data-bs-target="#freeCunsult">GET STARTED</button>
                     </div>
