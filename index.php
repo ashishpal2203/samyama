@@ -21,23 +21,23 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="assets/banner/Samyama-travel-visa-agent.webp" class="laptop-banner w-100" alt="Samyama-travel-visa-agent" title="Samyam -travel visa agent">
-                            <img src="assets/images/mobile-banner-1.jpg" class="mobile-banner w-100" alt="...">
+                            <img src="assets/banner/samyama-travel-visa-agency.webp" class="mobile-banner w-100" alt="samyama-travel-visa-agency" title="samyama travel visa agency">
                         </div>
                         <div class="carousel-item">
                             <img src="assets/banner/Samyama-immigration-consultant.webp" class="laptop-banner w-100" alt="Samyama-immigration-consultant" title="Samyama immigration consultant">
-                            <img src="assets/images/mobile-banner-2.jpg" class="mobile-banner w-100" alt="...">
+                            <img src="assets/banner/Samyama-immigration-consultant-in-mumbai.webp" class="mobile-banner w-100" alt="Samyama-immigration-consultant-in-mumbai" title="Samyama immigration consultant in mumbai">
                         </div>
                         <div class="carousel-item">
                             <img src="assets/banner/Samyama-study-abroad-consultants.webp" class="laptop-banner w-100" alt="Samyama-study-abroad-consultants" title="Samyama study abroad consultants">
-                            <img src="assets/images/mobile-banner-3.jpg" class="mobile-banner w-100" alt="...">
+                            <img src="assets/banner/Samyama-study-abroad-consultants-agency.webp" class="mobile-banner w-100" alt="Samyama-study-abroad-consultants-agency" title="Samyama-study-abroad-consultants-agency">
                         </div>
                         <div class="carousel-item">
                             <img src="assets/banner/Samyama-coaching-classes.webp" class="laptop-banner w-100" alt="Samyama coaching classes" title="Samyama coaching classes">
-                            <img src="assets/images/mobile-banner-4.jpg" class="mobile-banner w-100" alt="...">
+                            <img src="assets/banner/Samyama-coaching-classes-in-mumbai.webp" class="mobile-banner w-100" alt="Samyama-coaching-classes-in-mumbai" title="Samyama-coaching-classes-in-mumbai">
                         </div>
                         <div class="carousel-item">
                             <img src="assets/banner/Samyama-passport-and-OCI-agent.webp" class="laptop-banner w-100" alt="Samyama-passport-and-OCI agent" title="Samyama passpor and OCI agent">
-                            <img src="assets/images/mobile-banner-5.jpg" class="mobile-banner w-100" alt="...">
+                            <img src="assets/banner/Samyama-passport-and-OCI-agent-services-in-mumbai.webp" class="mobile-banner w-100" alt="Samyama-passport-and-OCI-agent-services-in-mumbai" title="Samyama-passport-and-OCI-agent-services-in-mumbai">
                         </div>
                     </div>
                     <!-- <button class="carousel-control-prev" type="button"
